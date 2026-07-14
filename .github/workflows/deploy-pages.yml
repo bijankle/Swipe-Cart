@@ -25,8 +25,9 @@ jobs:
       - name: Assemble static site
         run: |
           mkdir -p _site
-          cp index.html app.css _site/
+          cp index.html app.css manifest.webmanifest sw.js _site/
           cp -R src _site/src
+          cp -R icons _site/icons
       - uses: actions/configure-pages@v5
         with:
           enablement: true
