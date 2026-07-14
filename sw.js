@@ -3,17 +3,18 @@
  * Online, every launch gets the newest deployed version immediately; the
  * cache only serves when the network is unavailable or slow (>4s).
  */
-const CACHE = "swipe-shop-v3";
+const CACHE = "swipe-shop-v4";
 const SHELL = [
   "./",
   "./index.html",
-  "./app.css",
+  "./app.css?v=0.2.0",
   "./manifest.webmanifest",
-  "./src/app.js",
+  "./src/app.js?v=0.2.0",
   "./src/catalog.js",
   "./src/deck.js",
   "./src/profile.js",
   "./src/store.js",
+  "./src/version.js",
 ];
 
 self.addEventListener("install", (event) => {

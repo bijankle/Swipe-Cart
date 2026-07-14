@@ -22,6 +22,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+      - name: Stamp build date
+        run: sed -i "s/__BUILD_DATE__/$(date -u +%Y-%m-%dT%H:%M:%SZ)/" src/version.js
       - name: Assemble static site
         run: |
           mkdir -p _site

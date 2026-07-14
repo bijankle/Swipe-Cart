@@ -22,6 +22,7 @@ import {
 } from "./profile.js";
 import { buildDeck } from "./deck.js";
 import { loadProfile, saveProfile, clearProfile } from "./store.js";
+import { APP_VERSION, buildDateLabel } from "./version.js";
 
 const $ = (sel) => document.querySelector(sel);
 const BY_ID = new Map(CATALOG.map((p) => [p.id, p]));
@@ -323,14 +324,14 @@ function resetProfile() {
 // ---------------------------------------------------------------- tabs & app
 
 function showTab(which) {
-  const deckActive = which === "deck";
-  $("#view-deck").hidden = !deckActive;
-  $("#view-profile").hidden = deckActive;
-  $("#tab-deck").classList.toggle("is-active", deckActive);
-  $("#tab-profile").classList.toggle("is-active", !deckActive);
-  $("#tab-deck").setAttribute("aria-selected", String(deckActive));
-  $("#tab-profile").setAttribute("aria-selected", String(!deckActive));
-  if (!deckActive) renderProfile();
+  $("#view-deck").hidden = which !== "deck";
+  $("#view-profile").hidden = which !== "profile";
+  $("#view-settings").hidden = which !== "settings";
+  $("#tab-deck").classList.toggle("is-active", which === "deck");
+  $("#tab-profile").classList.toggle("is-active", which === "profile");
+  $("#tab-deck").setAttribute("aria-selected", String(which === "deck"));
+  $("#tab-profile").setAttribute("aria-selected", String(which === "profile"));
+  if (which === "profile") renderProfile();
 }
 
 let toastTimer = 0;
@@ -347,6 +348,11 @@ function init() {
 
   $("#tab-deck").addEventListener("click", () => showTab("deck"));
   $("#tab-profile").addEventListener("click", () => showTab("profile"));
+  $("#settings-btn").addEventListener("click", () =>
+    showTab($("#view-settings").hidden ? "settings" : "deck"));
+  $("#settings-reset").addEventListener("click", resetProfile);
+  $("#about-version").textContent = APP_VERSION;
+  $("#about-updated").textContent = buildDateLabel();
   $("#empty-to-profile").addEventListener("click", () => showTab("profile"));
   $("#empty-reset").addEventListener("click", resetProfile);
 

@@ -8,8 +8,8 @@
   <link rel="apple-touch-icon" href="./icons/icon-192.png" />
   <title>Swipe Shop — teach it your taste</title>
   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='22' fill='%235865F2'/%3E%3Ctext x='32' y='46' font-family='sans-serif' font-size='36' fill='%23fff' text-anchor='middle'%3E%E2%99%A5%3C/text%3E%3C/svg%3E" />
-  <link rel="stylesheet" href="./app.css" />
-  <script type="module" src="./src/app.js"></script>
+  <link rel="stylesheet" href="./app.css?v=0.2.0" />
+  <script type="module" src="./src/app.js?v=0.2.0"></script>
   <script>
     if ("serviceWorker" in navigator) {
       addEventListener("load", () => navigator.serviceWorker.register("./sw.js"));
@@ -28,6 +28,7 @@
         <span class="strength-label" id="strength-label">Untrained</span>
         <span class="strength-meter"><span class="strength-fill" id="strength-fill"></span></span>
       </div>
+      <button type="button" class="icon-btn" id="settings-btn" title="Settings" aria-label="Settings">⚙</button>
     </header>
 
     <nav class="tabs" role="tablist">
@@ -70,6 +71,23 @@
     <!-- ================== Profile view ================== -->
     <section id="view-profile" class="view" hidden>
       <div id="profile-body"></div>
+    </section>
+
+    <!-- ================== Settings view ================== -->
+    <section id="view-settings" class="view" hidden>
+      <div class="panel">
+        <h2>About</h2>
+        <p class="panel-sub">Swipe Shop — a local shopping taste profiler. Everything runs on this device.</p>
+        <div class="about-row"><span>Version</span><b id="about-version"></b></div>
+        <div class="about-row"><span>Last updated</span><b id="about-updated"></b></div>
+        <div class="about-row"><span>Source</span>
+          <a href="https://github.com/bijankle/Swipe-Cart" target="_blank" rel="noopener noreferrer">github.com/bijankle/Swipe-Cart</a></div>
+      </div>
+      <div class="panel">
+        <h2>Your data</h2>
+        <p class="panel-sub">Your swipes and taste profile live only in this browser’s storage — no account, no server.</p>
+        <button type="button" class="btn btn-danger" id="settings-reset">Erase my profile</button>
+      </div>
     </section>
 
     <div id="toast" class="toast" hidden></div>
