@@ -226,6 +226,16 @@ body {
 .card-body { padding: 16px 18px 14px; display: flex; flex-direction: column; gap: 8px; flex: 1; min-height: 0; }
 .card-title-row { display: flex; align-items: baseline; gap: 10px; }
 .card-title { font-size: 19px; font-weight: 700; letter-spacing: -0.2px; margin: 0; }
+.card-title-link, .pick-title-link {
+  color: inherit;
+  text-decoration: underline;
+  text-decoration-color: var(--gray-300);
+  text-underline-offset: 3px;
+}
+.card-title-link:hover, .pick-title-link:hover {
+  color: var(--accent-deep);
+  text-decoration-color: var(--accent-deep);
+}
 .card-brand { color: var(--text-muted); font-size: 13px; font-weight: 600; white-space: nowrap; }
 .card-blurb { margin: 0; color: var(--text-muted); font-size: 13.5px; line-height: 1.45; }
 

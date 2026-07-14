@@ -57,7 +57,8 @@ function cardEl(product, depth) {
     </div>
     <div class="card-body">
       <div class="card-title-row">
-        <h2 class="card-title">${product.title}</h2>
+        <h2 class="card-title"><a class="card-title-link" href="${productUrl(product)}"
+          target="_blank" rel="noopener noreferrer" title="See it on ${PLATFORM_LABELS[product.platform]}">${product.title}</a></h2>
         <span class="card-brand">${product.brand}</span>
       </div>
       <p class="card-blurb">${product.blurb}</p>
@@ -164,6 +165,10 @@ function attachDrag(card) {
 
   card.addEventListener("pointerdown", (e) => {
     if (busy || e.button !== 0) return;
+    // A press that starts on a link is a click-through to the store, not a
+    // drag: capturing the pointer here would retarget the click at the card
+    // and kill the navigation.
+    if (e.target.closest("a")) return;
     dragging = true;
     pointerId = e.pointerId;
     startX = e.clientX;
@@ -277,7 +282,9 @@ function renderProfile() {
       return `<div class="pick">
         <span class="pick-emoji" style="background:${heroGradient(product)}">${product.emoji}</span>
         <div class="pick-info">
-          <p class="pick-title">${verdict === "love" ? `<span class="pick-love">★</span> ` : ""}${product.title}</p>
+          <p class="pick-title">${verdict === "love" ? `<span class="pick-love">★</span> ` : ""}<a
+            class="pick-title-link" href="${productUrl(product)}" target="_blank"
+            rel="noopener noreferrer">${product.title}</a></p>
           <p class="pick-meta">${product.brand} · $${product.price} · ${PLATFORM_LABELS[product.platform]}</p>
         </div>
         <a class="pick-link" href="${productUrl(product)}" target="_blank" rel="noopener noreferrer">
