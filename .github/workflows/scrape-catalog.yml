@@ -31,12 +31,11 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 22
-      - name: List visible secret names (values are masked)
-        run: echo '${{ toJSON(secrets) }}' | tr ',{}' '\n\n\n' | cut -d':' -f1
       - name: Scrape retailer pages
         run: node tools/scrape-catalog.mjs
         env:
-          SCRAPEDO_KEY: ${{ secrets.SCRAPEDO_KEY }}
+          # accepts the intended name and the zero-typo variant
+          SCRAPEDO_KEY: ${{ secrets.SCRAPEDO_KEY || secrets.SCRAPED0_KEY }}
           DEBUG_ONE: ${{ inputs.debug_one }}
           PER_SOURCE: ${{ inputs.per_source }}
       - name: Commit updated catalog
