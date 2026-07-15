@@ -84,8 +84,12 @@ function cardEl(product, depth) {
   // Real listings carry photos; the emoji stays behind them as the loading /
   // error fallback (onerror removes the broken img and reveals it).
   const imgs = imagesOf(product);
+  // The photo is never cropped: it shows whole (contain) over a blurred,
+  // zoomed copy of itself that fills the card edge-to-edge.
   const art = imgs.length
-    ? `<img class="card-img" src="${esc(imgs[0])}" alt="" loading="lazy"
+    ? `<img class="card-img-bg" src="${esc(imgs[0])}" alt="" aria-hidden="true"
+         onerror="this.remove()" draggable="false" />
+       <img class="card-img" src="${esc(imgs[0])}" alt="" loading="lazy"
          onerror="this.remove()" draggable="false" />`
     : "";
   const dots = imgs.length > 1
@@ -287,15 +291,15 @@ function cycleHero(card, product, dir) {
   if (imgs.length < 2) return;
   const idx = (((Number(card.dataset.imgIdx ?? 0) + dir) % imgs.length) + imgs.length) % imgs.length;
   card.dataset.imgIdx = String(idx);
-  const img = card.querySelector(".card-img");
-  if (img) img.src = imgs[idx];
+  for (const img of card.querySelectorAll(".card-img, .card-img-bg")) img.src = imgs[idx];
   card.querySelectorAll(".hero-dot").forEach((d, i) => d.classList.toggle("is-on", i === idx));
 }
 
 function openDetail(product) {
   const imgs = imagesOf(product);
   const hero = imgs.length
-    ? `<img src="${esc(imgs[0])}" alt="" onerror="this.remove()" />`
+    ? `<img class="card-img-bg" src="${esc(imgs[0])}" alt="" aria-hidden="true" onerror="this.remove()" />
+       <img src="${esc(imgs[0])}" alt="" onerror="this.remove()" />`
     : `<span class="detail-emoji">${product.emoji ?? "🛍"}</span>`;
   const extra = imgs.slice(1)
     .map((u) => `<img class="detail-extra" src="${esc(u)}" alt="" loading="lazy" onerror="this.remove()" />`)
@@ -307,6 +311,13 @@ function openDetail(product) {
     ? `<div class="detail-specs"><h3>Specifications</h3>${product.specs
         .map((s) => `<div class="about-row"><span>${esc(s.name)}</span><b>${esc(s.value)}</b></div>`)
         .join("")}</div>`
+    : "";
+  const reviews = Array.isArray(product.reviews) && product.reviews.length
+    ? `<div class="detail-specs"><h3>What buyers say</h3>${product.reviews
+        .map((r) => `<div class="detail-review">
+          <p class="detail-review-head"><span class="detail-review-stars">${"★".repeat(Math.max(0, Math.min(5, Math.round(r.rating ?? 0))))}</span> ${esc(r.title ?? "")}</p>
+          <p class="detail-review-text">${esc(r.text ?? "")}</p>
+        </div>`).join("")}</div>`
     : "";
   $("#detail-body").innerHTML = `
     <div class="detail-hero" style="background:${heroGradient(product)}">${hero}</div>
@@ -324,6 +335,7 @@ function openDetail(product) {
       ${product.description ? `<p class="detail-desc">${esc(product.description)}</p>` : ""}
       ${features}
       ${specs}
+      ${reviews}
       ${extra}
     </div>`;
   $("#detail-backdrop").hidden = false;

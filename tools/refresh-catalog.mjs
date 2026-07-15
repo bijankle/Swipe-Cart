@@ -129,6 +129,15 @@ function enrich(p, json) {
   }
   if (specs.length) p.specs = specs;
 
+  const revs = json.review_results?.reviews;
+  if (Array.isArray(revs) && revs.length) {
+    p.reviews = revs.slice(0, 3).map((r) => ({
+      title: String(r.title ?? "").slice(0, 80),
+      rating: Number(r.rating) || undefined,
+      text: String(r.text ?? "").slice(0, 300),
+    }));
+  }
+
   const offers = json.offers ?? json.sellers_results?.online_sellers ?? json.online_sellers ?? prod.offers ?? [];
   const offer = Array.isArray(offers) ? offers.find((o) => {
     const link = o?.link ?? o?.offer_link ?? o?.url;

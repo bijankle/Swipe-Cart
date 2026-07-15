@@ -199,12 +199,21 @@ body {
   overflow: hidden;
 }
 
-/* Real product photo — covers the hero; the emoji behind is the fallback. */
+/* Real product photo — shown WHOLE (never cropped) over a blurred, zoomed
+   copy of itself that fills the frame edge-to-edge. Emoji behind = fallback. */
 .card-img {
   position: absolute; inset: 0;
   width: 100%; height: 100%;
+  object-fit: contain;
+  pointer-events: none;
+}
+.card-img-bg {
+  position: absolute; inset: 0;
+  width: 100%; height: 100%;
   object-fit: cover;
-  background: #fff;
+  filter: blur(18px) saturate(1.1);
+  transform: scale(1.15);
+  opacity: 0.55;
   pointer-events: none;
 }
 
@@ -472,11 +481,15 @@ body {
   font-size: 90px;
   position: relative;
 }
+.detail-hero {
+  overflow: hidden;
+}
 .detail-hero img {
+  position: relative;
   width: 100%; height: 100%;
   object-fit: contain;
-  background: #fff;
 }
+.detail-hero .card-img-bg { position: absolute; }
 .detail-info {
   padding: 16px 18px 28px;
   display: flex; flex-direction: column; gap: 12px;
@@ -508,6 +521,11 @@ body {
   color: var(--text-faint);
 }
 .detail-specs .about-row b { text-align: right; max-width: 60%; }
+.detail-review { padding: 8px 0; border-bottom: 1px solid var(--border); }
+.detail-review:last-child { border-bottom: none; }
+.detail-review-head { margin: 0 0 3px; font-size: 13px; font-weight: 700; }
+.detail-review-stars { color: #e0a416; }
+.detail-review-text { margin: 0; font-size: 13px; line-height: 1.5; color: var(--text-muted); }
 
 .toast {
   position: fixed; left: 50%; bottom: 26px;
