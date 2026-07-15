@@ -52,21 +52,21 @@ const SOURCES = [
   { site: "Best Buy", base: "https://www.bestbuy.com", category: "gaming", tags: ["techy", "battle-station", "comfort"],
     search: "https://www.bestbuy.com/site/searchpage.jsp?st=gaming+chair",
     linkRe: /href="(?:https:\/\/www\.bestbuy\.com)?(\/(?:site|product)\/[^"?#]+(?:\/\d+\.p|\.p))\b[^"]*"/g },
-  { site: "ASOS", base: "https://www.asos.com", category: "fashion", tags: ["streetwear", "trending", "casual"],
-    search: "https://www.asos.com/us/search/?q=linen+shirt", linkRe: /href="([^"]*\/prd\/\d+)[^"]*"/g,
-    searchOpts: { render: "true" } },
-  { site: "Chewy", base: "https://www.chewy.com", category: "pets", tags: ["pet-parent", "cozy", "practical"],
-    search: "https://www.chewy.com/s?query=orthopedic+dog+bed", linkRe: /href="((?:https:\/\/www\.chewy\.com)?\/[a-z0-9-]+\/dp\/\d+)[^"]*"/g,
-    searchOpts: { render: "true" } },
   { site: "Etsy", base: "https://www.etsy.com", category: "stationery", tags: ["handmade", "creative", "ritual"],
     search: "https://www.etsy.com/search?q=dot+grid+journal", linkRe: /href="(https:\/\/www\.etsy\.com\/listing\/\d+)[^"]*"/g,
     searchOpts: { super: "true", geoCode: "us" }, pageOpts: { super: "true", geoCode: "us" }, keep: 4 },
-  { site: "REI", base: "https://www.rei.com", category: "outdoors", tags: ["outdoorsy", "adventure", "durable"],
-    search: "https://www.rei.com/search?q=camping+hammock", linkRe: /href="((?:https:\/\/www\.rei\.com)?\/product\/\d+[^"?#]*)"/g,
+  { site: "Etsy", base: "https://www.etsy.com", category: "home", tags: ["handmade", "artisan", "cozy"],
+    search: "https://www.etsy.com/search?q=ceramic+table+lamp", linkRe: /href="(https:\/\/www\.etsy\.com\/listing\/\d+)[^"]*"/g,
     searchOpts: { super: "true", geoCode: "us" }, pageOpts: { super: "true", geoCode: "us" }, keep: 4 },
   { site: "Amazon", base: "https://www.amazon.com", category: "fitness", tags: ["home-gym", "wellness", "practical"],
     search: "https://www.amazon.com/s?k=cork+yoga+mat", linkRe: /href="(\/[^"]*\/dp\/[A-Z0-9]{10})[^"]*"/g,
     searchOpts: { super: "true", geoCode: "us" }, pageOpts: { super: "true", geoCode: "us" }, keep: 3 },
+  { site: "Amazon", base: "https://www.amazon.com", category: "tech", tags: ["techy", "commute", "minimalist"],
+    search: "https://www.amazon.com/s?k=wireless+noise+cancelling+headphones", linkRe: /href="(\/[^"]*\/dp\/[A-Z0-9]{10})[^"]*"/g,
+    searchOpts: { super: "true", geoCode: "us" }, pageOpts: { super: "true", geoCode: "us" }, keep: 3 },
+  // Dropped after probing: REI/Chewy product pages ship no parseable data
+  // without a rendered browser (25cr/page), ASOS serves a bot shell, and
+  // Nordstrom demands super+render. Not worth the credits.
 ];
 
 const CATEGORY_EMOJI = {
@@ -236,6 +236,12 @@ function productLinks(html, src) {
     let href = decodeEntities(m[1]).split("?")[0];
     if (href.startsWith("/")) href = src.base + href;
     if (href.startsWith("http")) links.add(href);
+  }
+  // Best Buy renders its grid client-side, but the server HTML preloads
+  // product images whose URLs embed the SKU — enough to build PDP links.
+  if (!links.size && src.site === "Best Buy") {
+    const skus = new Set([...html.matchAll(/images\/products\/\d+\/(\d{7})[a-z_]*[\w;=?]*\.jpg/g)].map((x) => x[1]));
+    for (const sku of [...skus].slice(0, 20)) links.add(`${src.base}/product/${sku}`);
   }
   return [...links];
 }
