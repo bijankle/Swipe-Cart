@@ -161,6 +161,11 @@ function commitSwipe(verdict) {
   if (!product || busy) return;
   busy = true;
 
+  // The user has already seen the cards peeking out of the stack — keep them
+  // in place after the rebuild so the taste algorithm's reordering happens
+  // beneath the visible cards, never as a jarring swap in front of the user.
+  const pinned = deck.slice(1, 3).map((p) => p.id);
+
   recordSwipe(profile, product, verdict);
   saveProfile(profile);
 
@@ -183,6 +188,8 @@ function commitSwipe(verdict) {
   setTimeout(() => {
     busy = false;
     deck = buildDeck(catalog, profile);
+    const front = pinned.map((id) => deck.find((p) => p.id === id)).filter(Boolean);
+    deck = [...front, ...deck.filter((p) => !pinned.includes(p.id))];
     renderStack();
     const n = profile.swipes.length;
     if (n > 0 && n % 10 === 0) toast(`Profile sharpened — the feed just reordered around your taste (${n} swipes)`);

@@ -105,6 +105,8 @@ function enrich(p, json) {
     .filter((u) => u && !String(u).startsWith("x-raw-image"));
   if (imgs.length) p.images = [...new Set(imgs.map(String))].slice(0, 8);
 
+  if (prod.brand) p.brand = String(prod.brand).slice(0, 40);
+
   const desc = prod.description ?? json.description;
   if (desc) p.description = String(desc).slice(0, 700);
 
@@ -203,7 +205,18 @@ if (!fixture && DETAIL_BUDGET > 0) {
       try {
         const json = await api({ engine: "google_product", product_token: pids.get(p.id) }, key);
         if (!dumped) {
-          console.log("sample raw product detail:", JSON.stringify(json, null, 2).slice(0, 6000));
+          // Trim the noisy fields so the useful schema (specs, description,
+          // offers, reviews) survives the log-size cap.
+          const clone = { ...json };
+          delete clone.search_metadata;
+          delete clone.search_parameters;
+          if (clone.product) {
+            clone.product = { ...clone.product, images: `[${json.product.images?.length ?? 0} urls]` };
+            delete clone.product.videos;
+          }
+          console.log("detail top-level keys:", Object.keys(json).join(", "));
+          if (json.product) console.log("product keys:", Object.keys(json.product).join(", "));
+          console.log("sample raw product detail (trimmed):", JSON.stringify(clone, null, 1).slice(0, 6000));
           dumped = true;
         }
         enrich(p, json);
