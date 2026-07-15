@@ -145,8 +145,14 @@ function enrich(p, json) {
   }) : null;
   if (offer) {
     p.url = String(offer.link ?? offer.offer_link ?? offer.url);
-    const name = offer.seller ?? offer.name ?? offer.merchant;
-    if (name) p.platform = String(name).slice(0, 40);
+    // seller may be a plain string or a nested object ({name, link, ...})
+    const raw = offer.seller ?? offer.name ?? offer.merchant;
+    const name = typeof raw === "object" && raw ? raw.name ?? raw.title ?? raw.seller : raw;
+    if (typeof name === "string" && name.trim()) p.platform = name.trim().slice(0, 40);
+    else {
+      const host = new URL(p.url).host.replace(/^www\./, "");
+      p.platform = host.charAt(0).toUpperCase() + host.slice(1);
+    }
   }
   return p;
 }
