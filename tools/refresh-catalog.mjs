@@ -78,6 +78,8 @@ function mapItem(it, spec) {
     hue: hash(String(title)) % 360,
     blurb: bits.join(" · "),
     image: String(image),
+    images: [...new Set([image, it.thumbnail_2, ...(Array.isArray(it.thumbnails) ? it.thumbnails : [])]
+      .filter(Boolean).map(String))],
     url: String(url),
   };
 }

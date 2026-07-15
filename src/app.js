@@ -67,6 +67,12 @@ function heroGradient(p) {
   return `linear-gradient(160deg, hsl(${p.hue} 85% 88%), hsl(${(p.hue + 45) % 360} 80% 76%))`;
 }
 
+/** Every photo a product has (real listings may carry a gallery). */
+function imagesOf(p) {
+  if (Array.isArray(p.images) && p.images.length) return p.images;
+  return p.image ? [p.image] : [];
+}
+
 function cardEl(product, depth) {
   const card = document.createElement("article");
   card.className = "card";
@@ -75,16 +81,22 @@ function cardEl(product, depth) {
   if (depth === 0) card.classList.add("is-top");
 
   const tags = product.tags.map((t) => `<span class="chip">${esc(t)}</span>`).join("");
-  // Real listings carry a photo; the emoji stays behind it as the loading /
+  // Real listings carry photos; the emoji stays behind them as the loading /
   // error fallback (onerror removes the broken img and reveals it).
-  const art = product.image
-    ? `<img class="card-img" src="${esc(product.image)}" alt="" loading="lazy"
+  const imgs = imagesOf(product);
+  const art = imgs.length
+    ? `<img class="card-img" src="${esc(imgs[0])}" alt="" loading="lazy"
          onerror="this.remove()" draggable="false" />`
+    : "";
+  const dots = imgs.length > 1
+    ? `<span class="hero-dots">${imgs
+        .map((_, i) => `<i class="hero-dot${i === 0 ? " is-on" : ""}"></i>`).join("")}</span>`
     : "";
   card.innerHTML = `
     <div class="card-hero" style="background:${heroGradient(product)}">
       <span>${product.emoji ?? "🛍"}</span>
       ${art}
+      ${dots}
       <span class="card-platform">${esc(platformLabel(product))}</span>
       <span class="card-price">$${product.price}</span>
       <span class="card-stamp stamp-like">LIKE</span>
@@ -233,7 +245,22 @@ function attachDrag(card) {
     if (loveIntent) return commitSwipe("love");
     if (dx > SWIPE_X) return commitSwipe("like");
     if (dx < -SWIPE_X) return commitSwipe("nope");
-    // Not far enough — spring back.
+    // Barely moved — that's a tap. On the photo: side thirds flip through
+    // the pictures, the middle opens the item detail sheet.
+    if (Math.abs(dx) < 8 && Math.abs(dy) < 8) {
+      const hero = card.querySelector(".card-hero");
+      const r = hero.getBoundingClientRect();
+      if (e.clientY >= r.top && e.clientY <= r.bottom) {
+        const rel = (e.clientX - r.left) / r.width;
+        const product = BY_ID.get(card.dataset.id);
+        if (product) {
+          if (rel < 1 / 3) cycleHero(card, product, -1);
+          else if (rel > 2 / 3) cycleHero(card, product, +1);
+          else openDetail(product);
+        }
+      }
+    }
+    // Spring back.
     card.classList.add("is-settling");
     card.style.transform = "";
     for (const s of Object.values(stamps)) s.style.opacity = 0;
@@ -241,6 +268,51 @@ function attachDrag(card) {
   };
   card.addEventListener("pointerup", release);
   card.addEventListener("pointercancel", release);
+}
+
+// -------------------------------------------------- photo gallery & details
+
+function cycleHero(card, product, dir) {
+  const imgs = imagesOf(product);
+  if (imgs.length < 2) return;
+  const idx = (((Number(card.dataset.imgIdx ?? 0) + dir) % imgs.length) + imgs.length) % imgs.length;
+  card.dataset.imgIdx = String(idx);
+  const img = card.querySelector(".card-img");
+  if (img) img.src = imgs[idx];
+  card.querySelectorAll(".hero-dot").forEach((d, i) => d.classList.toggle("is-on", i === idx));
+}
+
+function openDetail(product) {
+  const imgs = imagesOf(product);
+  const hero = imgs.length
+    ? `<img src="${esc(imgs[0])}" alt="" onerror="this.remove()" />`
+    : `<span class="detail-emoji">${product.emoji ?? "🛍"}</span>`;
+  const extra = imgs.slice(1)
+    .map((u) => `<img class="detail-extra" src="${esc(u)}" alt="" loading="lazy" onerror="this.remove()" />`)
+    .join("");
+  $("#detail-body").innerHTML = `
+    <div class="detail-hero" style="background:${heroGradient(product)}">${hero}</div>
+    <div class="detail-info">
+      <h2>${esc(product.title)}</h2>
+      <p class="detail-meta">${esc([product.brand, platformLabel(product)].filter(Boolean).join(" · "))} · <b>$${product.price}</b></p>
+      ${product.blurb ? `<p class="detail-blurb">${esc(product.blurb)}</p>` : ""}
+      <div class="card-tags">
+        <span class="chip chip-cat">${CATEGORY_LABELS[product.category] ?? esc(product.category)}</span>
+        <span class="chip chip-cat">${PRICE_BAND_LABELS[priceBand(product.price)]}</span>
+        ${product.tags.map((t) => `<span class="chip">${esc(t)}</span>`).join("")}
+      </div>
+      <a class="btn btn-primary detail-shop" href="${esc(productUrl(product))}"
+        target="_blank" rel="noopener noreferrer">Shop on ${esc(platformLabel(product))} ↗</a>
+      ${extra}
+    </div>`;
+  $("#detail-backdrop").hidden = false;
+  $("#detail-backdrop").querySelector(".detail-sheet").scrollTop = 0;
+  document.body.style.overflow = "hidden";
+}
+
+function closeDetail() {
+  $("#detail-backdrop").hidden = true;
+  document.body.style.overflow = "";
 }
 
 // ------------------------------------------------------------------- profile
@@ -400,7 +472,16 @@ function init() {
   $("#act-love").addEventListener("click", () => commitSwipe("love"));
   $("#act-undo").addEventListener("click", undo);
 
+  $("#detail-close").addEventListener("click", closeDetail);
+  $("#detail-backdrop").addEventListener("click", (e) => {
+    if (e.target === e.currentTarget) closeDetail();
+  });
+
   document.addEventListener("keydown", (e) => {
+    if (!$("#detail-backdrop").hidden) {
+      if (e.key === "Escape") closeDetail();
+      return; // arrows must not swipe while the detail sheet is open
+    }
     if ($("#view-deck").hidden || e.metaKey || e.ctrlKey || e.altKey) return;
     if (e.key === "ArrowLeft") commitSwipe("nope");
     else if (e.key === "ArrowRight") commitSwipe("like");

@@ -8,8 +8,8 @@
   <link rel="apple-touch-icon" href="./icons/icon-192.png" />
   <title>Swipe Shop — teach it your taste</title>
   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='22' fill='%235865F2'/%3E%3Ctext x='32' y='46' font-family='sans-serif' font-size='36' fill='%23fff' text-anchor='middle'%3E%E2%99%A5%3C/text%3E%3C/svg%3E" />
-  <link rel="stylesheet" href="./app.css?v=0.3.0" />
-  <script type="module" src="./src/app.js?v=0.3.0"></script>
+  <link rel="stylesheet" href="./app.css?v=0.4.0" />
+  <script type="module" src="./src/app.js?v=0.4.0"></script>
   <script>
     if ("serviceWorker" in navigator) {
       addEventListener("load", () => navigator.serviceWorker.register("./sw.js"));
@@ -64,7 +64,8 @@
            href="#" target="_blank" rel="noopener noreferrer">↗</a>
       </div>
 
-      <p class="hint">Drag the card, use the buttons, or keys: ← nope · → like · ↑ need it · U undo · O opens the store</p>
+      <p class="hint">Tap the photo — sides flip pictures, middle opens details.
+        Drag to swipe, or keys: ← nope · → like · ↑ need it · U undo · O opens the store</p>
       <p class="deck-progress" id="deck-progress"></p>
     </section>
 
@@ -89,6 +90,14 @@
         <button type="button" class="btn btn-danger" id="settings-reset">Erase my profile</button>
       </div>
     </section>
+
+    <!-- Item detail sheet — opened by tapping the middle of a card's photo -->
+    <div id="detail-backdrop" class="detail-backdrop" hidden>
+      <article class="detail-sheet" role="dialog" aria-modal="true" aria-label="Item details">
+        <button type="button" class="icon-btn detail-close" id="detail-close" aria-label="Close">✕</button>
+        <div id="detail-body"></div>
+      </article>
+    </div>
 
     <div id="toast" class="toast" hidden></div>
   </main>
