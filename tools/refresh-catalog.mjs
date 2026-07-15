@@ -243,6 +243,15 @@ if (!fixture && DETAIL_BUDGET > 0) {
     }
   }
   console.log(`enriched ${enriched} products with details (${spent} detail calls)`);
+
+  // Only interactive cards ship: a product the user can't judge in-app
+  // (no gallery, no specs, no description) just pushes them out to the
+  // browser, so shallow search-level entries are dropped.
+  const interactive = (p) => p.specs?.length || (p.images?.length ?? 0) > 1 || p.description;
+  const kept = products.filter(interactive);
+  console.log(`dropping ${products.length - kept.length} un-enriched products; shipping ${kept.length} interactive cards`);
+  products.length = 0;
+  products.push(...kept);
 }
 
 if (DEBUG_ONE) {
@@ -250,7 +259,8 @@ if (DEBUG_ONE) {
   process.exit(0);
 }
 
-if (products.length < (fixture ? 1 : MIN_TOTAL)) {
+const minRequired = fixture ? 1 : DETAIL_BUDGET > 0 ? Math.min(MIN_TOTAL, Math.max(10, Math.floor(DETAIL_BUDGET / 2))) : MIN_TOTAL;
+if (products.length < minRequired) {
   console.error(`Only ${products.length} products mapped — refusing to overwrite the catalog.`);
   process.exit(1);
 }

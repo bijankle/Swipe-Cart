@@ -262,6 +262,7 @@ body {
   object-fit: contain;
   pointer-events: none;
 }
+.card-img.is-cover { object-fit: cover; }
 .card-img-bg {
   position: absolute; inset: 0;
   width: 100%; height: 100%;

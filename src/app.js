@@ -70,13 +70,24 @@ function clearFilter() {
  * sample catalog keeps working offline and before the first refresh.
  * Old catalog entries stay in BY_ID so an existing shortlist keeps resolving.
  */
+/**
+ * A card is only worth swiping if the user can decide on the spot —
+ * a photo gallery, specs, or a description. Shallow search-level entries
+ * (one thumbnail, no details) just push the user out to the browser.
+ */
+function isInteractive(p) {
+  return Boolean(p.specs?.length || (p.images?.length ?? 0) > 1 || p.description);
+}
+
 async function loadRealCatalog() {
   try {
     const res = await fetch("./catalog.json", { cache: "no-cache" });
     if (!res.ok) return;
     const doc = await res.json();
-    if (!Array.isArray(doc.products) || doc.products.length < 12) return;
-    catalog = doc.products;
+    if (!Array.isArray(doc.products)) return;
+    const interactive = doc.products.filter(isInteractive);
+    if (interactive.length < 12) return;
+    catalog = interactive;
     for (const p of catalog) BY_ID.set(p.id, p);
     deck = buildDeck(activeCatalog(), profile);
     renderStack();
@@ -143,6 +154,20 @@ function cardEl(product, depth) {
       ${sub ? `<p class="card-sub">${esc(sub)}</p>` : ""}
       <div class="card-tags">${tags}</div>
     </div>`;
+  // Adaptive fit: photos shaped close to the card go edge-to-edge (cover,
+  // small crop); very mismatched shapes stay whole over the blur fill.
+  const img = card.querySelector(".card-img");
+  if (img) {
+    const refit = () => {
+      const frame = img.clientWidth / img.clientHeight;
+      const nat = img.naturalWidth / img.naturalHeight;
+      if (!frame || !nat) return;
+      const ratio = nat > frame ? nat / frame : frame / nat;
+      img.classList.toggle("is-cover", ratio <= 1.35);
+    };
+    img.addEventListener("load", refit);
+    if (img.complete) refit();
+  }
   return card;
 }
 
