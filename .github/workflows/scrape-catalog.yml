@@ -1,0 +1,61 @@
+name: Scrape catalog (scrape.do)
+
+on:
+  workflow_dispatch:
+    inputs:
+      debug_one:
+        description: "Probe every source cheaply and dump findings (no catalog write)"
+        required: false
+        default: "false"
+      per_source:
+        description: "Products to keep per source"
+        required: false
+        default: "6"
+  schedule:
+    # Monthly, a day after the google refresh — ~90 scrape.do credits per run.
+    - cron: "0 6 2 * *"
+
+permissions:
+  contents: write
+  actions: write
+
+concurrency:
+  group: scrape-catalog
+  cancel-in-progress: false
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Scrape retailer pages
+        run: node tools/scrape-catalog.mjs
+        env:
+          SCRAPEDO_KEY: ${{ secrets.SCRAPEDO_KEY }}
+          DEBUG_ONE: ${{ inputs.debug_one }}
+          PER_SOURCE: ${{ inputs.per_source }}
+      - name: Commit updated catalog
+        id: commit
+        run: |
+          git add catalog.json
+          if git diff --cached --quiet; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            echo "Catalog unchanged."
+          else
+            git config user.name "catalog-refresh[bot]"
+            git config user.email "actions@users.noreply.github.com"
+            git commit -m "Refresh product catalog (scrape.do)"
+            git push
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          fi
+      - name: Trigger site deploy
+        if: steps.commit.outputs.changed == 'true'
+        run: |
+          curl -sf -X POST \
+            -H "Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" \
+            -H "Accept: application/vnd.github+json" \
+            "https://api.github.com/repos/${{ github.repository }}/actions/workflows/deploy-pages.yml/dispatches" \
+            -d "{\"ref\":\"${{ github.ref_name }}\"}"
