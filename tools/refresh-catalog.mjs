@@ -152,7 +152,7 @@ const DEBUG_ONE = process.env.DEBUG_ONE === "true";
 const DETAIL_BUDGET = Math.max(0, Number(process.env.DETAIL_BUDGET ?? 40));
 
 const products = [];
-const pids = new Map(); // product.id → raw product_id for detail lookups
+const pids = new Map(); // product.id → product_token for detail lookups
 const perQuery = new Map(); // query → its products, for round-robin enrichment
 const seen = new Set();
 let loggedSample = false;
@@ -176,7 +176,9 @@ for (const spec of DEBUG_ONE ? QUERIES.slice(0, 1) : QUERIES) {
     const p = mapItem(it, spec);
     if (!p || seen.has(p.id)) continue;
     seen.add(p.id);
-    if (it.product_id) pids.set(p.id, String(it.product_id));
+    // google_product requires the per-search product_token (not product_id),
+    // and tokens are only valid shortly after the search that minted them.
+    if (it.product_token) pids.set(p.id, String(it.product_token));
     mine.push(p);
     products.push(p);
   }
@@ -199,7 +201,7 @@ if (!fixture && DETAIL_BUDGET > 0) {
       if (!p) continue;
       spent++;
       try {
-        const json = await api({ engine: "google_product", product_id: pids.get(p.id) }, key);
+        const json = await api({ engine: "google_product", product_token: pids.get(p.id) }, key);
         if (!dumped) {
           console.log("sample raw product detail:", JSON.stringify(json, null, 2).slice(0, 6000));
           dumped = true;
