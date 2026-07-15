@@ -52,6 +52,11 @@ const SOURCES = [
   { site: "Best Buy", base: "https://www.bestbuy.com", category: "gaming", tags: ["techy", "battle-station", "comfort"],
     search: "https://www.bestbuy.com/site/searchpage.jsp?st=gaming+chair",
     linkRe: /href="(?:https:\/\/www\.bestbuy\.com)?(\/(?:site|product)\/[^"?#]+(?:\/\d+\.p|\.p))\b[^"]*"/g },
+  // CB2 runs on Crate & Barrel's platform — same cheap, LD-rich pages.
+  { site: "CB2", base: "https://www.cb2.com", category: "home", tags: ["modern", "statement", "designer"],
+    search: "https://www.cb2.com/search?query=table+lamp", linkRe: /href="((?:https:\/\/www\.cb2\.com)?\/[a-z0-9-]+\/s\d+)[^"]*"/g },
+  { site: "CB2", base: "https://www.cb2.com", category: "kitchen", tags: ["modern", "entertaining", "designer"],
+    search: "https://www.cb2.com/search?query=cookware", linkRe: /href="((?:https:\/\/www\.cb2\.com)?\/[a-z0-9-]+\/s\d+)[^"]*"/g },
   { site: "Etsy", base: "https://www.etsy.com", category: "stationery", tags: ["handmade", "creative", "ritual"],
     search: "https://www.etsy.com/search?q=dot+grid+journal", linkRe: /href="(https:\/\/www\.etsy\.com\/listing\/\d+)[^"]*"/g,
     searchOpts: { super: "true", geoCode: "us" }, pageOpts: { super: "true", geoCode: "us" }, keep: 4 },
