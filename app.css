@@ -82,9 +82,9 @@ body {
 ::selection { background: var(--accent-tint); }
 
 .shop {
-  max-width: 460px;
+  max-width: 500px;
   margin: 0 auto;
-  padding: 22px 16px 40px;
+  padding: 14px 10px 30px;
 }
 
 /* ---------- header ---------- */
@@ -133,8 +133,34 @@ body {
 
 .tabs {
   display: flex; gap: 8px;
-  margin: 18px 0 14px;
+  margin: 12px 0 10px;
 }
+
+/* ---------- tag-filter mode ---------- */
+
+.filter-bar {
+  display: flex; align-items: center; gap: 8px;
+  background: var(--accent-tint);
+  border: 1px solid var(--accent-tint-border);
+  border-radius: var(--radius-pill);
+  padding: 7px 8px 7px 14px;
+  margin: 0 0 10px;
+  color: var(--accent-deep);
+  font-size: 13px;
+}
+.filter-bar-text { flex: 1; }
+.filter-clear {
+  flex: none;
+  width: 26px; height: 26px;
+  border: none;
+  border-radius: 50%;
+  background: var(--accent);
+  color: #fff;
+  font-size: 13px; font-weight: 700;
+  cursor: pointer;
+  display: flex; align-items: center; justify-content: center;
+}
+.filter-clear:hover { background: var(--accent-deep); }
 
 .tab {
   flex: 1;
@@ -168,8 +194,11 @@ body {
 
 .stack {
   position: relative;
-  height: 540px;
+  height: clamp(480px, calc(100vh - 290px), 780px);
   touch-action: pan-y pinch-zoom;
+}
+@supports (height: 100dvh) {
+  .stack { height: clamp(480px, calc(100dvh - 290px), 780px); }
 }
 
 .card {
@@ -191,13 +220,39 @@ body {
 .card.is-flying { transition: transform 0.4s ease, opacity 0.4s ease; opacity: 0; }
 .card.is-restacking { transition: transform 0.25s ease, filter 0.25s ease; }
 
+/* The photo IS the card — dating-app style; info sits on a bottom gradient. */
 .card-hero {
-  position: relative;
-  height: 55%;
+  position: absolute; inset: 0;
   display: flex; align-items: center; justify-content: center;
   font-size: 110px;
   overflow: hidden;
 }
+
+.card-overlay {
+  position: absolute; left: 0; right: 0; bottom: 0;
+  padding: 90px 16px 14px;
+  background: linear-gradient(180deg,
+    rgba(20, 21, 26, 0) 0%,
+    rgba(20, 21, 26, 0.45) 38%,
+    rgba(20, 21, 26, 0.85) 100%);
+  color: #fff;
+  display: flex; flex-direction: column; gap: 8px;
+}
+.card-overlay .card-title { color: #fff; }
+.card-overlay .card-title-link {
+  color: #fff;
+  text-decoration-color: rgba(255, 255, 255, 0.5);
+}
+.card-overlay .card-title-link:hover { color: #fff; text-decoration-color: #fff; }
+.card-sub { margin: 0; font-size: 13px; color: rgba(255, 255, 255, 0.85); }
+.card-overlay .chip {
+  background: rgba(255, 255, 255, 0.18);
+  color: #fff;
+  backdrop-filter: blur(3px);
+  cursor: pointer;
+}
+.card-overlay .chip.chip-cat { background: rgba(255, 255, 255, 0.32); }
+.card-overlay .chip:active { background: rgba(255, 255, 255, 0.45); }
 
 /* Real product photo — shown WHOLE (never cropped) over a blurred, zoomed
    copy of itself that fills the frame edge-to-edge. Emoji behind = fallback. */
@@ -219,20 +274,22 @@ body {
 
 /* Tinder-style gallery position bars (shown when a product has >1 photo). */
 .hero-dots {
-  position: absolute; bottom: 10px; left: 50%;
+  position: absolute; top: 10px; left: 50%;
   transform: translateX(-50%);
   display: flex; gap: 4px;
   pointer-events: none;
+  z-index: 1;
 }
 .hero-dot {
   width: 22px; height: 4px;
   border-radius: var(--radius-pill);
-  background: rgba(30, 31, 34, 0.18);
+  background: rgba(255, 255, 255, 0.5);
+  box-shadow: 0 0 4px rgba(30, 31, 34, 0.25);
 }
-.hero-dot.is-on { background: var(--accent); }
+.hero-dot.is-on { background: #fff; }
 
 .card-platform {
-  position: absolute; top: 14px; left: 14px;
+  position: absolute; top: 24px; left: 14px;
   background: rgba(255, 255, 255, 0.85);
   backdrop-filter: blur(4px);
   border-radius: var(--radius-pill);
@@ -242,7 +299,7 @@ body {
 }
 
 .card-price {
-  position: absolute; top: 14px; right: 14px;
+  position: absolute; top: 24px; right: 14px;
   background: rgba(30, 31, 34, 0.75);
   color: #fff;
   border-radius: var(--radius-pill);
@@ -268,8 +325,6 @@ body {
   transform: translateX(-50%) rotate(-6deg);
 }
 
-.card-body { padding: 16px 18px 14px; display: flex; flex-direction: column; gap: 8px; flex: 1; min-height: 0; }
-.card-title-row { display: flex; align-items: baseline; gap: 10px; }
 .card-title { font-size: 19px; font-weight: 700; letter-spacing: -0.2px; margin: 0; }
 .card-title-link, .pick-title-link {
   color: inherit;
@@ -281,10 +336,7 @@ body {
   color: var(--accent-deep);
   text-decoration-color: var(--accent-deep);
 }
-.card-brand { color: var(--text-muted); font-size: 13px; font-weight: 600; white-space: nowrap; }
-.card-blurb { margin: 0; color: var(--text-muted); font-size: 13.5px; line-height: 1.45; }
-
-.card-tags { display: flex; flex-wrap: wrap; gap: 6px; margin-top: auto; }
+.card-tags { display: flex; flex-wrap: wrap; gap: 6px; }
 .chip {
   background: var(--gray-100);
   border-radius: var(--radius-pill);

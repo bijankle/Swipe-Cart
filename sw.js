@@ -3,13 +3,13 @@
  * Online, every launch gets the newest deployed version immediately; the
  * cache only serves when the network is unavailable or slow (>4s).
  */
-const CACHE = "swipe-shop-v8";
+const CACHE = "swipe-shop-v9";
 const SHELL = [
   "./",
   "./index.html",
-  "./app.css?v=0.5.1",
+  "./app.css?v=0.6.0",
   "./manifest.webmanifest",
-  "./src/app.js?v=0.5.1",
+  "./src/app.js?v=0.6.0",
   "./src/catalog.js",
   "./src/deck.js",
   "./src/profile.js",

@@ -11,6 +11,7 @@ import {
   PRICE_BAND_LABELS,
   platformLabel,
   priceBand,
+  productFeatures,
   productUrl,
 } from "./catalog.js";
 import {
@@ -37,8 +38,31 @@ const esc = (s) =>
 
 let catalog = CATALOG;
 let profile = loadProfile();
+let filter = null; // {feature, label} — tag-focus mode; null = free roam
 let deck = buildDeck(catalog, profile);
 let busy = false; // true while a card is flying out
+
+/** The catalog the deck draws from — narrowed to one trait in filter mode. */
+function activeCatalog() {
+  if (!filter) return catalog;
+  return catalog.filter((p) => productFeatures(p).includes(filter.feature));
+}
+
+function applyFilter(feature, label) {
+  filter = { feature, label };
+  $("#filter-label").textContent = label;
+  $("#filter-bar").hidden = false;
+  deck = buildDeck(activeCatalog(), profile);
+  renderStack();
+  showTab("deck");
+}
+
+function clearFilter() {
+  filter = null;
+  $("#filter-bar").hidden = true;
+  deck = buildDeck(activeCatalog(), profile);
+  renderStack();
+}
 
 /**
  * Swap in the real product feed if the site ships one (catalog.json is
@@ -54,7 +78,7 @@ async function loadRealCatalog() {
     if (!Array.isArray(doc.products) || doc.products.length < 12) return;
     catalog = doc.products;
     for (const p of catalog) BY_ID.set(p.id, p);
-    deck = buildDeck(catalog, profile);
+    deck = buildDeck(activeCatalog(), profile);
     renderStack();
   } catch {
     /* offline or malformed feed — the sample catalog stands in */
@@ -80,12 +104,17 @@ function cardEl(product, depth) {
   card.dataset.id = product.id;
   if (depth === 0) card.classList.add("is-top");
 
-  const tags = product.tags.map((t) => `<span class="chip">${esc(t)}</span>`).join("");
+  // Tappable chips: data-feature enters filter mode for that trait.
+  const band = priceBand(product.price);
+  const tags = [
+    `<span class="chip chip-cat" data-feature="cat:${esc(product.category)}">${CATEGORY_LABELS[product.category] ?? esc(product.category)}</span>`,
+    `<span class="chip chip-cat" data-feature="price:${band}">${PRICE_BAND_LABELS[band]}</span>`,
+    ...product.tags.map((t) => `<span class="chip" data-feature="tag:${esc(t)}">${esc(t)}</span>`),
+  ].join("");
   // Real listings carry photos; the emoji stays behind them as the loading /
-  // error fallback (onerror removes the broken img and reveals it).
+  // error fallback. The photo is never cropped: it shows whole (contain)
+  // over a blurred, zoomed copy of itself that fills the card edge-to-edge.
   const imgs = imagesOf(product);
-  // The photo is never cropped: it shows whole (contain) over a blurred,
-  // zoomed copy of itself that fills the card edge-to-edge.
   const art = imgs.length
     ? `<img class="card-img-bg" src="${esc(imgs[0])}" alt="" aria-hidden="true"
          onerror="this.remove()" draggable="false" />
@@ -96,6 +125,7 @@ function cardEl(product, depth) {
     ? `<span class="hero-dots">${imgs
         .map((_, i) => `<i class="hero-dot${i === 0 ? " is-on" : ""}"></i>`).join("")}</span>`
     : "";
+  const sub = [product.brand, product.blurb].filter(Boolean).join(" · ");
   card.innerHTML = `
     <div class="card-hero" style="background:${heroGradient(product)}">
       <span>${product.emoji ?? "🛍"}</span>
@@ -107,18 +137,11 @@ function cardEl(product, depth) {
       <span class="card-stamp stamp-nope">NOPE</span>
       <span class="card-stamp stamp-love">NEED IT</span>
     </div>
-    <div class="card-body">
-      <div class="card-title-row">
-        <h2 class="card-title"><a class="card-title-link" href="${esc(productUrl(product))}"
-          target="_blank" rel="noopener noreferrer" title="See it on ${esc(platformLabel(product))}">${esc(product.title)}</a></h2>
-        <span class="card-brand">${esc(product.brand ?? "")}</span>
-      </div>
-      <p class="card-blurb">${esc(product.blurb ?? "")}</p>
-      <div class="card-tags">
-        <span class="chip chip-cat">${CATEGORY_LABELS[product.category] ?? esc(product.category)}</span>
-        <span class="chip chip-cat">${PRICE_BAND_LABELS[priceBand(product.price)]}</span>
-        ${tags}
-      </div>
+    <div class="card-overlay">
+      <h2 class="card-title"><a class="card-title-link" href="${esc(productUrl(product))}"
+        target="_blank" rel="noopener noreferrer" title="See it on ${esc(platformLabel(product))}">${esc(product.title)}</a></h2>
+      ${sub ? `<p class="card-sub">${esc(sub)}</p>` : ""}
+      <div class="card-tags">${tags}</div>
     </div>`;
   return card;
 }
@@ -134,6 +157,16 @@ function renderStack() {
   const empty = deck.length === 0;
   $("#deck-empty").hidden = !empty;
   $("#actions").hidden = empty;
+  if (empty) {
+    $("#deck-empty-title").textContent = filter
+      ? `That’s every “${filter.label}” item`
+      : "You’ve swiped the whole catalog";
+    $("#deck-empty-text").textContent = filter
+      ? "Clear the filter to keep browsing everything else."
+      : "Your shopping profile is fully trained on this feed. Check your profile and shortlist — or wipe the slate and start again.";
+    $("#empty-clear-filter").hidden = !filter;
+    $("#empty-reset").hidden = !!filter;
+  }
   if (!empty) attachDrag(stack.lastElementChild);
   renderChrome();
 }
@@ -149,7 +182,7 @@ function renderChrome() {
   badge.textContent = String(picks.length);
 
   $("#deck-progress").textContent = deck.length
-    ? `${deck.length} of ${catalog.length} products left in the deck`
+    ? `${deck.length} of ${activeCatalog().length} left${filter ? ` in “${filter.label}”` : ""}`
     : "";
 
   $("#act-undo").disabled = profile.swipes.length === 0;
@@ -191,7 +224,7 @@ function commitSwipe(verdict) {
 
   setTimeout(() => {
     busy = false;
-    deck = buildDeck(catalog, profile);
+    deck = buildDeck(activeCatalog(), profile);
     const front = pinned.map((id) => deck.find((p) => p.id === id)).filter(Boolean);
     deck = [...front, ...deck.filter((p) => !pinned.includes(p.id))];
     renderStack();
@@ -205,7 +238,7 @@ function undo() {
   const undone = undoLastSwipe(profile, BY_ID);
   if (!undone) return;
   saveProfile(profile);
-  deck = buildDeck(catalog, profile);
+  deck = buildDeck(activeCatalog(), profile);
   // Put the undone product back on top so the user sees what they got back.
   const i = deck.findIndex((p) => p.id === undone.productId);
   if (i > 0) deck.unshift(deck.splice(i, 1)[0]);
@@ -215,6 +248,7 @@ function undo() {
 function attachDrag(card) {
   if (!card) return;
   let startX = 0, startY = 0, dx = 0, dy = 0, dragging = false, pointerId = null;
+  let downTarget = null; // element under the finger at press time
 
   const stamps = {
     like: card.querySelector(".stamp-like"),
@@ -228,6 +262,7 @@ function attachDrag(card) {
     // drag: capturing the pointer here would retarget the click at the card
     // and kill the navigation.
     if (e.target.closest("a")) return;
+    downTarget = e.target;
     dragging = true;
     pointerId = e.pointerId;
     startX = e.clientX;
@@ -256,21 +291,24 @@ function attachDrag(card) {
     if (loveIntent) return commitSwipe("love");
     if (dx > SWIPE_X) return commitSwipe("like");
     if (dx < -SWIPE_X) return commitSwipe("nope");
-    // Barely moved — that's a tap. On the photo: side thirds flip through
-    // the pictures, the middle opens the item detail sheet.
+    // Barely moved — that's a tap. A chip enters tag-filter mode; the info
+    // overlay opens the details; on the photo, side thirds flip pictures
+    // and the middle opens the details.
     if (Math.abs(dx) < 8 && Math.abs(dy) < 8) {
       const product = BY_ID.get(card.dataset.id);
-      const r = card.querySelector(".card-hero").getBoundingClientRect();
-      if (product) {
-        if (e.clientY >= r.top && e.clientY <= r.bottom) {
+      const chip = downTarget?.closest?.(".chip[data-feature]");
+      if (product && chip) {
+        applyFilter(chip.dataset.feature, chip.textContent.trim());
+      } else if (product) {
+        const overlay = card.querySelector(".card-overlay").getBoundingClientRect();
+        if (e.clientY >= overlay.top) {
+          openDetail(product);
+        } else {
+          const r = card.getBoundingClientRect();
           const rel = (e.clientX - r.left) / r.width;
           if (rel < 1 / 3) cycleHero(card, product, -1);
           else if (rel > 2 / 3) cycleHero(card, product, +1);
           else openDetail(product);
-        } else {
-          // Tapping anywhere else on the card (below the photo) also opens
-          // the details — a much bigger target than the photo's middle third.
-          openDetail(product);
         }
       }
     }
@@ -326,9 +364,9 @@ function openDetail(product) {
       <p class="detail-meta">${esc([product.brand, platformLabel(product)].filter(Boolean).join(" · "))} · <b>$${product.price}</b></p>
       ${product.blurb ? `<p class="detail-blurb">${esc(product.blurb)}</p>` : ""}
       <div class="card-tags">
-        <span class="chip chip-cat">${CATEGORY_LABELS[product.category] ?? esc(product.category)}</span>
-        <span class="chip chip-cat">${PRICE_BAND_LABELS[priceBand(product.price)]}</span>
-        ${product.tags.map((t) => `<span class="chip">${esc(t)}</span>`).join("")}
+        <span class="chip chip-cat" data-feature="cat:${esc(product.category)}">${CATEGORY_LABELS[product.category] ?? esc(product.category)}</span>
+        <span class="chip chip-cat" data-feature="price:${priceBand(product.price)}">${PRICE_BAND_LABELS[priceBand(product.price)]}</span>
+        ${product.tags.map((t) => `<span class="chip" data-feature="tag:${esc(t)}">${esc(t)}</span>`).join("")}
       </div>
       <a class="btn btn-primary detail-shop" href="${esc(productUrl(product))}"
         target="_blank" rel="noopener noreferrer">Shop on ${esc(platformLabel(product))} ↗</a>
@@ -439,7 +477,7 @@ function renderProfile() {
 
   const shortlistPanel = `<div class="panel">
     <h2>Your shortlist</h2>
-    <p class="panel-sub">Everything you liked or starred. Buying happens on the store’s own site — this app never checks out.</p>
+    <p class="panel-sub">Everything you liked or starred.</p>
     ${pickRows || `<p class="profile-empty">Swipe right on something you’d actually buy and it lands here.</p>`}
   </div>`;
 
@@ -457,7 +495,7 @@ function resetProfile() {
   if (!confirm("Erase your entire shopping profile? This can’t be undone.")) return;
   profile = createProfile();
   clearProfile();
-  deck = buildDeck(catalog, profile);
+  deck = buildDeck(activeCatalog(), profile);
   renderStack();
   renderProfile();
   showTab("deck");
@@ -509,6 +547,15 @@ function init() {
   $("#detail-backdrop").addEventListener("click", (e) => {
     if (e.target === e.currentTarget) closeDetail();
   });
+  $("#detail-body").addEventListener("click", (e) => {
+    const chip = e.target.closest(".chip[data-feature]");
+    if (chip) {
+      closeDetail();
+      applyFilter(chip.dataset.feature, chip.textContent.trim());
+    }
+  });
+  $("#filter-clear").addEventListener("click", clearFilter);
+  $("#empty-clear-filter").addEventListener("click", clearFilter);
 
   document.addEventListener("keydown", (e) => {
     if (!$("#detail-backdrop").hidden) {

@@ -8,8 +8,8 @@
   <link rel="apple-touch-icon" href="./icons/icon-192.png" />
   <title>Swipe Shop — teach it your taste</title>
   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='22' fill='%235865F2'/%3E%3Ctext x='32' y='46' font-family='sans-serif' font-size='36' fill='%23fff' text-anchor='middle'%3E%E2%99%A5%3C/text%3E%3C/svg%3E" />
-  <link rel="stylesheet" href="./app.css?v=0.5.1" />
-  <script type="module" src="./src/app.js?v=0.5.1"></script>
+  <link rel="stylesheet" href="./app.css?v=0.6.0" />
+  <script type="module" src="./src/app.js?v=0.6.0"></script>
   <script>
     if ("serviceWorker" in navigator) {
       addEventListener("load", () => navigator.serviceWorker.register("./sw.js"));
@@ -22,7 +22,6 @@
       <div class="shop-logo">♥</div>
       <div class="shop-titles">
         <span class="shop-name">Swipe Shop</span>
-        <span class="shop-sub">Swipe to teach it your taste · buying happens on the store’s own site</span>
       </div>
       <div class="strength" title="How well the algorithm knows you">
         <span class="strength-label" id="strength-label">Untrained</span>
@@ -38,6 +37,11 @@
       </button>
     </nav>
 
+    <div id="filter-bar" class="filter-bar" hidden>
+      <span class="filter-bar-text">Showing only <b id="filter-label"></b></span>
+      <button type="button" id="filter-clear" class="filter-clear" aria-label="Back to everything">✕</button>
+    </div>
+
     <!-- ================== Discover (deck) view ================== -->
     <section id="view-deck" class="view">
       <div class="stack-wrap">
@@ -45,10 +49,10 @@
 
         <div id="deck-empty" class="deck-empty" hidden>
           <div class="deck-empty-emoji">🎉</div>
-          <h2>You’ve swiped the whole catalog</h2>
-          <p>Your shopping profile is fully trained on this feed. Check your
-             profile and shortlist — or wipe the slate and start again.</p>
+          <h2 id="deck-empty-title">You’ve swiped the whole catalog</h2>
+          <p id="deck-empty-text"></p>
           <div class="deck-empty-actions">
+            <button type="button" class="btn btn-primary" id="empty-clear-filter" hidden>Back to everything</button>
             <button type="button" class="btn btn-primary" id="empty-to-profile">See my profile</button>
             <button type="button" class="btn btn-ghost" id="empty-reset">Start over</button>
           </div>
@@ -64,8 +68,6 @@
            href="#" target="_blank" rel="noopener noreferrer">↗</a>
       </div>
 
-      <p class="hint">Tap the photo — sides flip pictures, middle opens details.
-        Drag to swipe, or keys: ← nope · → like · ↑ need it · U undo · O opens the store</p>
       <p class="deck-progress" id="deck-progress"></p>
     </section>
 
@@ -86,7 +88,7 @@
       </div>
       <div class="panel">
         <h2>Your data</h2>
-        <p class="panel-sub">Your swipes and taste profile live only in this browser’s storage — no account, no server.</p>
+        <p class="panel-sub">Your swipes and taste profile live only on this device.</p>
         <button type="button" class="btn btn-danger" id="settings-reset">Erase my profile</button>
       </div>
     </section>
