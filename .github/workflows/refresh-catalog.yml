@@ -2,8 +2,17 @@ name: Refresh product catalog
 
 on:
   workflow_dispatch:
+    inputs:
+      debug_one:
+        description: "Run 1 search + 1 detail call and dump raw JSON (no catalog write)"
+        required: false
+        default: "false"
+      detail_budget:
+        description: "How many per-product detail calls to spend (each = 1 API credit)"
+        required: false
+        default: "40"
   schedule:
-    # Monthly — 18 queries per run stays well inside the free API quota.
+    # Monthly — 18 searches + the detail budget per run; watch the API quota.
     - cron: "0 6 1 * *"
 
 permissions:
@@ -26,6 +35,8 @@ jobs:
         run: node tools/refresh-catalog.mjs
         env:
           SEARCHAPI_KEY: ${{ secrets.SEARCHAPI_KEY }}
+          DEBUG_ONE: ${{ inputs.debug_one }}
+          DETAIL_BUDGET: ${{ inputs.detail_budget }}
       - name: Commit updated catalog
         id: commit
         run: |

@@ -84,11 +84,60 @@ function mapItem(it, spec) {
   };
 }
 
-async function fetchQuery(spec, key) {
-  const params = new URLSearchParams({ engine: "google_shopping", q: spec.q, gl: "us", hl: "en", api_key: key });
-  const res = await fetch(`https://www.searchapi.io/api/v1/search?${params}`);
-  if (!res.ok) throw new Error(`HTTP ${res.status} for "${spec.q}": ${(await res.text()).slice(0, 300)}`);
+async function api(params, key) {
+  const qs = new URLSearchParams({ ...params, gl: "us", hl: "en", api_key: key });
+  const res = await fetch(`https://www.searchapi.io/api/v1/search?${qs}`);
+  if (!res.ok) throw new Error(`HTTP ${res.status}: ${(await res.text()).slice(0, 300)}`);
   return res.json();
+}
+
+/**
+ * Enrich a product from a google_product detail response: full photo set,
+ * description, feature highlights, spec rows, and — when an offer exposes a
+ * non-Google link — the merchant's own product page. Defensive on names.
+ */
+function enrich(p, json) {
+  const prod = json.product ?? json.product_results ?? json;
+
+  const media = prod.images ?? prod.media ?? json.images ?? [];
+  const imgs = (Array.isArray(media) ? media : [])
+    .map((m) => (typeof m === "string" ? m : m?.link ?? m?.image ?? m?.url))
+    .filter((u) => u && !String(u).startsWith("x-raw-image"));
+  if (imgs.length) p.images = [...new Set(imgs.map(String))].slice(0, 8);
+
+  const desc = prod.description ?? json.description;
+  if (desc) p.description = String(desc).slice(0, 700);
+
+  const high = prod.highlights ?? prod.extensions ?? json.highlights;
+  if (Array.isArray(high) && high.length) p.features = high.map(String).slice(0, 10);
+
+  const specs = [];
+  const push = (name, value) => {
+    if (name && value != null && String(value).trim() && specs.length < 40)
+      specs.push({ name: String(name).slice(0, 60), value: String(value).slice(0, 200) });
+  };
+  const specSrc = prod.specifications ?? prod.specs ?? json.specifications ?? json.specs_results ?? prod.details;
+  if (Array.isArray(specSrc)) {
+    for (const s of specSrc) {
+      if (Array.isArray(s?.attributes)) for (const a of s.attributes) push(a.name ?? a.key, a.value);
+      else push(s?.name ?? s?.key ?? s?.title, s?.value ?? s?.text);
+    }
+  } else if (specSrc && typeof specSrc === "object") {
+    for (const [k, v] of Object.entries(specSrc)) push(k, typeof v === "object" ? JSON.stringify(v) : v);
+  }
+  if (specs.length) p.specs = specs;
+
+  const offers = json.offers ?? json.sellers_results?.online_sellers ?? json.online_sellers ?? prod.offers ?? [];
+  const offer = Array.isArray(offers) ? offers.find((o) => {
+    const link = o?.link ?? o?.offer_link ?? o?.url;
+    return link && !/google\./.test(String(link));
+  }) : null;
+  if (offer) {
+    p.url = String(offer.link ?? offer.offer_link ?? offer.url);
+    const name = offer.seller ?? offer.name ?? offer.merchant;
+    if (name) p.platform = String(name).slice(0, 40);
+  }
+  return p;
 }
 
 const fixtureAt = process.argv.indexOf("--fixture");
@@ -99,35 +148,76 @@ if (!fixture && !key) {
   process.exit(1);
 }
 
+const DEBUG_ONE = process.env.DEBUG_ONE === "true";
+const DETAIL_BUDGET = Math.max(0, Number(process.env.DETAIL_BUDGET ?? 40));
+
 const products = [];
+const pids = new Map(); // product.id → raw product_id for detail lookups
+const perQuery = new Map(); // query → its products, for round-robin enrichment
 const seen = new Set();
 let loggedSample = false;
 
-for (const spec of QUERIES) {
+for (const spec of DEBUG_ONE ? QUERIES.slice(0, 1) : QUERIES) {
   let json;
   try {
-    json = fixture ?? (await fetchQuery(spec, key));
+    json = fixture ?? (await api({ engine: "google_shopping", q: spec.q }, key));
   } catch (err) {
     console.error(`query failed: ${err.message}`);
     continue;
   }
   const items = json.shopping_results ?? json.results ?? json.shopping_ads ?? [];
   if (!loggedSample && items.length) {
-    console.log("sample raw item:", JSON.stringify(items[0], null, 2));
+    console.log("sample raw item:", JSON.stringify(items[0], null, 2).slice(0, 2500));
     loggedSample = true;
   }
-  let kept = 0;
+  const mine = [];
   for (const it of items) {
-    if (kept >= PER_QUERY) break;
+    if (mine.length >= PER_QUERY) break;
     const p = mapItem(it, spec);
     if (!p || seen.has(p.id)) continue;
     seen.add(p.id);
+    if (it.product_id) pids.set(p.id, String(it.product_id));
+    mine.push(p);
     products.push(p);
-    kept++;
   }
-  console.log(`"${spec.q}": ${items.length} results, kept ${kept}`);
+  perQuery.set(spec.q, mine);
+  console.log(`"${spec.q}": ${items.length} results, kept ${mine.length}`);
   if (fixture) break; // a fixture is a single response — no point looping
   await new Promise((r) => setTimeout(r, 700)); // be polite to the API
+}
+
+// ---- Detail enrichment: specs, full photo sets, merchant links. ----------
+// Each detail lookup costs one API credit, so a round-robin across queries
+// spends DETAIL_BUDGET evenly — every category gets some enriched cards.
+if (!fixture && DETAIL_BUDGET > 0) {
+  const queues = [...perQuery.values()].map((list) => list.filter((p) => pids.has(p.id)));
+  let spent = 0, enriched = 0, dumped = false;
+  for (let round = 0; queues.some((q) => q.length) && spent < (DEBUG_ONE ? 1 : DETAIL_BUDGET); round++) {
+    for (const queue of queues) {
+      if (spent >= (DEBUG_ONE ? 1 : DETAIL_BUDGET)) break;
+      const p = queue.shift();
+      if (!p) continue;
+      spent++;
+      try {
+        const json = await api({ engine: "google_product", product_id: pids.get(p.id) }, key);
+        if (!dumped) {
+          console.log("sample raw product detail:", JSON.stringify(json, null, 2).slice(0, 6000));
+          dumped = true;
+        }
+        enrich(p, json);
+        enriched++;
+      } catch (err) {
+        console.error(`detail failed for "${p.title}": ${err.message}`);
+      }
+      await new Promise((r) => setTimeout(r, 700));
+    }
+  }
+  console.log(`enriched ${enriched} products with details (${spent} detail calls)`);
+}
+
+if (DEBUG_ONE) {
+  console.log("DEBUG_ONE run — not writing catalog.json");
+  process.exit(0);
 }
 
 if (products.length < (fixture ? 1 : MIN_TOTAL)) {

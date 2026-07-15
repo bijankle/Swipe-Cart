@@ -248,15 +248,18 @@ function attachDrag(card) {
     // Barely moved — that's a tap. On the photo: side thirds flip through
     // the pictures, the middle opens the item detail sheet.
     if (Math.abs(dx) < 8 && Math.abs(dy) < 8) {
-      const hero = card.querySelector(".card-hero");
-      const r = hero.getBoundingClientRect();
-      if (e.clientY >= r.top && e.clientY <= r.bottom) {
-        const rel = (e.clientX - r.left) / r.width;
-        const product = BY_ID.get(card.dataset.id);
-        if (product) {
+      const product = BY_ID.get(card.dataset.id);
+      const r = card.querySelector(".card-hero").getBoundingClientRect();
+      if (product) {
+        if (e.clientY >= r.top && e.clientY <= r.bottom) {
+          const rel = (e.clientX - r.left) / r.width;
           if (rel < 1 / 3) cycleHero(card, product, -1);
           else if (rel > 2 / 3) cycleHero(card, product, +1);
           else openDetail(product);
+        } else {
+          // Tapping anywhere else on the card (below the photo) also opens
+          // the details — a much bigger target than the photo's middle third.
+          openDetail(product);
         }
       }
     }
@@ -290,6 +293,14 @@ function openDetail(product) {
   const extra = imgs.slice(1)
     .map((u) => `<img class="detail-extra" src="${esc(u)}" alt="" loading="lazy" onerror="this.remove()" />`)
     .join("");
+  const features = Array.isArray(product.features) && product.features.length
+    ? `<ul class="detail-features">${product.features.map((f) => `<li>${esc(f)}</li>`).join("")}</ul>`
+    : "";
+  const specs = Array.isArray(product.specs) && product.specs.length
+    ? `<div class="detail-specs"><h3>Specifications</h3>${product.specs
+        .map((s) => `<div class="about-row"><span>${esc(s.name)}</span><b>${esc(s.value)}</b></div>`)
+        .join("")}</div>`
+    : "";
   $("#detail-body").innerHTML = `
     <div class="detail-hero" style="background:${heroGradient(product)}">${hero}</div>
     <div class="detail-info">
@@ -303,6 +314,9 @@ function openDetail(product) {
       </div>
       <a class="btn btn-primary detail-shop" href="${esc(productUrl(product))}"
         target="_blank" rel="noopener noreferrer">Shop on ${esc(platformLabel(product))} ↗</a>
+      ${product.description ? `<p class="detail-desc">${esc(product.description)}</p>` : ""}
+      ${features}
+      ${specs}
       ${extra}
     </div>`;
   $("#detail-backdrop").hidden = false;
