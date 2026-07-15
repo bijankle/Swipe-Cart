@@ -126,10 +126,21 @@ function ldPrice(offers) {
   return Number(o.price ?? o.lowPrice ?? o.highPrice ?? (o.priceSpecification?.price));
 }
 
+/** A scalar-ish LD value: plain string/number, or {name}/{value,unitText}. */
+function ldScalar(v) {
+  if (v == null) return null;
+  if (typeof v === "string" || typeof v === "number") return String(v).trim() || null;
+  if (typeof v === "object") {
+    if (v.value != null) return `${v.value}${v.unitText ?? v.unitCode ?? ""}`.trim();
+    if (v.name) return String(v.name).trim() || null;
+  }
+  return null;
+}
+
 function mapLdProduct(ld, pageUrl, src) {
   const images = ldImages(ld.image).slice(0, 8);
   const price = ldPrice(ld.offers);
-  const title = ld.name && decodeEntities(ld.name);
+  const title = ld.name && decodeEntities(ld.name).replace(/\s*[-–|]\s*Etsy$/i, "");
   if (!title || !images.length || !Number.isFinite(price) || price <= 0) return null;
 
   const rating = ld.aggregateRating?.ratingValue;
@@ -139,6 +150,15 @@ function mapLdProduct(ld, pageUrl, src) {
         .map((a) => ({ name: String(a.name ?? "").slice(0, 60), value: String(a.value ?? "").slice(0, 200) }))
         .filter((a) => a.name && a.value).slice(0, 40)
     : [];
+  // Scalar product attributes many stores put directly on the LD object.
+  for (const [key, label] of [["material", "Material"], ["color", "Color"], ["pattern", "Pattern"], ["size", "Size"]]) {
+    const v = ldScalar(ld[key]);
+    if (v && !specs.some((s) => s.name === label)) specs.push({ name: label, value: decodeEntities(v).slice(0, 200) });
+  }
+  const dims = [ldScalar(ld.width), ldScalar(ld.height), ldScalar(ld.depth)].filter(Boolean);
+  if (dims.length && !specs.some((s) => s.name === "Dimensions")) {
+    specs.push({ name: "Dimensions", value: dims.join(" × ").slice(0, 200) });
+  }
 
   return {
     id: `s-${hash(pageUrl)}`,
@@ -228,6 +248,27 @@ function ogProduct(html, pageUrl, src) {
   };
 }
 
+/**
+ * Etsy's JSON-LD carries only the cover photo; the full listing gallery is
+ * in the page as i.etsystatic.com image URLs. Merge them in, deduped by
+ * the listing-image id so multiple sizes of one photo count once.
+ */
+function augmentEtsyGallery(p, html) {
+  const seen = new Set();
+  const gallery = [];
+  for (const m of html.matchAll(/https:\/\/i\.etsystatic\.com\/[^\s"'\\]+\/il_(?:fullxfull|1588xN|794xN)\.(\d+)[^\s"'\\]*\.(?:jpg|jpeg|png|webp)/g)) {
+    if (seen.has(m[1])) continue;
+    seen.add(m[1]);
+    gallery.push(m[0]);
+    if (gallery.length >= 8) break;
+  }
+  if (gallery.length > 1) {
+    const merged = [...new Set([...(p.images ?? []), ...gallery])].slice(0, 8);
+    p.images = merged;
+    p.image = merged[0];
+  }
+}
+
 function productLinks(html, src) {
   const links = new Set();
   let m;
@@ -246,7 +287,9 @@ function productLinks(html, src) {
   return [...links];
 }
 
-const isInteractive = (p) => p.specs?.length || (p.images?.length ?? 0) > 1 || p.description;
+// The bar for a swipeable card: a real gallery AND something to read.
+const isInteractive = (p) =>
+  (p.images?.length ?? 0) > 1 && Boolean(p.specs?.length || p.description || p.features?.length);
 
 const results = [];
 for (const src of SOURCES) {
@@ -280,6 +323,7 @@ for (const src of SOURCES) {
         console.log(`[${label}] unmappable (no LD/amazon/og data) at ${link}`);
         continue;
       }
+      if (src.site === "Etsy") augmentEtsyGallery(p, page);
       if (DEBUG_ONE && ld) console.log(`[${label}] LD keys: ${Object.keys(ld).join(", ")}`);
       if (DEBUG_ONE) console.log(`[${label}] mapped: "${p.title}" $${p.price} · ${p.images.length} photos · specs ${p.specs?.length ?? 0} · desc ${p.description ? "yes" : "no"} · interactive ${isInteractive(p) ? "YES" : "no"}`);
       results.push(p);

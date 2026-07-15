@@ -247,7 +247,8 @@ if (!fixture && DETAIL_BUDGET > 0) {
   // Only interactive cards ship: a product the user can't judge in-app
   // (no gallery, no specs, no description) just pushes them out to the
   // browser, so shallow search-level entries are dropped.
-  const interactive = (p) => p.specs?.length || (p.images?.length ?? 0) > 1 || p.description;
+  const interactive = (p) =>
+    (p.images?.length ?? 0) > 1 && Boolean(p.specs?.length || p.description || p.features?.length);
   const kept = products.filter(interactive);
   console.log(`dropping ${products.length - kept.length} un-enriched products; shipping ${kept.length} interactive cards`);
   products.length = 0;

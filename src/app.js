@@ -71,12 +71,13 @@ function clearFilter() {
  * Old catalog entries stay in BY_ID so an existing shortlist keeps resolving.
  */
 /**
- * A card is only worth swiping if the user can decide on the spot —
- * a photo gallery, specs, or a description. Shallow search-level entries
- * (one thumbnail, no details) just push the user out to the browser.
+ * A card is only worth swiping if the user can decide on the spot:
+ * a real photo gallery (more than one picture) AND something to read
+ * (specs, description, or feature bullets). Anything shallower just
+ * pushes the user out to the browser.
  */
 function isInteractive(p) {
-  return Boolean(p.specs?.length || (p.images?.length ?? 0) > 1 || p.description);
+  return (p.images?.length ?? 0) > 1 && Boolean(p.specs?.length || p.description || p.features?.length);
 }
 
 async function loadRealCatalog() {
