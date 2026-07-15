@@ -30,34 +30,43 @@ if (!KEY) {
 
 /**
  * One entry per retailer search — linkRe must capture the product path in
- * group 1. opts go straight to scrape.do (e.g. super/render for hard sites).
+ * group 1. searchOpts/pageOpts go to scrape.do per request type (super =
+ * residential proxy 10cr, render = headless browser 5cr; both add up).
+ * `keep` overrides PER_SOURCE for expensive sources.
+ *
+ * Probe results (2026-07-15): Crate & Barrel works on 1cr requests with
+ * full JSON-LD; Etsy/REI block datacenter IPs (super needed); ASOS/Chewy
+ * render their grids client-side (render needed on search); Best Buy is
+ * server-rendered but with absolute link URLs; Amazon has no JSON-LD, so
+ * it gets a dedicated HTML parser; Nordstrom wants super+render (25cr/page)
+ * and was dropped as not worth it.
  */
 const SOURCES = [
-  { site: "Etsy", base: "https://www.etsy.com", category: "home", tags: ["handmade", "artisan", "cozy"],
-    search: "https://www.etsy.com/search?q=ceramic+table+lamp", linkRe: /href="(https:\/\/www\.etsy\.com\/listing\/\d+[^"#]*)"/g },
-  { site: "Etsy", base: "https://www.etsy.com", category: "stationery", tags: ["handmade", "creative", "ritual"],
-    search: "https://www.etsy.com/search?q=dot+grid+journal", linkRe: /href="(https:\/\/www\.etsy\.com\/listing\/\d+[^"#]*)"/g },
-  { site: "REI", base: "https://www.rei.com", category: "outdoors", tags: ["outdoorsy", "adventure", "durable"],
-    search: "https://www.rei.com/search?q=camping+hammock", linkRe: /href="(\/product\/\d+[^"#]*)"/g },
-  { site: "REI", base: "https://www.rei.com", category: "travel", tags: ["adventure", "practical", "organized"],
-    search: "https://www.rei.com/search?q=travel+backpack+carry+on", linkRe: /href="(\/product\/\d+[^"#]*)"/g },
-  { site: "REI", base: "https://www.rei.com", category: "footwear", tags: ["outdoorsy", "sporty", "durable"],
-    search: "https://www.rei.com/search?q=trail+running+shoes", linkRe: /href="(\/product\/\d+[^"#]*)"/g },
-  { site: "ASOS", base: "https://www.asos.com", category: "fashion", tags: ["streetwear", "trending", "casual"],
-    search: "https://www.asos.com/us/search/?q=linen+shirt", linkRe: /href="([^"]*\/prd\/\d+[^"#]*)"/g },
-  { site: "Chewy", base: "https://www.chewy.com", category: "pets", tags: ["pet-parent", "cozy", "practical"],
-    search: "https://www.chewy.com/s?query=orthopedic+dog+bed", linkRe: /href="(\/[a-z0-9-]+\/dp\/\d+[^"#]*)"/g },
-  { site: "Best Buy", base: "https://www.bestbuy.com", category: "tech", tags: ["techy", "commute", "minimalist"],
-    search: "https://www.bestbuy.com/site/searchpage.jsp?st=noise+cancelling+headphones", linkRe: /href="(\/site\/[a-z0-9-]+\/\d+\.p[^"#]*)"/g },
-  { site: "Best Buy", base: "https://www.bestbuy.com", category: "gaming", tags: ["techy", "battle-station", "comfort"],
-    search: "https://www.bestbuy.com/site/searchpage.jsp?st=gaming+chair", linkRe: /href="(\/site\/[a-z0-9-]+\/\d+\.p[^"#]*)"/g },
   { site: "Crate & Barrel", base: "https://www.crateandbarrel.com", category: "kitchen", tags: ["heirloom", "practical", "artisan"],
-    search: "https://www.crateandbarrel.com/search?query=dutch+oven", linkRe: /href="(\/[a-z0-9-]+\/s\d+[^"#]*)"/g },
-  { site: "Nordstrom", base: "https://www.nordstrom.com", category: "beauty", tags: ["skincare", "glow", "self-care"],
-    search: "https://www.nordstrom.com/sr?keyword=vitamin+c+serum", linkRe: /href="(\/s\/[a-z0-9-]+\/\d+[^"#]*)"/g },
+    search: "https://www.crateandbarrel.com/search?query=dutch+oven", linkRe: /href="((?:https:\/\/www\.crateandbarrel\.com)?\/[a-z0-9-]+\/s\d+)[^"]*"/g },
+  { site: "Crate & Barrel", base: "https://www.crateandbarrel.com", category: "home", tags: ["modern", "minimalist", "warm-light"],
+    search: "https://www.crateandbarrel.com/search?query=table+lamp", linkRe: /href="((?:https:\/\/www\.crateandbarrel\.com)?\/[a-z0-9-]+\/s\d+)[^"]*"/g },
+  { site: "Best Buy", base: "https://www.bestbuy.com", category: "tech", tags: ["techy", "commute", "minimalist"],
+    search: "https://www.bestbuy.com/site/searchpage.jsp?st=noise+cancelling+headphones",
+    linkRe: /href="(?:https:\/\/www\.bestbuy\.com)?(\/(?:site|product)\/[^"?#]+(?:\/\d+\.p|\.p))\b[^"]*"/g },
+  { site: "Best Buy", base: "https://www.bestbuy.com", category: "gaming", tags: ["techy", "battle-station", "comfort"],
+    search: "https://www.bestbuy.com/site/searchpage.jsp?st=gaming+chair",
+    linkRe: /href="(?:https:\/\/www\.bestbuy\.com)?(\/(?:site|product)\/[^"?#]+(?:\/\d+\.p|\.p))\b[^"]*"/g },
+  { site: "ASOS", base: "https://www.asos.com", category: "fashion", tags: ["streetwear", "trending", "casual"],
+    search: "https://www.asos.com/us/search/?q=linen+shirt", linkRe: /href="([^"]*\/prd\/\d+)[^"]*"/g,
+    searchOpts: { render: "true" } },
+  { site: "Chewy", base: "https://www.chewy.com", category: "pets", tags: ["pet-parent", "cozy", "practical"],
+    search: "https://www.chewy.com/s?query=orthopedic+dog+bed", linkRe: /href="((?:https:\/\/www\.chewy\.com)?\/[a-z0-9-]+\/dp\/\d+)[^"]*"/g,
+    searchOpts: { render: "true" } },
+  { site: "Etsy", base: "https://www.etsy.com", category: "stationery", tags: ["handmade", "creative", "ritual"],
+    search: "https://www.etsy.com/search?q=dot+grid+journal", linkRe: /href="(https:\/\/www\.etsy\.com\/listing\/\d+)[^"]*"/g,
+    searchOpts: { super: "true", geoCode: "us" }, pageOpts: { super: "true", geoCode: "us" }, keep: 4 },
+  { site: "REI", base: "https://www.rei.com", category: "outdoors", tags: ["outdoorsy", "adventure", "durable"],
+    search: "https://www.rei.com/search?q=camping+hammock", linkRe: /href="((?:https:\/\/www\.rei\.com)?\/product\/\d+[^"?#]*)"/g,
+    searchOpts: { super: "true", geoCode: "us" }, pageOpts: { super: "true", geoCode: "us" }, keep: 4 },
   { site: "Amazon", base: "https://www.amazon.com", category: "fitness", tags: ["home-gym", "wellness", "practical"],
-    search: "https://www.amazon.com/s?k=cork+yoga+mat", linkRe: /href="(\/[^"]*\/dp\/[A-Z0-9]{10}[^"#]*)"/g,
-    opts: { super: "true", geoCode: "us" } },
+    search: "https://www.amazon.com/s?k=cork+yoga+mat", linkRe: /href="(\/[^"]*\/dp\/[A-Z0-9]{10})[^"]*"/g,
+    searchOpts: { super: "true", geoCode: "us" }, pageOpts: { super: "true", geoCode: "us" }, keep: 3 },
 ];
 
 const CATEGORY_EMOJI = {
@@ -150,6 +159,75 @@ function mapLdProduct(ld, pageUrl, src) {
   };
 }
 
+/** Amazon embeds product data in HTML/JS blobs instead of JSON-LD. */
+function amazonProduct(html, pageUrl, src) {
+  const title = decodeEntities(html.match(/id="productTitle"[^>]*>\s*([^<]+)/)?.[1] ?? "");
+  const price = Number(
+    html.match(/"priceAmount":\s*([\d.]+)/)?.[1]
+    ?? html.match(/class="a-offscreen">\$([\d,]+(?:\.\d+)?)</)?.[1]?.replace(/,/g, ""),
+  );
+  const hiRes = [...html.matchAll(/"hiRes":"(https:[^"]+?)"/g)].map((m) => m[1]);
+  const large = [...html.matchAll(/"large":"(https:[^"]+?)"/g)].map((m) => m[1]);
+  const images = [...new Set(hiRes.length ? hiRes : large)].slice(0, 8);
+  if (!title || !images.length || !Number.isFinite(price) || price <= 0) return null;
+
+  const bullets = html.match(/id="feature-bullets"[\s\S]{0,6000}?<\/ul>/)?.[0] ?? "";
+  const features = [...bullets.matchAll(/<span class="a-list-item">\s*([\s\S]+?)\s*<\/span>/g)]
+    .map((m) => decodeEntities(m[1])).filter((t) => t.length > 5 && t.length < 300).slice(0, 8);
+  const rating = html.match(/([\d.]+) out of 5 stars/)?.[1];
+  const reviews = html.match(/([\d,]+) ratings/)?.[1];
+  const brand = decodeEntities(html.match(/id="bylineInfo"[^>]*>([^<]+)/)?.[1] ?? "")
+    .replace(/^(Visit the |Brand: )/, "").replace(/ Store$/, "").trim();
+
+  return {
+    id: `s-${hash(pageUrl)}`,
+    title: title.slice(0, 90),
+    brand: brand.slice(0, 40),
+    platform: src.site,
+    category: src.category,
+    price: Math.round(price),
+    tags: src.tags,
+    emoji: CATEGORY_EMOJI[src.category] ?? "🛍",
+    hue: hash(title) % 360,
+    blurb: rating ? `${rating}★${reviews ? ` (${reviews} ratings)` : ""}` : "",
+    image: images[0],
+    images,
+    url: pageUrl.split("/ref=")[0],
+    ...(features.length ? { features } : {}),
+  };
+}
+
+/** OpenGraph fallback for stores without Product JSON-LD. */
+function ogProduct(html, pageUrl, src) {
+  const meta = (prop) =>
+    html.match(new RegExp(`<meta[^>]+(?:property|name)=["']${prop}["'][^>]+content=["']([^"']+)`, "i"))?.[1]
+    ?? html.match(new RegExp(`<meta[^>]+content=["']([^"']+)["'][^>]+(?:property|name)=["']${prop}["']`, "i"))?.[1];
+  const title = meta("og:title") && decodeEntities(meta("og:title"));
+  const images = [...new Set(
+    [...html.matchAll(/<meta[^>]+(?:property|name)=["']og:image(?::secure_url)?["'][^>]+content=["']([^"']+)/gi)].map((m) => m[1]),
+  )].slice(0, 8);
+  const price = Number(meta("product:price:amount") ?? meta("og:price:amount") ?? meta("twitter:data1")?.replace(/[^0-9.]/g, ""));
+  if (!title || !images.length || !Number.isFinite(price) || price <= 0) return null;
+  const desc = meta("og:description") && decodeEntities(meta("og:description"));
+
+  return {
+    id: `s-${hash(pageUrl)}`,
+    title: title.slice(0, 90),
+    brand: "",
+    platform: src.site,
+    category: src.category,
+    price: Math.round(price),
+    tags: src.tags,
+    emoji: CATEGORY_EMOJI[src.category] ?? "🛍",
+    hue: hash(title) % 360,
+    blurb: "",
+    image: images[0],
+    images,
+    url: pageUrl,
+    ...(desc ? { description: desc.slice(0, 700) } : {}),
+  };
+}
+
 function productLinks(html, src) {
   const links = new Set();
   let m;
@@ -169,7 +247,7 @@ for (const src of SOURCES) {
   const label = `${src.site} · ${src.category}`;
   let html;
   try {
-    html = await scrape(src.search, src.opts);
+    html = await scrape(src.search, src.searchOpts);
   } catch (err) {
     console.error(`[${label}] search failed: ${err.message}`);
     continue;
@@ -180,23 +258,23 @@ for (const src of SOURCES) {
     console.log(`[${label}] page sample: ${html.slice(0, 400).replace(/\s+/g, " ")}`);
   }
 
-  const want = DEBUG_ONE ? 1 : PER_SOURCE;
+  const want = DEBUG_ONE ? 1 : Math.min(PER_SOURCE, src.keep ?? PER_SOURCE);
+  // Hard attempt cap — every fetched page is billed whether or not it maps.
+  const attempts = links.slice(0, DEBUG_ONE ? 2 : want * 2);
   let kept = 0;
-  for (const link of links) {
+  for (const link of attempts) {
     if (kept >= want) break;
     try {
-      const page = await scrape(link, src.opts);
+      const page = await scrape(link, src.pageOpts);
       const ld = findProductLd(page);
-      if (!ld) {
-        console.log(`[${label}] no Product JSON-LD at ${link}`);
-        continue;
-      }
-      if (DEBUG_ONE) console.log(`[${label}] LD keys: ${Object.keys(ld).join(", ")}`);
-      const p = mapLdProduct(ld, link, src);
+      let p = ld ? mapLdProduct(ld, link, src) : null;
+      if (!p && src.site === "Amazon") p = amazonProduct(page, link, src);
+      if (!p) p = ogProduct(page, link, src);
       if (!p) {
-        console.log(`[${label}] LD present but unmappable (title/image/price) at ${link}`);
+        console.log(`[${label}] unmappable (no LD/amazon/og data) at ${link}`);
         continue;
       }
+      if (DEBUG_ONE && ld) console.log(`[${label}] LD keys: ${Object.keys(ld).join(", ")}`);
       if (DEBUG_ONE) console.log(`[${label}] mapped: "${p.title}" $${p.price} · ${p.images.length} photos · specs ${p.specs?.length ?? 0} · desc ${p.description ? "yes" : "no"} · interactive ${isInteractive(p) ? "YES" : "no"}`);
       results.push(p);
       kept++;
