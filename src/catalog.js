@@ -68,9 +68,17 @@ const SEARCH_URLS = {
   asos: (q) => `https://www.asos.com/us/search/?q=${q}`,
 };
 
+/** Human label for a product's platform — real catalogs carry store names. */
+export function platformLabel(p) {
+  return PLATFORM_LABELS[p.platform] ?? p.platform;
+}
+
 /** Outbound link to the product's home platform — browsing happens there. */
 export function productUrl(p) {
-  return SEARCH_URLS[p.platform](encodeURIComponent(`${p.brand} ${p.title}`));
+  if (p.url) return p.url; // real listings carry their own direct link
+  const query = encodeURIComponent(`${p.brand} ${p.title}`.trim());
+  const search = SEARCH_URLS[p.platform];
+  return search ? search(query) : `https://www.google.com/search?tbm=shop&q=${query}`;
 }
 
 /**
@@ -81,7 +89,7 @@ export function productUrl(p) {
 export function productFeatures(p) {
   return [
     `cat:${p.category}`,
-    `brand:${p.brand}`,
+    ...(p.brand ? [`brand:${p.brand}`] : []),
     `platform:${p.platform}`,
     `price:${priceBand(p.price)}`,
     ...p.tags.map((t) => `tag:${t}`),

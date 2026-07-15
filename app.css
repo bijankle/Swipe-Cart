@@ -196,6 +196,16 @@ body {
   height: 55%;
   display: flex; align-items: center; justify-content: center;
   font-size: 110px;
+  overflow: hidden;
+}
+
+/* Real product photo — covers the hero; the emoji behind is the fallback. */
+.card-img {
+  position: absolute; inset: 0;
+  width: 100%; height: 100%;
+  object-fit: contain;
+  background: #fff;
+  pointer-events: none;
 }
 
 .card-platform {
@@ -363,6 +373,14 @@ body {
   border-radius: var(--radius-panel);
   display: flex; align-items: center; justify-content: center;
   font-size: 24px;
+  position: relative;
+  overflow: hidden;
+}
+.pick-img {
+  position: absolute; inset: 0;
+  width: 100%; height: 100%;
+  object-fit: cover;
+  background: #fff;
 }
 .pick-info { min-width: 0; flex: 1; }
 .pick-title { font-size: 13.5px; font-weight: 700; margin: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }

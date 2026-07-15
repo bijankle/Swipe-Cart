@@ -30,6 +30,7 @@ jobs:
           cp index.html app.css manifest.webmanifest sw.js _site/
           cp -R src _site/src
           cp -R icons _site/icons
+          if [ -f catalog.json ]; then cp catalog.json _site/; fi
       - uses: actions/configure-pages@v5
         with:
           enablement: true

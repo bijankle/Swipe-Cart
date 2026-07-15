@@ -1,0 +1,50 @@
+name: Refresh product catalog
+
+on:
+  workflow_dispatch:
+  schedule:
+    # Monthly — 18 queries per run stays well inside the free API quota.
+    - cron: "0 6 1 * *"
+
+permissions:
+  contents: write
+  actions: write
+
+concurrency:
+  group: refresh-catalog
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Fetch real products
+        run: node tools/refresh-catalog.mjs
+        env:
+          SEARCHAPI_KEY: ${{ secrets.SEARCHAPI_KEY }}
+      - name: Commit updated catalog
+        id: commit
+        run: |
+          git add catalog.json
+          if git diff --cached --quiet; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            echo "Catalog unchanged."
+          else
+            git config user.name "catalog-refresh[bot]"
+            git config user.email "actions@users.noreply.github.com"
+            git commit -m "Refresh product catalog"
+            git push
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          fi
+      - name: Trigger site deploy
+        if: steps.commit.outputs.changed == 'true'
+        run: |
+          curl -sf -X POST \
+            -H "Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" \
+            -H "Accept: application/vnd.github+json" \
+            "https://api.github.com/repos/${{ github.repository }}/actions/workflows/deploy-pages.yml/dispatches" \
+            -d "{\"ref\":\"${{ github.ref_name }}\"}"
