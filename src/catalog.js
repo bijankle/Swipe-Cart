@@ -86,6 +86,24 @@ export function productUrl(p) {
  * with the same word never collide.
  * @param {Product} p @returns {string[]}
  */
+const STOPWORDS = new Set([
+  "the", "and", "for", "with", "new", "set", "pack", "size", "color", "inch",
+  "men", "mens", "women", "womens", "unisex", "adult", "kids", "brand",
+  "free", "shipping", "usa", "top", "hot", "best", "sale", "gift", "piece",
+  "pcs", "style", "high", "quality", "pro", "plus", "mini", "large", "small",
+]);
+
+/** Meaningful words from a product title — lets the taste model learn from text. */
+export function titleTokens(title) {
+  return [...new Set(
+    String(title ?? "")
+      .toLowerCase()
+      .replace(/[^a-z\s-]/g, " ")
+      .split(/[\s-]+/)
+      .filter((w) => w.length >= 3 && w.length <= 18 && !STOPWORDS.has(w)),
+  )].slice(0, 10);
+}
+
 export function productFeatures(p) {
   return [
     `cat:${p.category}`,
@@ -93,6 +111,7 @@ export function productFeatures(p) {
     `platform:${p.platform}`,
     `price:${priceBand(p.price)}`,
     ...p.tags.map((t) => `tag:${t}`),
+    ...titleTokens(p.title).map((w) => `word:${w}`),
   ];
 }
 

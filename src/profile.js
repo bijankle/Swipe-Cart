@@ -123,7 +123,7 @@ export function tasteSummary(profile, opts = {}) {
   for (const s of profile.swipes) totals[s.verdict] += 1;
 
   /** @type {Record<string, Array<{value: string, affinity: number, evidence: number}>>} */
-  const traits = { tag: [], cat: [], brand: [], platform: [], price: [] };
+  const traits = { tag: [], cat: [], brand: [], platform: [], price: [], word: [] };
   const avoid = [];
 
   for (const [feature, stat] of Object.entries(profile.stats)) {

@@ -25,6 +25,8 @@ import {
 import { buildDeck } from "./deck.js";
 import { loadProfile, saveProfile, clearProfile } from "./store.js";
 import { APP_VERSION, buildDateLabel } from "./version.js";
+import { scoreProduct } from "./profile.js";
+import { liveEnabled, searchSummaries, fetchDetail, steeringQueries, MAP_QUERIES } from "./feed.js";
 
 const $ = (sel) => document.querySelector(sel);
 const BY_ID = new Map(CATALOG.map((p) => [p.id, p]));
@@ -96,6 +98,91 @@ async function loadRealCatalog() {
     renderStack();
   } catch {
     /* offline or malformed feed — the sample catalog stands in */
+  }
+}
+
+// ------------------------------------------------ live feed (map + upgrades)
+//
+// Tier 0: a broad, cheap MAP of candidate items (search summaries — text
+// and one thumbnail). Tier 2: full details fetched just-in-time, ONLY for
+// the candidates the user's own swipes rank highly. Every ~dozen swipes,
+// the top taste features spawn fresh searches, so the pool is effectively
+// all of eBay rather than anything pre-fetched.
+
+const liteMap = new Map(); // id → lite candidate awaiting a possible upgrade
+let upgradesUsed = 0;
+const UPGRADE_CAP = 120; // per session — keeps API use honest
+let upgrading = false;
+
+const swipedIds = () => new Set(profile.swipes.map((s) => s.productId));
+
+async function loadMapQuery(spec) {
+  try {
+    const seen = swipedIds();
+    for (const item of await searchSummaries(spec, 50)) {
+      if (!BY_ID.has(item.id) && !seen.has(item.id) && !liteMap.has(item.id)) {
+        liteMap.set(item.id, item);
+      }
+    }
+  } catch {
+    /* one bad query never matters */
+  }
+}
+
+async function startLiveFeed() {
+  if (!liveEnabled()) return;
+  const sweep = [...MAP_QUERIES].sort(() => Math.random() - 0.5);
+  for (let i = 0; i < sweep.length; i += 6) {
+    await Promise.allSettled(sweep.slice(i, i + 6).map(loadMapQuery));
+    upgradeTick();
+    await new Promise((r) => setTimeout(r, 700));
+  }
+}
+
+/**
+ * Upgrade the most promising lite candidates to full interactive cards —
+ * when the deck is running low, or when a candidate outranks what's
+ * already near the top of the deck (taste alignment = dig deeper).
+ */
+async function upgradeTick() {
+  if (!liveEnabled() || upgrading || upgradesUsed >= UPGRADE_CAP || !liteMap.size) return;
+  const seen = swipedIds();
+  const remaining = deck.length;
+  const ranked = [...liteMap.values()]
+    .filter((p) => !seen.has(p.id))
+    .sort((a, b) => scoreProduct(profile, b) - scoreProduct(profile, a));
+  if (!ranked.length) return;
+  const deckRef = deck[2] ? scoreProduct(profile, deck[2]) : 0;
+  const need = remaining < 30;
+  if (!need && scoreProduct(profile, ranked[0]) <= deckRef) return;
+
+  upgrading = true;
+  try {
+    for (const c of ranked.slice(0, 4)) {
+      liteMap.delete(c.id);
+      try {
+        const full = await fetchDetail(c);
+        upgradesUsed++;
+        if (isInteractive(full)) {
+          catalog.push(full);
+          BY_ID.set(full.id, full);
+        }
+      } catch { /* skip this one */ }
+    }
+    if (deck.length === 0) {
+      deck = buildDeck(activeCatalog(), profile);
+      renderStack();
+    }
+  } finally {
+    upgrading = false;
+  }
+}
+
+/** Swipe-driven steering: taste features become brand-new live searches. */
+function steerFeed() {
+  if (!liveEnabled()) return;
+  for (const spec of steeringQueries(tasteSummary(profile))) {
+    loadMapQuery(spec).then(() => upgradeTick());
   }
 }
 
@@ -266,6 +353,8 @@ function commitSwipe(verdict) {
     renderStack();
     const n = profile.swipes.length;
     if (n > 0 && n % 10 === 0) toast(`Profile sharpened — the feed just reordered around your taste (${n} swipes)`);
+    if (n > 0 && n % 12 === 0) steerFeed();
+    upgradeTick();
   }, 300);
 }
 
@@ -432,6 +521,7 @@ function traitLabel(kind, value) {
 }
 
 const TRAIT_GROUPS = [
+  ["word", "Words you gravitate to"],
   ["tag", "Styles & vibes"],
   ["cat", "Categories"],
   ["brand", "Brands"],
@@ -570,7 +660,7 @@ function init() {
   $("#settings-reset").addEventListener("click", resetProfile);
   $("#about-version").textContent = APP_VERSION;
   $("#about-updated").textContent = buildDateLabel();
-  loadRealCatalog();
+  loadRealCatalog().then(() => startLiveFeed());
   $("#empty-to-profile").addEventListener("click", () => showTab("profile"));
   $("#empty-reset").addEventListener("click", resetProfile);
 
