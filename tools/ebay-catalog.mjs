@@ -105,8 +105,9 @@ function mapItem(summary, detail, spec) {
     : [];
   const brand = aspects.find((a) => a.name.toLowerCase() === "brand")?.value ?? "";
   const desc = stripHtml(detail.shortDescription ?? detail.description ?? "").slice(0, 700);
-  const bits = [detail.condition, detail.seller?.feedbackPercentage
-    ? `${detail.seller.feedbackPercentage}% positive seller` : null].filter(Boolean);
+  // Deliberately no seller-derived fields: keeps us squarely inside eBay's
+  // "does not persist eBay (user) data" exemption — listing content only.
+  const bits = [detail.condition].filter(Boolean);
 
   return {
     id: `e-${detail.itemId ?? summary.itemId}`,
@@ -195,7 +196,8 @@ let existing = [];
 if (existsSync(OUT)) {
   try { existing = JSON.parse(readFileSync(OUT, "utf8")).products ?? []; } catch {}
 }
-const freshIds = new Set(results.map((p) => p.id));
-const merged = [...existing.filter((p) => !freshIds.has(p.id)), ...results];
+// Every run REPLACES all eBay-sourced entries (ids `e-…`): eBay data is a
+// self-expiring cache, never accumulated — per the account-deletion exemption.
+const merged = [...existing.filter((p) => !p.id.startsWith("e-")), ...results];
 writeFileSync(OUT, JSON.stringify({ generatedAt: new Date().toISOString(), count: merged.length, products: merged }, null, 1));
 console.log(`catalog.json written: ${merged.length} products (${results.length} new/updated from eBay)`);
