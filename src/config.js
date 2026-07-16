@@ -7,4 +7,4 @@
 export const API_BASE =
   typeof location !== "undefined" && location.hostname === "localhost"
     ? "http://localhost:8787"
-    : "";
+    : "https://swipe-cart-api.bijank-2015.workers.dev";

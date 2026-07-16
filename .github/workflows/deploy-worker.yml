@@ -30,3 +30,9 @@ jobs:
         env:
           EBAY_APP_ID: ${{ secrets.EBAY_APP_ID }}
           EBAY_CERT_ID: ${{ secrets.EBAY_CERT_ID }}
+      - name: Smoke test
+        run: |
+          sleep 5
+          body=$(curl -sf "https://swipe-cart-api.bijank-2015.workers.dev/search?q=ceramic+lamp&limit=2")
+          echo "$body" | head -c 600
+          echo "$body" | grep -q '"itemSummaries"' && echo "SMOKE OK" || (echo "SMOKE FAILED" && exit 1)
