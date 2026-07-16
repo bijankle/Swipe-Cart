@@ -17,7 +17,7 @@ const OUT = new URL("../catalog.json", import.meta.url).pathname;
 const APP_ID = process.env.EBAY_APP_ID;
 const CERT_ID = process.env.EBAY_CERT_ID;
 const DEBUG_ONE = process.env.DEBUG_ONE === "true";
-const PER_QUERY = Math.max(1, Number(process.env.PER_QUERY ?? 8));
+const PER_QUERY = Math.max(1, Number(process.env.PER_QUERY ?? 6));
 const API = "https://api.ebay.com";
 
 if (!APP_ID || !CERT_ID) {
@@ -25,25 +25,68 @@ if (!APP_ID || !CERT_ID) {
   process.exit(1);
 }
 
+// 5 themes per category — variety is what makes endless noping worthwhile.
 const QUERIES = [
   { q: "minimalist ceramic table lamp", category: "home", tags: ["minimalist", "modern", "warm-light"] },
   { q: "chunky knit throw blanket", category: "home", tags: ["cozy", "soft", "hygge"] },
+  { q: "scented soy candle set", category: "home", tags: ["cozy", "ritual", "self-care"] },
+  { q: "modern area rug", category: "home", tags: ["modern", "statement", "soft"] },
+  { q: "boho wall art print set", category: "home", tags: ["boho", "creative", "statement"] },
   { q: "retro mechanical keyboard", category: "tech", tags: ["retro", "techy", "desk-setup"] },
   { q: "wireless noise cancelling headphones", category: "tech", tags: ["techy", "commute", "minimalist"] },
+  { q: "smart watch fitness", category: "tech", tags: ["techy", "sporty", "everyday"] },
+  { q: "portable bluetooth speaker", category: "tech", tags: ["techy", "outdoorsy", "compact"] },
+  { q: "e-reader ereader", category: "tech", tags: ["techy", "cozy", "commute"] },
   { q: "cork yoga mat", category: "fitness", tags: ["wellness", "sustainable", "earthy"] },
   { q: "adjustable dumbbells", category: "fitness", tags: ["home-gym", "practical"] },
+  { q: "kettlebell cast iron", category: "fitness", tags: ["home-gym", "durable"] },
+  { q: "resistance bands set", category: "fitness", tags: ["home-gym", "compact", "practical"] },
+  { q: "foam roller massage", category: "fitness", tags: ["wellness", "recovery", "self-care"] },
   { q: "linen shirt", category: "fashion", tags: ["breathable", "classic", "summer"] },
   { q: "vintage denim jacket", category: "fashion", tags: ["vintage", "casual", "streetwear"] },
+  { q: "cashmere sweater", category: "fashion", tags: ["cozy", "classic", "luxury"] },
+  { q: "polarized sunglasses", category: "fashion", tags: ["classic", "summer", "everyday"] },
+  { q: "canvas tote bag", category: "fashion", tags: ["casual", "practical", "sustainable"] },
   { q: "white leather sneakers", category: "footwear", tags: ["classic", "minimalist", "everyday"] },
   { q: "trail running shoes", category: "footwear", tags: ["outdoorsy", "durable", "sporty"] },
+  { q: "chelsea boots leather", category: "footwear", tags: ["classic", "sleek", "autumn"] },
+  { q: "suede loafers", category: "footwear", tags: ["classic", "smart-casual"] },
+  { q: "slide sandals comfort", category: "footwear", tags: ["summer", "casual", "everyday"] },
   { q: "cast iron dutch oven", category: "kitchen", tags: ["heirloom", "practical", "slow-cooking"] },
   { q: "pour over coffee maker", category: "kitchen", tags: ["ritual", "minimalist", "artisan"] },
+  { q: "japanese chef knife", category: "kitchen", tags: ["artisan", "sharp", "heirloom"] },
+  { q: "espresso machine home", category: "kitchen", tags: ["ritual", "techy", "entertaining"] },
+  { q: "stoneware dinnerware set", category: "kitchen", tags: ["artisan", "entertaining", "earthy"] },
   { q: "vitamin c face serum", category: "beauty", tags: ["skincare", "glow", "self-care"] },
+  { q: "jade roller gua sha set", category: "beauty", tags: ["skincare", "ritual", "self-care"] },
+  { q: "hair styler hot brush", category: "beauty", tags: ["glow", "techy", "everyday"] },
+  { q: "unisex perfume fragrance", category: "beauty", tags: ["luxury", "statement", "self-care"] },
+  { q: "sheet mask skincare set", category: "beauty", tags: ["skincare", "self-care", "glow"] },
   { q: "camping hammock", category: "outdoors", tags: ["outdoorsy", "adventure", "compact"] },
+  { q: "insulated water bottle", category: "outdoors", tags: ["outdoorsy", "practical", "everyday"] },
+  { q: "hiking daypack", category: "outdoors", tags: ["outdoorsy", "adventure", "durable"] },
+  { q: "camping lantern rechargeable", category: "outdoors", tags: ["outdoorsy", "techy", "compact"] },
+  { q: "waterproof picnic blanket", category: "outdoors", tags: ["outdoorsy", "cozy", "summer"] },
   { q: "ergonomic gaming chair", category: "gaming", tags: ["techy", "comfort", "battle-station"] },
+  { q: "wireless gaming mouse", category: "gaming", tags: ["techy", "battle-station", "sporty"] },
+  { q: "gaming headset microphone", category: "gaming", tags: ["techy", "battle-station"] },
+  { q: "retro game console handheld", category: "gaming", tags: ["retro", "techy", "cozy"] },
+  { q: "controller charging dock", category: "gaming", tags: ["techy", "practical", "desk-setup"] },
   { q: "orthopedic dog bed", category: "pets", tags: ["cozy", "practical", "pet-parent"] },
+  { q: "cat tree tower", category: "pets", tags: ["pet-parent", "statement", "practical"] },
+  { q: "automatic pet feeder", category: "pets", tags: ["pet-parent", "techy", "practical"] },
+  { q: "dog harness no pull", category: "pets", tags: ["pet-parent", "outdoorsy", "durable"] },
+  { q: "interactive cat toy", category: "pets", tags: ["pet-parent", "playful"] },
   { q: "dot grid journal", category: "stationery", tags: ["ritual", "minimalist", "creative"] },
+  { q: "fountain pen gift", category: "stationery", tags: ["heirloom", "ritual", "classic"] },
+  { q: "washi tape set aesthetic", category: "stationery", tags: ["creative", "playful", "cozy"] },
+  { q: "desk organizer wood", category: "stationery", tags: ["desk-setup", "minimalist", "practical"] },
+  { q: "sticker pack aesthetic", category: "stationery", tags: ["creative", "playful"] },
   { q: "carry on travel backpack", category: "travel", tags: ["adventure", "practical", "organized"] },
+  { q: "packing cubes set", category: "travel", tags: ["organized", "practical", "compact"] },
+  { q: "memory foam travel pillow", category: "travel", tags: ["comfort", "commute", "compact"] },
+  { q: "hanging toiletry bag", category: "travel", tags: ["organized", "practical"] },
+  { q: "hard shell luggage carry on", category: "travel", tags: ["adventure", "sleek", "durable"] },
 ];
 
 const CATEGORY_EMOJI = {
@@ -98,13 +141,14 @@ function mapItem(summary, detail, spec) {
   )].slice(0, 8);
   if (!title || !images.length || !Number.isFinite(price) || price <= 0) return null;
 
+  // Trimmed for payload size — with 400+ products, catalog.json bytes matter.
   const aspects = Array.isArray(detail.localizedAspects)
     ? detail.localizedAspects
-        .map((a) => ({ name: String(a.name ?? "").slice(0, 60), value: String(a.value ?? "").slice(0, 200) }))
-        .filter((a) => a.name && a.value).slice(0, 40)
+        .map((a) => ({ name: String(a.name ?? "").slice(0, 60), value: String(a.value ?? "").slice(0, 160) }))
+        .filter((a) => a.name && a.value).slice(0, 20)
     : [];
   const brand = aspects.find((a) => a.name.toLowerCase() === "brand")?.value ?? "";
-  const desc = stripHtml(detail.shortDescription ?? detail.description ?? "").slice(0, 700);
+  const desc = stripHtml(detail.shortDescription ?? detail.description ?? "").slice(0, 500);
   // Deliberately no seller-derived fields: keeps us squarely inside eBay's
   // "does not persist eBay (user) data" exemption — listing content only.
   const bits = [detail.condition].filter(Boolean);

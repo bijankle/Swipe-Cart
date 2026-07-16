@@ -49,6 +49,8 @@ function activeCatalog() {
 }
 
 function applyFilter(feature, label) {
+  // Tapping the active tag again unchecks it — back to free roam.
+  if (filter && filter.feature === feature) return clearFilter();
   filter = { feature, label };
   $("#filter-label").textContent = label;
   $("#filter-bar").hidden = false;
@@ -109,6 +111,13 @@ function imagesOf(p) {
   return p.image ? [p.image] : [];
 }
 
+/** A filterable chip; shows as checked (✕ to uncheck) when it's the active filter. */
+function chipEl(feature, label, extra = "") {
+  const on = filter && filter.feature === feature;
+  return `<span class="chip${extra ? ` ${extra}` : ""}${on ? " chip-on" : ""}"
+    data-feature="${esc(feature)}">${esc(label)}${on ? " ✕" : ""}</span>`;
+}
+
 function cardEl(product, depth) {
   const card = document.createElement("article");
   card.className = "card";
@@ -116,12 +125,13 @@ function cardEl(product, depth) {
   card.dataset.id = product.id;
   if (depth === 0) card.classList.add("is-top");
 
-  // Tappable chips: data-feature enters filter mode for that trait.
+  // Tappable chips: data-feature enters filter mode for that trait;
+  // the active one is highlighted and tapping it again unchecks it.
   const band = priceBand(product.price);
   const tags = [
-    `<span class="chip chip-cat" data-feature="cat:${esc(product.category)}">${CATEGORY_LABELS[product.category] ?? esc(product.category)}</span>`,
-    `<span class="chip chip-cat" data-feature="price:${band}">${PRICE_BAND_LABELS[band]}</span>`,
-    ...product.tags.map((t) => `<span class="chip" data-feature="tag:${esc(t)}">${esc(t)}</span>`),
+    chipEl(`cat:${product.category}`, CATEGORY_LABELS[product.category] ?? product.category, "chip-cat"),
+    chipEl(`price:${band}`, PRICE_BAND_LABELS[band], "chip-cat"),
+    ...product.tags.map((t) => chipEl(`tag:${t}`, t)),
   ].join("");
   // Real listings carry photos; the emoji stays behind them as the loading /
   // error fallback. The photo is never cropped: it shows whole (contain)
@@ -390,9 +400,9 @@ function openDetail(product) {
       <p class="detail-meta">${esc([product.brand, platformLabel(product)].filter(Boolean).join(" · "))} · <b>$${product.price}</b></p>
       ${product.blurb ? `<p class="detail-blurb">${esc(product.blurb)}</p>` : ""}
       <div class="card-tags">
-        <span class="chip chip-cat" data-feature="cat:${esc(product.category)}">${CATEGORY_LABELS[product.category] ?? esc(product.category)}</span>
-        <span class="chip chip-cat" data-feature="price:${priceBand(product.price)}">${PRICE_BAND_LABELS[priceBand(product.price)]}</span>
-        ${product.tags.map((t) => `<span class="chip" data-feature="tag:${esc(t)}">${esc(t)}</span>`).join("")}
+        ${chipEl(`cat:${product.category}`, CATEGORY_LABELS[product.category] ?? product.category, "chip-cat")}
+        ${chipEl(`price:${priceBand(product.price)}`, PRICE_BAND_LABELS[priceBand(product.price)], "chip-cat")}
+        ${product.tags.map((t) => chipEl(`tag:${t}`, t)).join("")}
       </div>
       <a class="btn btn-primary detail-shop" href="${esc(productUrl(product))}"
         target="_blank" rel="noopener noreferrer">Shop on ${esc(platformLabel(product))} ↗</a>
