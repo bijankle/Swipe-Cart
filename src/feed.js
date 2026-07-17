@@ -92,6 +92,23 @@ const stripHtml = (s) =>
 
 export const liveEnabled = () => Boolean(API_BASE);
 
+/** Rough eBay category-name → app category mapping, for free-text searches. */
+function categoryFromEbay(categories) {
+  const names = (categories ?? []).map((c) => String(c?.categoryName ?? "").toLowerCase()).join(" ");
+  if (/shoe|sneaker|boot|sandal|heel|loafer/.test(names)) return "footwear";
+  if (/clothing|shirt|dress|jacket|sweater|jean|coat|apparel|accessor/.test(names)) return "fashion";
+  if (/kitchen|dining|cookware|bakeware|appliance/.test(names)) return "kitchen";
+  if (/pet|dog|cat supplies/.test(names)) return "pets";
+  if (/camping|hiking|outdoor|sporting goods|cycling|fishing/.test(names)) return "outdoors";
+  if (/fitness|gym|exercise|yoga/.test(names)) return "fitness";
+  if (/video game|console|gaming/.test(names)) return "gaming";
+  if (/health|beauty|fragrance|skin|makeup|hair/.test(names)) return "beauty";
+  if (/luggage|travel|suitcase|backpack/.test(names)) return "travel";
+  if (/office|stationery|paper|pen|craft/.test(names)) return "stationery";
+  if (/computer|electronic|audio|headphone|camera|phone|tablet/.test(names)) return "tech";
+  return "home";
+}
+
 /** Map-tier: one search → up to `limit` lite candidates (text + thumbnail). */
 export async function searchSummaries(spec, limit = 50) {
   const params = new URLSearchParams({ q: spec.q, limit: String(limit) });
@@ -104,6 +121,7 @@ export async function searchSummaries(spec, limit = 50) {
       const price = Number(s.price?.value);
       const image = s.image?.imageUrl ?? s.thumbnailImages?.[0]?.imageUrl;
       if (!title || !image || !Number.isFinite(price) || price <= 0) return null;
+      const category = spec.category === "auto" ? categoryFromEbay(s.categories) : spec.category;
       return {
         lite: true, // needs a detail upgrade before it can be dealt
         ebayId: s.itemId,
@@ -111,10 +129,10 @@ export async function searchSummaries(spec, limit = 50) {
         title: title.slice(0, 90),
         brand: "",
         platform: "eBay",
-        category: spec.category,
+        category,
         price: Math.round(price),
         tags: spec.tags,
-        emoji: CATEGORY_EMOJI[spec.category] ?? "🛍",
+        emoji: CATEGORY_EMOJI[category] ?? "🛍",
         hue: hash(title) % 360,
         blurb: "",
         image,

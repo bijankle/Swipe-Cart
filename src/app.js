@@ -47,6 +47,9 @@ let busy = false; // true while a card is flying out
 /** The catalog the deck draws from — narrowed to one trait in filter mode. */
 function activeCatalog() {
   if (!filter) return catalog;
+  if (filter.query) {
+    return catalog.filter((p) => `${p.brand} ${p.title}`.toLowerCase().includes(filter.query));
+  }
   return catalog.filter((p) => productFeatures(p).includes(filter.feature));
 }
 
@@ -66,6 +69,26 @@ function clearFilter() {
   $("#filter-bar").hidden = true;
   deck = buildDeck(activeCatalog(), profile);
   renderStack();
+}
+
+/**
+ * Free-text filter (brand or keyword): narrows the deck to matches AND
+ * launches live searches so eBay's whole inventory for that text streams
+ * into the deck while the filter is active.
+ */
+function applyQueryFilter(text) {
+  const q = text.trim().toLowerCase();
+  if (!q) return;
+  filter = { query: q, label: text.trim() };
+  $("#filter-label").textContent = filter.label;
+  $("#filter-bar").hidden = false;
+  $("#brand-search").hidden = true;
+  deck = buildDeck(activeCatalog(), profile);
+  renderStack();
+  showTab("deck");
+  if (liveEnabled()) {
+    loadMapQuery({ q: filter.label, category: "auto", tags: [] }, 100).then(() => upgradeTick());
+  }
 }
 
 /**
@@ -116,10 +139,10 @@ let upgrading = false;
 
 const swipedIds = () => new Set(profile.swipes.map((s) => s.productId));
 
-async function loadMapQuery(spec) {
+async function loadMapQuery(spec, limit = 50) {
   try {
     const seen = swipedIds();
-    for (const item of await searchSummaries(spec, 50)) {
+    for (const item of await searchSummaries(spec, limit)) {
       if (!BY_ID.has(item.id) && !seen.has(item.id) && !liteMap.has(item.id)) {
         liteMap.set(item.id, item);
       }
@@ -147,18 +170,22 @@ async function startLiveFeed() {
 async function upgradeTick() {
   if (!liveEnabled() || upgrading || upgradesUsed >= UPGRADE_CAP || !liteMap.size) return;
   const seen = swipedIds();
-  const remaining = deck.length;
-  const ranked = [...liteMap.values()]
+  const inQueryFilter = Boolean(filter?.query);
+  let ranked = [...liteMap.values()]
     .filter((p) => !seen.has(p.id))
+    // In text-filter mode only matching candidates matter — and they matter a lot.
+    .filter((p) => !inQueryFilter || `${p.brand} ${p.title}`.toLowerCase().includes(filter.query))
     .sort((a, b) => scoreProduct(profile, b) - scoreProduct(profile, a));
   if (!ranked.length) return;
-  const deckRef = deck[2] ? scoreProduct(profile, deck[2]) : 0;
-  const need = remaining < 30;
-  if (!need && scoreProduct(profile, ranked[0]) <= deckRef) return;
+  if (!inQueryFilter) {
+    const deckRef = deck[2] ? scoreProduct(profile, deck[2]) : 0;
+    const need = deck.length < 30;
+    if (!need && scoreProduct(profile, ranked[0]) <= deckRef) return;
+  }
 
   upgrading = true;
   try {
-    for (const c of ranked.slice(0, 4)) {
+    for (const c of ranked.slice(0, inQueryFilter ? 6 : 4)) {
       liteMap.delete(c.id);
       try {
         const full = await fetchDetail(c);
@@ -169,7 +196,7 @@ async function upgradeTick() {
         }
       } catch { /* skip this one */ }
     }
-    if (deck.length === 0) {
+    if (deck.length < 5 && !busy) {
       deck = buildDeck(activeCatalog(), profile);
       renderStack();
     }
@@ -682,6 +709,16 @@ function init() {
   });
   $("#filter-clear").addEventListener("click", clearFilter);
   $("#empty-clear-filter").addEventListener("click", clearFilter);
+  $("#search-btn").addEventListener("click", () => {
+    const form = $("#brand-search");
+    form.hidden = !form.hidden;
+    if (!form.hidden) $("#brand-input").focus();
+  });
+  $("#brand-search").addEventListener("submit", (e) => {
+    e.preventDefault();
+    applyQueryFilter($("#brand-input").value);
+    $("#brand-input").blur();
+  });
 
   document.addEventListener("keydown", (e) => {
     if (!$("#detail-backdrop").hidden) {

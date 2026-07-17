@@ -3,7 +3,7 @@
  * BUILD_DATE is replaced with the real deploy timestamp by the Pages
  * workflow; locally it stays this placeholder.
  */
-export const APP_VERSION = "0.8.1";
+export const APP_VERSION = "0.9.0";
 export const BUILD_DATE = "__BUILD_DATE__";
 
 export function buildDateLabel() {
