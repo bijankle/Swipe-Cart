@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-09-07T10:02:53.995Z",
+ "generatedAt": "2026-09-14T10:28:00.563Z",
  "count": 337,
  "products": [
   {
@@ -5885,82 +5885,117 @@
    ]
   },
   {
-   "id": "e-v1|800592602558|0",
-   "title": "Modern Minimalist 19.2 in. White Ceramic Table Lamp with White Linen Shade",
-   "brand": "Unbranded",
+   "id": "e-v1|188714817167|0",
+   "title": "Blue Ceramic Table Lamp with Pleated Shade for Minimalist Living Room",
+   "brand": "Ziqqeelam",
    "platform": "eBay",
    "category": "home",
-   "price": 60,
+   "price": 33,
    "tags": [
     "minimalist",
     "modern",
     "warm-light"
    ],
    "emoji": "🛋",
-   "hue": 86,
-   "blurb": "Open box",
-   "image": "https://i.ebayimg.com/images/g/KQMAAeSwLrNqld5T/s-l1600.jpg",
+   "hue": 246,
+   "blurb": "New",
+   "image": "https://i.ebayimg.com/images/g/MjMAAeSwx8pqM1VY/s-l1600.jpg",
    "images": [
-    "https://i.ebayimg.com/images/g/KQMAAeSwLrNqld5T/s-l1600.jpg",
-    "https://i.ebayimg.com/images/g/m1UAAeSw2G9qld5T/s-l1600.jpg",
-    "https://i.ebayimg.com/images/g/LMgAAeSwFHNqld5U/s-l1600.jpg",
-    "https://i.ebayimg.com/images/g/tDwAAeSw6wNqld5T/s-l1600.jpg",
-    "https://i.ebayimg.com/images/g/q58AAeSw3B1qld5U/s-l1600.jpg",
-    "https://i.ebayimg.com/images/g/KlsAAeSwRAVqld5U/s-l1600.jpg",
-    "https://i.ebayimg.com/images/g/N4AAAeSwIR1qld5T/s-l1600.jpg",
-    "https://i.ebayimg.com/images/g/JZ0AAeSwZuRqld5U/s-l1600.jpg"
+    "https://i.ebayimg.com/images/g/MjMAAeSwx8pqM1VY/s-l1600.jpg",
+    "https://i.ebayimg.com/images/g/5lAAAeSwntxp8HZt/s-l1600.jpg",
+    "https://i.ebayimg.com/images/g/heMAAeSwvSpp8HZq/s-l1600.jpg",
+    "https://i.ebayimg.com/images/g/JQ0AAeSw0t5p8HZr/s-l1600.jpg",
+    "https://i.ebayimg.com/images/g/uZUAAeSw88dp8HZu/s-l1600.jpg",
+    "https://i.ebayimg.com/images/g/nXkAAeSw5-9p8HZu/s-l1600.jpg",
+    "https://i.ebayimg.com/images/g/qmYAAeSwWxpp8HZu/s-l1600.jpg"
    ],
-   "url": "https://www.ebay.com/itm/800592602558?amdata=enc%3AAQALAAAAoCHNgUiiE%2FjQhlDTaMiAde96A3%2Bm1vD2wWeqW1pkzufQAZWjC%2F2VFyrxkMOB5mVgP4q53S4XMnhncaCZR%2Bur0%2BGZft%2FmQp6WUHWEWVsN6xvuQa2wQEgaMV5yjKMluLY2RwLdpQFh82HDKgo7GQxdylxmiOjUv66OP%2FnhvxUN42PWdPzap7zj0ZTtFqv6Azs3XFNgUPcSbRghAsNkWA4QCtE%3D",
-   "description": "The user-friendly design includes an easy-to-reach on/off switch and scientific light distribution. Modern Minimalist 19.2 in. White Ceramic Table Lamp with White Linen Shade. Classic minimalist design: smooth lines with cream ceramic body, easy to integrate into a variety of decorative styles.",
+   "url": "https://www.ebay.com/itm/188714817167",
+   "description": "Its design not only adds to its aesthetic appeal but also serves a practical purpose by precisely directing the light where it is needed. 【Product Specification】 Versatile with a standard E26 base (bulb not included), you have the flexibility to choose between warm, cool, or other types of bulbs based on your preference.",
    "specs": [
-    {
-     "name": "Brand",
-     "value": "Unbranded"
-    },
-    {
-     "name": "Type",
-     "value": "Table Lamp"
-    },
     {
      "name": "Power Source",
      "value": "Corded"
     },
     {
-     "name": "Color",
-     "value": "White"
+     "name": "Item Length",
+     "value": "9.84in"
+    },
+    {
+     "name": "Department",
+     "value": "Unisex Baby & Toddler, Kids, Teens, Adults"
+    },
+    {
+     "name": "Unit Type",
+     "value": "Unit"
+    },
+    {
+     "name": "Manufacturer Warranty",
+     "value": "1 Year"
+    },
+    {
+     "name": "Voltage",
+     "value": "110 V"
     },
     {
      "name": "Item Height",
-     "value": "19.2 in"
+     "value": "9.84in"
     },
     {
-     "name": "Model",
-     "value": "B2005-W"
+     "name": "Manufacturer",
+     "value": "Ziqqeelam"
     },
     {
-     "name": "Material",
-     "value": "Ceramic, Linen"
+     "name": "Style",
+     "value": "Modern"
     },
     {
-     "name": "MPN",
-     "value": "B2005-W"
+     "name": "Features",
+     "value": "Lamp Shade Included"
     },
     {
-     "name": "Shade Shape",
-     "value": "Drum"
+     "name": "Unit Quantity",
+     "value": "1"
     },
     {
-     "name": "Country of Origin",
-     "value": "China"
+     "name": "Room",
+     "value": "Bedroom, Dining Room, Home Office/Study, Kitchen, Living Room"
+    },
+    {
+     "name": "Finish",
+     "value": "Painted"
     },
     {
      "name": "Item Width",
-     "value": "11.8 in"
+     "value": "9.84in"
+    },
+    {
+     "name": "Lighting Technology",
+     "value": "LED"
+    },
+    {
+     "name": "Number of Settings",
+     "value": "1"
+    },
+    {
+     "name": "Color",
+     "value": "Blue"
+    },
+    {
+     "name": "Item Diameter",
+     "value": "9.84in"
+    },
+    {
+     "name": "Material",
+     "value": "Metal"
+    },
+    {
+     "name": "Brand",
+     "value": "Ziqqeelam"
     }
    ]
   },
   {
-   "id": "e-v1|206041202981|507128012975",
+   "id": "e-v1|206041202981|507128068693",
    "title": "Casaluna Chunky Knit Throw Blanket Bedding Blanket Midweight Sweater Knit",
    "brand": "Casaluna",
    "platform": "eBay",
@@ -5973,16 +6008,16 @@
    ],
    "emoji": "🛋",
    "hue": 32,
-   "blurb": "New without tags",
-   "image": "https://target.scene7.com/is/image/Target/GUEST_31a9674f-aee2-4fa7-a57d-cab75dbcbe90?.jpgwid=1000&hei=1000&qlt=80&fmt=pjpeg",
+   "blurb": "New with tags",
+   "image": "https://target.scene7.com/is/image/Target/GUEST_066ea382-25d2-45c4-89d9-71d184965af0?.jpgwid=1000&hei=1000&qlt=80&fmt=pjpeg",
    "images": [
-    "https://target.scene7.com/is/image/Target/GUEST_31a9674f-aee2-4fa7-a57d-cab75dbcbe90?.jpgwid=1000&hei=1000&qlt=80&fmt=pjpeg",
-    "https://target.scene7.com/is/image/Target/GUEST_9735b68a-4cfb-463a-bda3-fb6fa6cb6f88?.jpgwid=1000&hei=1000&qlt=80&fmt=pjpeg",
-    "https://target.scene7.com/is/image/Target/GUEST_6e9c8c23-204e-497f-9c5c-84bad2861c34?.jpgwid=1000&hei=1000&qlt=80&fmt=pjpeg",
-    "https://target.scene7.com/is/image/Target/GUEST_883e5f20-3614-4f34-b485-bdeb7fb986f0?.jpgwid=1000&hei=1000&qlt=80&fmt=pjpeg",
+    "https://target.scene7.com/is/image/Target/GUEST_066ea382-25d2-45c4-89d9-71d184965af0?.jpgwid=1000&hei=1000&qlt=80&fmt=pjpeg",
+    "https://target.scene7.com/is/image/Target/GUEST_0126017e-59de-4378-8307-3ae34538f5e4?.jpgwid=1000&hei=1000&qlt=80&fmt=pjpeg",
+    "https://target.scene7.com/is/image/Target/GUEST_524e47ee-62e4-422d-b65e-7523dbf8564b?.jpgwid=1000&hei=1000&qlt=80&fmt=pjpeg",
+    "https://target.scene7.com/is/image/Target/GUEST_3f4b1a15-86e8-4c66-bb87-a83f6858ebca?.jpgwid=1000&hei=1000&qlt=80&fmt=pjpeg",
     "https://target.scene7.com/is/image/Target/GUEST_7d82183e-988c-4ca0-93c8-86a9ec5594f7?.jpgwid=1000&hei=1000&qlt=80&fmt=pjpeg"
    ],
-   "url": "https://www.ebay.com/itm/206041202981?var=507128012975",
+   "url": "https://www.ebay.com/itm/206041202981?var=507128068693",
    "description": "•Chunky bed blanket makes a great bed layer or standalone piece •Simple ivory hue coordinates with any decor or color palette •Sweater knit blanket is cozy and adds some texture •Machine washable for easy care •STANDARD 100 by OEKO-TEX certified DescriptionWind down in comfort with the Chunky Knit Bed Blanket from Casaluna. This throw blanket features a midweight material that's cozy while being light enough for use even on warmer nights.",
    "specs": [
     {
@@ -5991,7 +6026,7 @@
     },
     {
      "name": "Color",
-     "value": "Olive Green"
+     "value": "Dark Blue"
     },
     {
      "name": "Brand",
@@ -6054,6 +6089,10 @@
      "value": "TESTEX"
     },
     {
+     "name": "Size Type",
+     "value": "Regular"
+    },
+    {
      "name": "Textile construction",
      "value": "Sweater Knit"
     }
@@ -6085,7 +6124,7 @@
     "https://i.ebayimg.com/images/g/Gu8AAeSwXBNp9MFQ/s-l1600.jpg",
     "https://i.ebayimg.com/images/g/ZbkAAeSw7kpp6o4O/s-l1600.jpg"
    ],
-   "url": "https://www.ebay.com/itm/356179472911?var=625977641025&amdata=enc%3AAQALAAAAoCHNgUiiE%2FjQhlDTaMiAde%2BWFDzPXfltjdTgXsWzeJDmJt4nvpBbNciQcf5jYMZgXesKPw2p31rJVkAmelfKeRrqCSjztq1SPlGzCvU50ZPuMVc%2BTtEhm0vb1FntOfDXZVj2BoZSWCh5EG2P3mR%2Bxo4xkpYJjkEG%2Fbkza3RfQ8%2BqWSTLI9KanGtA4S4fevAUNaZrjGB0KUZSguXTNGH%2BD%2Bc%3D",
+   "url": "https://www.ebay.com/itm/356179472911?var=625977641025&amdata=enc%3AAQALAAAAoCHNgUiiE%2FjQhlDTaMiAde%2BWFDzPXfltjdTgXsWzeJDmJt4nvpBbNciQcf5jYMZgXZbylX1s9D7sm%2F7K5odDwwq3vf9gyXei5v3tHQZRhdlr%2FF4XjAqmNncpDyVOXhNYNnICUHNQORHbg7MtVw6p%2B%2Brxot7QxW5TcFA27H%2BM38F62%2BH3HV52mIW4hWhn0oKroLXE8XH3uLc5REb7wUMDSAI%3D",
    "description": "FPN Odor Eliminating Candles. FPN Lemon Scented Odor Eliminator Candles 12oz Soy Wax Jar Candles 12 oz x 2 Pc. FPN Odor Eliminating Candles Sandalwood Scented Soy Wax Candle Set 12Oz - 2 CT. FPN Disposable Oval Plates for Party Eco-Friendly Microwave-safe Small & Large.",
    "specs": [
     {
@@ -6171,39 +6210,45 @@
    ]
   },
   {
-   "id": "e-v1|226887941770|526037738788",
-   "title": "Rugshop Area Rugs Modern Contemporary Circles Abstract Rug New Living Room Rugs",
+   "id": "e-v1|226705054494|525876950090",
+   "title": "Rugshop Area Rug Modern Abstract Circles Design Rugs for Living Room Brown Rugs",
    "brand": "Rugshop",
    "platform": "eBay",
    "category": "home",
-   "price": 49,
+   "price": 39,
    "tags": [
     "modern",
     "statement",
     "soft"
    ],
    "emoji": "🛋",
-   "hue": 174,
+   "hue": 296,
    "blurb": "New with tags",
-   "image": "https://www.worldruggallery.com/Eksikler/Alpine/105multi/105%20multi%202x3_Room1.jpg",
+   "image": "https://www.worldruggallery.com/2024_Newsizes_and_Fulton_New/377BROWN/377BROWN_RM-2x4-IND-403.jpg",
    "images": [
-    "https://www.worldruggallery.com/Eksikler/Alpine/105multi/105%20multi%202x3_Room1.jpg",
-    "https://www.worldruggallery.com/Eksikler/Alpine/105multi/105%20multi%202x3.jpg",
-    "https://www.worldruggallery.com/Eksikler/Alpine/105multi/105%20Multi-Side.jpg",
-    "https://www.worldruggallery.com/Eksikler/Alpine/105multi/105%20Multi-Corner.jpg",
-    "https://www.worldruggallery.com/Eksikler/Alpine/105multi/105%20Multi-Zoom.jpg",
-    "https://www.worldruggallery.com/Dimensions/105MULTI/105MULTI_2x3-SizeMat_2x3.jpg"
+    "https://www.worldruggallery.com/2024_Newsizes_and_Fulton_New/377BROWN/377BROWN_RM-2x4-IND-403.jpg",
+    "https://www.worldruggallery.com/2024_Newsizes_and_Fulton_New/377BROWN/377BROWN_2x4.jpg",
+    "https://www.worldruggallery.com/Eksikler/Toscana/377%20Brown/377%20Brown%20Back.jpg",
+    "https://www.worldruggallery.com/Eksikler/Toscana/377%20Brown/377%20Brown%20Roll.jpg",
+    "https://www.worldruggallery.com/2024_Newsizes_and_Fulton_New/377BROWN/377BROWN_RM-2x4-IND-404.jpg",
+    "https://www.worldruggallery.com/2024_Newsizes_and_Fulton_New/377BROWN/377BROWN_RM-2x4-IND-402.jpg",
+    "https://www.worldruggallery.com/2024_Newsizes_and_Fulton_New/377BROWN/377BROWN_RM-2x4-IND-405.jpg",
+    "https://www.worldruggallery.com/Dimensions/377BROWN/377BROWN_2x4-SizeMat_2-7x4.jpg"
    ],
-   "url": "https://www.ebay.com/itm/226887941770?var=526037738788&amdata=enc%3AAQALAAAAoCHNgUiiE%2FjQhlDTaMiAde9oRZ%2BMhPuVQx6FVk92a%2B9GPKh56vNoooL%2BUdJx02ML%2FcwK%2B8CLf%2Fm5WZjaeb2P%2B9f73sqFjCshjKI82FRfVCJNlwfzVB4lCvTtZ7pAly5l00khFrugCgwEh5%2FivB5RDR3gy2Z9GIHHQyyk%2Fdjafjq%2FhUE2%2BMvDQUnTPQ04kWqpIGVtC4MEZuw%2FTo4Duzfhl9Y%3D",
-   "description": "Add contemporary appeal to your home with this vharming eye catching area rug. The stain-resistant polypropylene pile is patterned with an abstract, geometric print, available in four color schemes. Choose from several durable sizes to instantly update your modern living space. Designed with resilience against everyday wear and tear, this rug is kid and pet friendly and perfect for high traffic areas of your home such as living room, dining room, bedroom, entryway, nursery, kid's room, playroom,",
+   "url": "https://www.ebay.com/itm/226705054494?var=525876950090&amdata=enc%3AAQALAAAAoCHNgUiiE%2FjQhlDTaMiAde9C%2B7kEgm0OHvDY6hbFCd7biuNw0bcjJn4xfUkA5AqV%2Fxti1zPdqdCfTy7UbxrqLL5EPn3sh57uQu0ZjGD9TOEohMSfP4TyVRY8TCe4AYDAogKhroyaMqU9QvcFK2OJJ95uF84%2B8Z0t4rnJ5A01ytq4nhVJVik3oHTcGQ7%2BoOfhjOSP3TNZWPRDr%2FmBo0qcAhk%3D",
+   "description": "Add a stylish a decorative piece of decor with this abstract area rug. This rug features bold colors and modern design. It provides durable performance and easy care at an amazing value. Made with durable polypropylene material, you cant go wrong with this rug. Easy to spot-clean and vacuum.",
    "specs": [
     {
      "name": "Size and Color",
-     "value": "Multi - 2' x 3'"
+     "value": "Brown - 2'7\"x4'"
     },
     {
      "name": "Brand",
      "value": "Rugshop"
+    },
+    {
+     "name": "Color",
+     "value": "Brown"
     },
     {
      "name": "Production Technique",
@@ -6239,11 +6284,11 @@
     },
     {
      "name": "Pattern",
-     "value": "Abstract"
+     "value": "Geometric"
     },
     {
      "name": "Style",
-     "value": "Contemporary"
+     "value": "Modern"
     },
     {
      "name": "Features",
@@ -6251,7 +6296,7 @@
     },
     {
      "name": "Pile Height",
-     "value": "0.49 inches"
+     "value": "0.39 inches"
     },
     {
      "name": "Country of Origin",
@@ -6272,47 +6317,113 @@
    ]
   },
   {
-   "id": "e-v1|800155052267|0",
-   "title": "Framed Boho Sun Canvas Wall Art Set of 3 Canvas Print Yellow Sun Rising on th...",
-   "brand": "LNLAGBO",
+   "id": "e-v1|257722060593|0",
+   "title": "Framed Boho Wall Art Set of 4 for Wooded Minimalist Botanical Print Wall Art for",
+   "brand": "",
    "platform": "eBay",
    "category": "home",
-   "price": 58,
+   "price": 36,
    "tags": [
     "boho",
     "creative",
     "statement"
    ],
    "emoji": "🛋",
-   "hue": 80,
+   "hue": 353,
    "blurb": "New",
-   "image": "https://i.ebayimg.com/images/g/7eAAAeSw08BqKV5x/s-l1600.jpg",
+   "image": "https://i.ebayimg.com/images/g/uMsAAeSwG9FqmjrW/s-l1600.jpg",
    "images": [
-    "https://i.ebayimg.com/images/g/7eAAAeSw08BqKV5x/s-l1600.jpg",
-    "https://i.ebayimg.com/images/g/66oAAeSwr5pqKV5x/s-l1600.jpg",
-    "https://i.ebayimg.com/images/g/ZR0AAeSw8PtqKV5y/s-l1600.jpg",
-    "https://i.ebayimg.com/images/g/dUwAAeSweaxqKV5z/s-l1600.jpg",
-    "https://i.ebayimg.com/images/g/05UAAeSwNcNqKV50/s-l1600.jpg",
-    "https://i.ebayimg.com/images/g/5B8AAeSwWG9qKV51/s-l1600.jpg"
+    "https://i.ebayimg.com/images/g/uMsAAeSwG9FqmjrW/s-l1600.jpg",
+    "https://i.ebayimg.com/images/g/7zYAAeSwWoVqmjrX/s-l1600.jpg",
+    "https://i.ebayimg.com/images/g/AhEAAeSwuTdqmjrY/s-l1600.jpg",
+    "https://i.ebayimg.com/images/g/QBYAAeSwUkpqmjrZ/s-l1600.jpg",
+    "https://i.ebayimg.com/images/g/gewAAeSw6wNqmjra/s-l1600.jpg",
+    "https://i.ebayimg.com/images/g/G~AAAeSwLrNqmjrb/s-l1600.jpg",
+    "https://i.ebayimg.com/images/g/bIoAAeSweLVqmjrc/s-l1600.jpg",
+    "https://i.ebayimg.com/images/g/E38AAeSw-95qmjrc/s-l1600.jpg"
    ],
-   "url": "https://www.ebay.com/itm/800155052267?amdata=enc%3AAQALAAAAoCHNgUiiE%2FjQhlDTaMiAde%2BuxPHwX%2BEvd1hlO4E8tWbNWPCVYfqRFtvZL9fpv5EbUF1rYPAfWHAfvSjgfkkT%2FguhNjqYpA0rU10qcqGzW0q28VBf8isNjckDko7mnLq5GdL3gERktmHHNRCqjPhhl9q%2FkosJef%2FNWlP9jBbFY0JTjwvxPbUkwu5toa6f4B6x4DDduK0nVQyI4%2FXlmM57Ga4%3D",
-   "description": "This stunning set features a yellow sun rising over the sea, perfect for minimalist art lovers. Do you want your room to be unique and artistic?. Yes, our wall art may be a good choice ✍★Boho Wall Art Prints ✍★Colorful Sun Ocean Waves Wall Prints ✍★Boho Sun Wall Decor ✍★Natural Sun Wall Art.",
+   "url": "https://www.ebay.com/itm/257722060593?amdata=enc%3AAQALAAAAoCHNgUiiE%2FjQhlDTaMiAde9PJol2TAIhejpNTdJXTJfv8%2FvT4vfFMf3g2ItkFKRwm%2F0ol%2F73umV5tcoKTQGW4Zv6TYmOMoFBeEAAuZHT1cnkyB%2B6cxmlco3L8Yqfb4HquB9QZt3vfMAtkMS96iupoiLDvXopVabMUg6JqjjJbytwrrlZfKECykKriHOHjykO8OnXOOY6bwdKCrHyrK--3Is%3D",
+   "description": "Orientation Portrait. NEUTRAL BOTANICAL WALL ART: The 4pcs wall art can be put together or placed in different places.The 4 pieces print wall art with different background color presents a gradual deepening effect, green, blue, beige, each flower is a different kind of plant.",
    "specs": [
     {
-     "name": "EAN",
-     "value": "0029082862702"
+     "name": "Orientation",
+     "value": "Portrait"
     },
     {
-     "name": "UPC",
-     "value": "029082862702"
+     "name": "Item Shape",
+     "value": "Rectangular"
     },
     {
-     "name": "Brand",
-     "value": "LNLAGBO"
+     "name": "Theme",
+     "value": "Floral"
+    },
+    {
+     "name": "Wall Art Form",
+     "value": "Art Print"
     },
     {
      "name": "Color",
-     "value": "Framed 16\"x24\" - Boho Sun Canvas Wall Art"
+     "value": "Brown"
+    },
+    {
+     "name": "Product Style",
+     "value": "Retro"
+    },
+    {
+     "name": "Room Type",
+     "value": "Kitchen"
+    },
+    {
+     "name": "Subject Character",
+     "value": "Flowers"
+    },
+    {
+     "name": "Color Family",
+     "value": "Neutral"
+    },
+    {
+     "name": "Pattern",
+     "value": "Floral"
+    },
+    {
+     "name": "Frame Type",
+     "value": "Framed"
+    },
+    {
+     "name": "Special Features",
+     "value": "Lightweight"
+    },
+    {
+     "name": "Mounting Type",
+     "value": "Wall Mount"
+    },
+    {
+     "name": "Recommended Uses For Product",
+     "value": "Home decoration, Wall embellishment"
+    },
+    {
+     "name": "Indoor Outdoor Usage",
+     "value": "Indoor"
+    },
+    {
+     "name": "Size",
+     "value": "8\"x10\""
+    },
+    {
+     "name": "Item Dimensions L x W",
+     "value": "14\"L x 11\"W"
+    },
+    {
+     "name": "Item Weight",
+     "value": "2.5 pounds"
+    },
+    {
+     "name": "Unit Count",
+     "value": "4 Count"
+    },
+    {
+     "name": "Number of Items",
+     "value": "4"
     }
    ]
   },
@@ -6342,7 +6453,7 @@
     "https://i.ebayimg.com/images/g/hdUAAOSwK2lmWkzE/s-l1600.jpg",
     "https://i.ebayimg.com/images/g/iiEAAOSwuCdmWkzE/s-l1600.jpg"
    ],
-   "url": "https://www.ebay.com/itm/196420920607?amdata=enc%3AAQALAAAAoCHNgUiiE%2FjQhlDTaMiAde94iLR5mfGx3P2%2F4sn7f9w7TfGyWWNIynvf%2FGNoum7JWpI8JjSXjA9GdWItfHJDxUwLOr9A3gf5SBgZDIjjGASV9tIaR%2FviBy2UlVU5adNvmCQRZR5B5xsj1X15YBg0exPByYct%2FYxXncSPMyXJao79JzOMluyXx2183aXJWL2v5H1xLCQGdmJ6nkGEm7M5wGE%3D",
+   "url": "https://www.ebay.com/itm/196420920607?amdata=enc%3AAQALAAAAoCHNgUiiE%2FjQhlDTaMiAde94iLR5mfGx3P2%2F4sn7f9w7TfGyWWNIynvf%2FGNoum7JWoYjFRqZ85nqFHYNMkfq40Lh6EnXyl9XrFzfq3KihScIveDRqW1BAYhjULJMZFKwsFVoUPh9SXvurVZAzIZOwghUhDt4q6fPd4QEh2pPnjCsKwy674hAIay8m4RzuSy4TznncpWLqR%2Fy8%2B4rbw4I%2BwA%3D",
    "description": "With inspiration from the classics. Now upgraded with Hall Effect joysticks. Robust and long-lasting. Inspired by the classics. Compatible with Windows 10(1903) or above, and Android 9.0 or above.",
    "specs": [
     {
@@ -6431,7 +6542,7 @@
     "https://i.ebayimg.com/images/g/1fQAAOSwCXxmIW-Y/s-l1600.jpg",
     "https://i.ebayimg.com/images/g/vyIAAOSwJ-hmIW-c/s-l1600.jpg"
    ],
-   "url": "https://www.ebay.com/itm/166708867898?var=466352533485&amdata=enc%3AAQALAAAAoCHNgUiiE%2FjQhlDTaMiAde%2F3TflAKZowe789fjKbOHDpR9FK%2BfpwFIEZS%2F9DbaACUjQSVva5C5urS9iuAALKpcOyHaGOwY4VXSD2skGU39chGuQ%2FqC1CNZcI4Vt4YJomLVh8r%2BRcecVTCSw5%2FhoUciJjctddlTuGjRHwJY%2BvnTMID10uXz7XwikcaXqVgOq5z8NfyUwhGPpC3K%2Fd%2BwFz3x4%3D",
+   "url": "https://www.ebay.com/itm/166708867898?var=466352533485&amdata=enc%3AAQALAAAAoCHNgUiiE%2FjQhlDTaMiAde%2F3TflAKZowe789fjKbOHDpR9FK%2BfpwFIEZS%2F9DbaACUtvUnh3umPXl0f%2Fkp2lxYY0wn%2FBa5ruw5SfSZm1GHDmOBLZ7U0yK%2Bmz2p50kEkuPt2V6LFJeD9%2BuTu%2BoQSFIyQISWKZYJ43bzuBUgAv5%2FbgdcrlhLARiIve9d2UPd%2FNT0PFkt9HCgiGsW5HtDP5QDiw%3D",
    "description": "Bose QuietComfort Ultra Headphones, Certified Refurbished. Bose QuietComfort Ultra Headphones. Bose SoundTouch 10 Wireless Speaker, Factory Renewed. It’s the realest sound you can get. BOSE CERTIFIED REFURBISHED PRODUCTS.",
    "specs": [
     {
@@ -6494,7 +6605,7 @@
    "brand": "Blackview",
    "platform": "eBay",
    "category": "tech",
-   "price": 24,
+   "price": 28,
    "tags": [
     "techy",
     "sporty",
@@ -6600,129 +6711,179 @@
    ]
   },
   {
-   "id": "e-v1|116560127620|0",
-   "title": "Portable 4000W Bluetooth Speaker Sub Woofer Heavy Bass Stereo Sound System Party",
-   "brand": "Unbranded",
+   "id": "e-v1|158255186463|0",
+   "title": "JBL Flip 7 Portable Waterproof Bluetooth Speaker | Black",
+   "brand": "JBL",
    "platform": "eBay",
    "category": "tech",
-   "price": 22,
+   "price": 80,
    "tags": [
     "techy",
     "outdoorsy",
     "compact"
    ],
    "emoji": "🎧",
-   "hue": 53,
+   "hue": 98,
    "blurb": "New",
-   "image": "https://i.ebayimg.com/images/g/MYMAAOSwOWNn~MX0/s-l1600.jpg",
+   "image": "https://i.ebayimg.com/images/g/AxkAAeSwdABqmgny/s-l1600.jpg",
    "images": [
-    "https://i.ebayimg.com/images/g/MYMAAOSwOWNn~MX0/s-l1600.jpg",
-    "https://i.ebayimg.com/images/g/b50AAOSwg1Nn~MX2/s-l1600.jpg",
-    "https://i.ebayimg.com/images/g/tFQAAOSwzktn~MX3/s-l1600.jpg",
-    "https://i.ebayimg.com/images/g/b58AAOSwg1Nn~MX5/s-l1600.jpg",
-    "https://i.ebayimg.com/images/g/OrAAAOSwCcpn~MX6/s-l1600.jpg",
-    "https://i.ebayimg.com/images/g/3AwAAOSwwWNn~MX8/s-l1600.jpg",
-    "https://i.ebayimg.com/images/g/un0AAOSwP8tn~MX9/s-l1600.jpg",
-    "https://i.ebayimg.com/images/g/5n0AAOSwISZn~MX~/s-l1600.jpg"
+    "https://i.ebayimg.com/images/g/AxkAAeSwdABqmgny/s-l1600.jpg",
+    "https://i.ebayimg.com/images/g/E0MAAeSwIR1qmgny/s-l1600.jpg",
+    "https://i.ebayimg.com/images/g/ad8AAeSweAVqmgny/s-l1600.jpg",
+    "https://i.ebayimg.com/images/g/9P8AAeSw0Hxqmgny/s-l1600.jpg",
+    "https://i.ebayimg.com/images/g/0PYAAeSwo5Fqmgny/s-l1600.jpg",
+    "https://i.ebayimg.com/images/g/C2EAAeSwN0tqmgny/s-l1600.jpg"
    ],
-   "url": "https://www.ebay.com/itm/116560127620?amdata=enc%3AAQALAAAAoCHNgUiiE%2FjQhlDTaMiAde9wGfYvsyhsv%2Fv9QwIJO5dv7D5I9QRO2Lhv9do8oasLj%2BFwtCU75jM38R5tJkxKYfTlm87Z7SBZtsuvwsZTohG6xdScd5FmyuEc6yvQgVJqPs9xGM%2F3tdS5ZPcKdHuPcXSRTf22PJW0HnukmoYr296IpeDmLja%2BJb0y79anpH9wRigb1reZ38539QgUYrAMUME%3D",
-   "description": "🎤\"Powerful 6.5\" Portable Bluetooth Speaker – 4000W Peak Output! Stream via Bluetooth, plug in via AUX, play via TF card/USB, link two speakers with TWS, or tune into FM radio. Connect two MPX-65 speakers wirelessly for stereo surround sound.",
+   "url": "https://www.ebay.com/itm/158255186463?amdata=enc%3AAQALAAAAoCHNgUiiE%2FjQhlDTaMiAde9JIrS5YUldStrcaGhuU6uOcNkGVPY8oeBiqb%2Bc6O15Eb7lJ%2BhtGFhzxlFm3CC7UlnVukA4oU1ET2uQ4p8CrWVi%2F9JQ7piwTF3HCqDPbP3boiiL%2BtJaXrTXLgF3NtH0OcLVL1DGUtkT0c4HE7jTWgNUSIb2FXZ4wr5Myv4yJ5bdRFQbrjKMa4d09NaVOUDOQIQ%3D",
+   "description": "Take your music anywhere with the JBL Flip 7, a compact yet powerful portable Bluetooth speaker designed for impressive sound on the go. Powerful JBL sound with rich, clear audio. JBL Flip 7 Portable Bluetooth Speaker – Black.",
    "specs": [
     {
      "name": "Brand",
-     "value": "Unbranded"
+     "value": "JBL"
     },
     {
-     "name": "Model",
-     "value": "Bluetooth Speaker"
+     "name": "Compatible Brand",
+     "value": "Universal"
     },
     {
      "name": "Type",
      "value": "Portable Speaker System"
     },
     {
-     "name": "Connectivity",
-     "value": "Bluetooth, USB, AUX, TF, FM, TWS"
-    },
-    {
-     "name": "Features",
-     "value": "Bluetooth, USB Rechargeable, LED Party Light"
-    },
-    {
      "name": "Color",
      "value": "Black"
     },
     {
-     "name": "Audio Inputs",
-     "value": "AUX, USB"
+     "name": "Model",
+     "value": "JBL Flip 7"
     },
     {
-     "name": "RMS Power",
-     "value": "4000 W"
+     "name": "Connectivity",
+     "value": "Bluetooth"
     },
     {
-     "name": "Material",
-     "value": "ABS"
+     "name": "Features",
+     "value": "Powerful 35W Two-Way Sound, Rugged IP68 Waterproof & Dustproof, Up to 14-Hour Battery Life, Auracast Multi-Speaker Pairing, Lossless USB-C Audio Input"
     },
     {
-     "name": "Shape",
-     "value": "Cube"
-    },
-    {
-     "name": "Compatible Model",
-     "value": "Universal"
-    },
-    {
-     "name": "Speaker Woofer",
-     "value": "6.5''"
+     "name": "MPN",
+     "value": "JBLFLIP7BLKAM"
     },
     {
      "name": "Country of Origin",
-     "value": "China"
+     "value": "Viet Nam"
+    },
+    {
+     "name": "Item Weight",
+     "value": "1.6000"
     }
    ]
   },
   {
-   "id": "e-v1|800598187054|0",
-   "title": "Amazon Kindle 10th Generation J9G29R 6” WiFi E-Reader Black Tested",
-   "brand": "Kindle",
+   "id": "e-v1|287572694641|0",
+   "title": "Amazon Kindle 11th Gen 16GB Black 6\" E-Reader C2V2L3 - Device Only - Very Good",
+   "brand": "Amazon",
    "platform": "eBay",
    "category": "tech",
-   "price": 54,
+   "price": 71,
    "tags": [
     "techy",
     "cozy",
     "commute"
    ],
    "emoji": "🎧",
-   "hue": 146,
+   "hue": 214,
    "blurb": "Used",
-   "image": "https://i.ebayimg.com/images/g/dX8AAeSwZuRqlz2k/s-l1600.jpg",
+   "image": "https://i.ebayimg.com/images/g/sLoAAeSwEm9qn56d/s-l1600.jpg",
    "images": [
-    "https://i.ebayimg.com/images/g/dX8AAeSwZuRqlz2k/s-l1600.jpg",
-    "https://i.ebayimg.com/images/g/zcQAAeSwL3Vqlz2k/s-l1600.jpg",
-    "https://i.ebayimg.com/images/g/AyYAAeSwRqBqlz2k/s-l1600.jpg",
-    "https://i.ebayimg.com/images/g/dXwAAeSwZuRqlz2k/s-l1600.jpg",
-    "https://i.ebayimg.com/images/g/UgAAAeSwNXNqlz2l/s-l1600.jpg"
+    "https://i.ebayimg.com/images/g/sLoAAeSwEm9qn56d/s-l1600.jpg",
+    "https://i.ebayimg.com/images/g/RD0AAeSw9J9qn56d/s-l1600.jpg",
+    "https://i.ebayimg.com/images/g/JxgAAeSwdbtqn56d/s-l1600.jpg",
+    "https://i.ebayimg.com/images/g/MywAAeSwvAxqn56e/s-l1600.jpg",
+    "https://i.ebayimg.com/images/g/A2IAAeSwAkNqn64K/s-l1600.jpg"
    ],
-   "url": "https://www.ebay.com/itm/800598187054?amdata=enc%3AAQALAAAAoCHNgUiiE%2FjQhlDTaMiAde9doGNIGVW9Yb3tSK7GSFqn9m5NsFSQuck7jCWZsVwZ2bUyEaNPEtXm5pcpN%2BVG17Q0Mf7ypHJzFlYTIaKfQ7yLg1DCN9CT%2FIFHNhWq1YhhL7Yuo5sm4loNL5ZaKsyQEVJcfFmRk1IFZcw1eK%2ByhfLJmf6bfknJMuGMZujGTQPlh1wfx9sJPVXH692iKDQp27Q%3D",
-   "description": "Amazon Kindle 10th Generation e-reader, model J9G29R, in black. Tested and working properly. Model: J9G29R. Kindle 10th Generation / 2019. Kindle only; no charging cable or adapter included. Tested & working.",
+   "url": "https://www.ebay.com/itm/287572694641?amdata=enc%3AAQALAAAAoCHNgUiiE%2FjQhlDTaMiAde8bse0OdWAAowAmz5RghLwu%2FvlCnXCeJcsfD1Yizy8Xc1Eao%2FoUegvUzzWiaMXvaqa%2BYjIH2W6EfYglt0DC4NAFhoxheAMUX84oS93udCs%2FLSErtTFdiW1ucUrF3TNUEQtZy%2F3aRpuqz%2BJRnWnQ%2BhBexOp%2FbnJGQR9dUGhvqdEhkP3MOkOO5Q1zpHeLGaAxVO4%3D",
+   "description": "Amazon Kindle 11th Gen E-Reader ONLY. Storage: 16GB internal capacity (holds thousands of books). Shows light surface scratches and minor signs of wear on the housing and/or screen from normal handling.",
    "specs": [
     {
-     "name": "Brand",
-     "value": "Kindle"
+     "name": "Processor",
+     "value": "Single Core"
     },
     {
-     "name": "Type",
-     "value": "EReader"
+     "name": "Screen Size",
+     "value": "6 in"
     },
     {
      "name": "Color",
      "value": "Black"
     },
     {
+     "name": "Internet Connectivity",
+     "value": "Wi-Fi"
+    },
+    {
+     "name": "MPN",
+     "value": "C2V2L3"
+    },
+    {
+     "name": "Processor Speed",
+     "value": "1.00 GHz"
+    },
+    {
+     "name": "Brand",
+     "value": "Amazon"
+    },
+    {
+     "name": "Series",
+     "value": "Amazon Kindle"
+    },
+    {
+     "name": "Type",
+     "value": "eBook Reader"
+    },
+    {
+     "name": "Unit Type",
+     "value": "oz"
+    },
+    {
+     "name": "Display Type",
+     "value": "IPS LED"
+    },
+    {
+     "name": "Maximum Resolution",
+     "value": "800 x 600"
+    },
+    {
      "name": "Model",
-     "value": "10th Gen"
+     "value": "Amazon Kindle 11th Generation (2022 Model)"
+    },
+    {
+     "name": "Connectivity",
+     "value": "Bluetooth, USB 2.0"
+    },
+    {
+     "name": "Processor Model",
+     "value": "MediaTek MT8113"
+    },
+    {
+     "name": "Features",
+     "value": "Built-in Light, Touch Screen"
+    },
+    {
+     "name": "Operating System",
+     "value": "Fire OS"
+    },
+    {
+     "name": "Storage Capacity",
+     "value": "16 GB"
+    },
+    {
+     "name": "Unit Quantity",
+     "value": "15"
+    },
+    {
+     "name": "Country of Origin",
+     "value": "China"
     }
    ]
   },
@@ -6752,7 +6913,7 @@
     "https://i.ebayimg.com/images/g/2csAAOSwTSRneaI3/s-l1600.jpg",
     "https://i.ebayimg.com/images/g/J-0AAOSwlFNneaI3/s-l1600.jpg"
    ],
-   "url": "https://www.ebay.com/itm/306019695943?amdata=enc%3AAQALAAAAoCHNgUiiE%2FjQhlDTaMiAde%2FlPF9TG0x7K35WYw5eRtyn5nE64jrE9tMR%2BBLUrKLZ3NcdqMOD0Rhj9FgDu4D0ZZwe59XglQGTyXpi7zKokmGaLfcYi1hHZT364mdcvCwZCKg5lpYDmDfiUVqZtrM%2Bfy4T0SKwkAxs9EgrVqlq6q%2FihJaw%2B7FDmC45%2B79VsN7AY33zb4vKBR68YbGyheMGauA%3D",
+   "url": "https://www.ebay.com/itm/306019695943?amdata=enc%3AAQALAAAAoCHNgUiiE%2FjQhlDTaMiAde%2FlPF9TG0x7K35WYw5eRtyn5nE64jrE9tMR%2BBLUrKLZ3Ef2DqOW%2Bythk5TQ72KqaJs0UTcUdo8EJhX1XIUT0UyDggIhnXHiccSqDykqM8knuEbyH5ArdFMzJ1Y8xzsOPSXw9bGVlU1dyd7WLuMbyU42efj%2FJpJwtKOLCFFX7VErK%2BRNmlXSgRaIcaJ2JsyBkY8%3D",
    "description": "Its plush cushioning supports joints and pressure points, making it ideal for various exercises, including yoga, Pilates, and stretching. The natural sustainable cork resists sweat and odors, making it easy to maintain and ideal for intense workout sessions.",
    "specs": [
     {
@@ -6774,112 +6935,90 @@
    ]
   },
   {
-   "id": "e-v1|286169182711|0",
-   "title": "50 Lbs Adjust Dumbbells 2 Pack 25lb Full Metal Iron Adjustable Weights Dumbbells",
-   "brand": "pooboo",
+   "id": "e-v1|398377191581|0",
+   "title": "FitRx 2 Pack Adjustable Dumbbells 52.5LB SmartBell Quick Select Home Gym",
+   "brand": "FitRx",
    "platform": "eBay",
    "category": "fitness",
-   "price": 150,
+   "price": 170,
    "tags": [
     "home-gym",
     "practical"
    ],
    "emoji": "🏋",
-   "hue": 201,
+   "hue": 70,
    "blurb": "New",
-   "image": "https://i.ebayimg.com/images/g/h68AAeSwbKlpbfho/s-l1600.jpg",
+   "image": "https://i.ebayimg.com/images/g/-QcAAeSwzf9qoUsc/s-l1600.jpg",
    "images": [
-    "https://i.ebayimg.com/images/g/h68AAeSwbKlpbfho/s-l1600.jpg",
-    "https://i.ebayimg.com/images/g/7k4AAeSwH8tpTwUZ/s-l1600.jpg",
-    "https://i.ebayimg.com/images/g/JlMAAeSwNOppTwUa/s-l1600.jpg",
-    "https://i.ebayimg.com/images/g/9g8AAeSw~xtpTwUZ/s-l1600.jpg",
-    "https://i.ebayimg.com/images/g/GYMAAeSw8EhpTwUa/s-l1600.jpg",
-    "https://i.ebayimg.com/images/g/TXcAAeSwYHZpTwUa/s-l1600.jpg",
-    "https://i.ebayimg.com/images/g/DP8AAeSwx99pTwUa/s-l1600.jpg",
-    "https://i.ebayimg.com/images/g/HY0AAeSwQBJpTwUa/s-l1600.jpg"
+    "https://i.ebayimg.com/images/g/-QcAAeSwzf9qoUsc/s-l1600.jpg",
+    "https://i.ebayimg.com/images/g/~3gAAeSwRR1qoUsb/s-l1600.jpg"
    ],
-   "url": "https://www.ebay.com/itm/286169182711?amdata=enc%3AAQALAAAAoCHNgUiiE%2FjQhlDTaMiAde%2FHHPk10Puf2rDGn2WVHsk6fCJEd7tfrqFx8b8fZb1f5Sx3tndzI6MIJkYsbT88Vaqm4MRTfTuT1wAAO9JoHpuISQgLI1WkJlf2wH1KE9DXG3gN5yFR5bsDXPLi1HjSPoZZ8HdZpDmmMsFbKt4eNhBe5ALam4QUknDqur%2FbPjgsqq%2BIadITrWMJF%2BuwfgIct7E%3D",
-   "description": "Keep your heart rate up and maintain training intensity without the clunky manual plate changes. Saving up to 90% of space compared to traditional dumbbells. Say goodbye to bulky weight sets and hello to the convenience of having multiple weights in one sleek dumbbell.",
+   "url": "https://www.ebay.com/itm/398377191581",
+   "description": "FitRx SmartBell Adjustable Dumbbell Set – 5-52.5 Lb. The quick-select handle allows easy one-handed weight changes from 5 to 52.5 lbs, making it simple to adjust your workout as you progress. Includes 2 adjustable dumbbells.",
    "specs": [
     {
-     "name": "Number of Items in Set",
-     "value": "25LB*2 Adjustable Dumbbells Set"
+     "name": "Color category",
+     "value": "Black"
     },
     {
-     "name": "Size",
-     "value": "‎19 x 8.5 x 8.5 inches"
+     "name": "Configuration",
+     "value": "Pair"
     },
     {
      "name": "Color",
      "value": "Black"
     },
     {
-     "name": "Item Diameter",
-     "value": "15.7 x 7.6x 6.3 inches"
+     "name": "Fitness goal",
+     "value": "Build Muscle"
     },
     {
-     "name": "MPN",
-     "value": "Po-W20240508"
+     "name": "Dimensions",
+     "value": "16.50 x 8.25 x 9.00 in"
     },
     {
      "name": "Material",
-     "value": "Steel"
+     "value": "Plastic; Metal"
     },
     {
-     "name": "Set Includes",
-     "value": "25LB*2 Adjustable Dumbbells Set"
+     "name": "Weight range",
+     "value": "5-52.5 lbs"
     },
     {
-     "name": "Item Length",
-     "value": "15.7 Inch"
+     "name": "Weight",
+     "value": "52.5 lb"
     },
     {
-     "name": "California Prop 65 Warning",
-     "value": "No"
-    },
-    {
-     "name": "Vintage",
-     "value": "No"
+     "name": "Max load",
+     "value": "52.5 lb"
     },
     {
      "name": "Brand",
-     "value": "pooboo"
+     "value": "FitRx"
     },
     {
-     "name": "Department",
-     "value": "Unisex Adults"
+     "name": "Accessories",
+     "value": "Base"
     },
     {
      "name": "Type",
-     "value": "Set"
+     "value": "Adjustable"
     },
     {
-     "name": "Unit Type",
-     "value": "Unit"
-    },
-    {
-     "name": "Item Height",
-     "value": "6.3 Inch"
-    },
-    {
-     "name": "Model",
-     "value": "Adjust Dumbbells"
-    },
-    {
-     "name": "Personalized",
-     "value": "No"
+     "name": "Target area",
+     "value": "Full Body"
     },
     {
      "name": "Features",
-     "value": "Adjustable Weight, ‎Adjustable Weight"
+     "value": "Adjustable"
+    },
+    {
+     "name": "Dumbbell type",
+     "value": "Adjustable"
     },
     {
      "name": "Country of Origin",
-     "value": "China"
-    },
-    {
-     "name": "Unit Quantity",
-     "value": "1"
+     "value": "United States"
     }
    ]
   },
@@ -6907,7 +7046,7 @@
     "https://s3.amazonaws.com/webstoregroup/productimages/16347-6_b.jpg",
     "https://s3.amazonaws.com/webstoregroup/productimages/16347-7_b.jpg"
    ],
-   "url": "https://www.ebay.com/itm/376878120446?var=645574508735&amdata=enc%3AAQALAAAAoCHNgUiiE%2FjQhlDTaMiAde%2FMIDIuuNj%2BsPMSXOnrvD7M3dDFFjbgoSREL3CWy26UIA15%2FJHXsY%2B4rOLXaK7gFUMvOOLX8%2FiHFrJBCYcGhMGsRbwmZk3uODL8yDjwVOa2qSgqUp5aAUsOOVyR2h0GmTqamYCsvLRP8uH2lcNI2dxf5qYSCTyUntVlgJaY0cQLe%2Fb61yS8f%2FZkhX5H0LDtq6E%3D",
+   "url": "https://www.ebay.com/itm/376878120446?var=645574508735&amdata=enc%3AAQALAAAAoCHNgUiiE%2FjQhlDTaMiAde%2FMIDIuuNj%2BsPMSXOnrvD7M3dDFFjbgoSREL3CWy26UIDp3Agzku7D5NRqInOhFaVX6wirwguVHB%2BT95AGgxTs0ZsoA5XlJaqPPBJ8k1QF265ghje3UavKcu3MhxEX%2F1y2xRzlNGpfIU86mDqej7PZJ7T1zz7r6S%2FluO4TRXSBeD%2F6AUmVXphyOEo0HS%2FbVl9A%3D",
    "description": "Flat bottom: The flat bottom provides stability when the kettlebell is put down, making it easy to switch hands or change your workout. Multi-functional: Our versatile kettlebell supports a wide range of resistance-training exercises.",
    "specs": [
     {
@@ -6974,7 +7113,7 @@
     "https://i.ebayimg.com/images/g/mhUAAOSw46tnmkon/s-l1600.jpg",
     "https://i.ebayimg.com/images/g/XuwAAOSw1WRnmkon/s-l1600.jpg"
    ],
-   "url": "https://www.ebay.com/itm/326832552238?amdata=enc%3AAQALAAAAoCHNgUiiE%2FjQhlDTaMiAde9qCwI7u0q57qqjwIdnZSdFng%2BUGVsVREEOMTWzyiMrLy8ZRUE%2FIMJlqZnkVITK6tAkKfsx0ebd9GniTrhFzQ7dz%2B2fwzujioyqsOmLjAsTxNf1FhNzvrqmkwsl27Ko3GhCop0vx89VAburFN3NucWJHxcYmLEZY8U0ZVbiPnSIHKj%2F5khS%2B%2BoW0LzHnpqLU%2FM%3D",
+   "url": "https://www.ebay.com/itm/326832552238?amdata=enc%3AAQALAAAAoCHNgUiiE%2FjQhlDTaMiAde9qCwI7u0q57qqjwIdnZSdFng%2BUGVsVREEOMTWzyiMrL%2BkbH5CxYH8kkpzIRHiQB7URUTkz9ta8%2BfCTqkGJLhrKAPraWNaQP7HutyLcNvc%2B%2FZ3lciTmQ%2F%2BbD0uEYqCSVit9GoxJ4nmb2%2FrhtXSxs2ckUaIx%2FAyCckJd%2B7zb1v7pPsM1LvCodXiuFDaUSChawx8%3D",
    "description": "Allowing it to regenerate, it will begin to grow in size and definition. 12 PIECE YOGA RESISTANCE BAND SET. this 11 piece resistance band workout Set is perfect for you! With the different color bands.",
    "specs": [
     {
@@ -7063,7 +7202,7 @@
     "https://s3.amazonaws.com/webstoregroup/productimages/16669-5.jpg",
     "https://s3.amazonaws.com/webstoregroup/productimages/16669-6.jpg"
    ],
-   "url": "https://www.ebay.com/itm/304173004028?var=603279965026&amdata=enc%3AAQALAAAAoCHNgUiiE%2FjQhlDTaMiAde%2B%2BoX1PaxaSVmH2jQu8ExdRRxIIsF38v6Vk9aHHJPvr6wxt4ub5EByFjw4sW9mJ5eMPn%2BccakG4OWkLlmxIBBQcHRMpKeq1YOmPnuEgOyBKZeb0AP26EpkyQxyWR14kTB0WRjdcVaiiSbN3lU%2Beu8Ln6CLJlZcTt8LDFiBxI6zJjTudDdn8bfnZyZwQQGpR0AM%3D",
+   "url": "https://www.ebay.com/itm/304173004028?var=603279965026&amdata=enc%3AAQALAAAAoCHNgUiiE%2FjQhlDTaMiAde%2B%2BoX1PaxaSVmH2jQu8ExdRRxIIsF38v6Vk9aHHJPvr62siPvTfCHDkN6hP8W67Q%2F3WmbX3A6sTmAKzvZhXhsgeyiutsOXGfuaqBXzUWqmhPcItaeqiLfh32BK7kdo%2BmNKcWQUqwYHdu7jGR8TQ54zPusLf4xY1PnE3YCgEokOpxUq%2BuHgEGzdEEXmblU50YTI%3D",
    "description": "Whether you are looking for added help to deepen your stretches, want to explore self-myofascial release (SMR) techniques, or are recovering from injury and want to relieve muscle tension, a foam roller needs to be in your rotation!",
    "specs": [
     {
@@ -7105,38 +7244,36 @@
    ]
   },
   {
-   "id": "e-v1|307166478352|0",
-   "title": "Uniqlo Gray Striped Long Sleeve 100% Linen Shirt Mens Size S",
-   "brand": "Uniqlo",
+   "id": "e-v1|227520528602|0",
+   "title": "Ralph Lauren Classic Fit Untucked Linen Short Sleeve Button-Down Shirt XL Blue",
+   "brand": "Ralph Lauren",
    "platform": "eBay",
    "category": "fashion",
-   "price": 20,
+   "price": 15,
    "tags": [
     "breathable",
     "classic",
     "summer"
    ],
    "emoji": "🧥",
-   "hue": 273,
-   "blurb": "New with tags",
-   "image": "https://i.ebayimg.com/images/g/6uwAAeSwNpFqnfOh/s-l1600.jpg",
+   "hue": 99,
+   "blurb": "Pre-owned - Excellent",
+   "image": "https://i.ebayimg.com/images/g/rP4AAeSweQVqp2vQ/s-l1600.jpg",
    "images": [
-    "https://i.ebayimg.com/images/g/6uwAAeSwNpFqnfOh/s-l1600.jpg",
-    "https://i.ebayimg.com/images/g/pMAAAeSwD~1qnfOo/s-l1600.jpg",
-    "https://i.ebayimg.com/images/g/pdwAAeSwguZqnfOu/s-l1600.jpg",
-    "https://i.ebayimg.com/images/g/NUoAAeSwM8FqnfO0/s-l1600.jpg",
-    "https://i.ebayimg.com/images/g/IWcAAeSwzf9qnfO6/s-l1600.jpg"
+    "https://i.ebayimg.com/images/g/rP4AAeSweQVqp2vQ/s-l1600.jpg",
+    "https://i.ebayimg.com/images/g/rkEAAeSwqR1qp2ux/s-l1600.jpg",
+    "https://i.ebayimg.com/images/g/Z~sAAeSweGhqp2ux/s-l1600.jpg"
    ],
-   "url": "https://www.ebay.com/itm/307166478352",
-   "description": "Never worn, tags attached. Measurements shown in photos.",
+   "url": "https://www.ebay.com/itm/227520528602",
+   "description": "Ralph Lauren Classic Fit Untucked Linen Short Sleeve Button-Down Shirt XL Blue",
    "specs": [
     {
      "name": "Pattern",
-     "value": "Striped"
+     "value": "Solid"
     },
     {
      "name": "Sleeve Length",
-     "value": "Long Sleeve"
+     "value": "Short Sleeve"
     },
     {
      "name": "Closure",
@@ -7147,12 +7284,16 @@
      "value": "Collared"
     },
     {
+     "name": "Chest Size",
+     "value": "XL"
+    },
+    {
      "name": "Occasion",
      "value": "Casual"
     },
     {
      "name": "Size",
-     "value": "S"
+     "value": "XL"
     },
     {
      "name": "Garment Care",
@@ -7160,7 +7301,7 @@
     },
     {
      "name": "Color",
-     "value": "Gray"
+     "value": "Light Blue"
     },
     {
      "name": "Material",
@@ -7172,23 +7313,15 @@
     },
     {
      "name": "Accents",
-     "value": "Button"
-    },
-    {
-     "name": "Vintage",
-     "value": "No"
-    },
-    {
-     "name": "Brand",
-     "value": "Uniqlo"
+     "value": "Button, Embroidered"
     },
     {
      "name": "Fit",
-     "value": "Regular"
+     "value": "Classic"
     },
     {
-     "name": "Personalize",
-     "value": "No"
+     "name": "Brand",
+     "value": "Ralph Lauren"
     },
     {
      "name": "Size Type",
@@ -7207,35 +7340,43 @@
      "value": "Button-Down"
     },
     {
-     "name": "Season",
-     "value": "Fall"
+     "name": "Model",
+     "value": "Ralph Lauren Classic Fit RL Untucked Fit"
+    },
+    {
+     "name": "Features",
+     "value": "Untucked Fit"
     }
    ]
   },
   {
-   "id": "e-v1|366653119866|0",
-   "title": "Vintage Wrangler Hero Men's Blue Denim Jacket Size L Regular Fit Button",
-   "brand": "Wrangler",
+   "id": "e-v1|227520514554|0",
+   "title": "Vintage 1980s Levi's 70506-0210 Blue Trucker Denim Jacket",
+   "brand": "Levi's",
    "platform": "eBay",
    "category": "fashion",
-   "price": 30,
+   "price": 135,
    "tags": [
     "vintage",
     "casual",
     "streetwear"
    ],
    "emoji": "🧥",
-   "hue": 347,
+   "hue": 28,
    "blurb": "Pre-owned - Good",
-   "image": "https://i.ebayimg.com/images/g/41AAAeSw72hqnefn/s-l1600.jpg",
+   "image": "https://i.ebayimg.com/images/g/FSkAAeSwQIRqp2bM/s-l1600.jpg",
    "images": [
-    "https://i.ebayimg.com/images/g/41AAAeSw72hqnefn/s-l1600.jpg",
-    "https://i.ebayimg.com/images/g/JAsAAeSwmwZqnefT/s-l1600.jpg",
-    "https://i.ebayimg.com/images/g/90oAAeSwBO5qnefT/s-l1600.jpg",
-    "https://i.ebayimg.com/images/g/enQAAeSwHvxqnefT/s-l1600.jpg"
+    "https://i.ebayimg.com/images/g/FSkAAeSwQIRqp2bM/s-l1600.jpg",
+    "https://i.ebayimg.com/images/g/ytcAAeSwTvFqp2a6/s-l1600.jpg",
+    "https://i.ebayimg.com/images/g/0IIAAeSwpCRqp2WH/s-l1600.jpg",
+    "https://i.ebayimg.com/images/g/YgMAAeSwGb1qp2Wc/s-l1600.jpg",
+    "https://i.ebayimg.com/images/g/PNoAAeSwpalqp2Wp/s-l1600.jpg",
+    "https://i.ebayimg.com/images/g/p70AAeSwXf5qp2W3/s-l1600.jpg",
+    "https://i.ebayimg.com/images/g/O5YAAeSwN1lqp2aS/s-l1600.jpg",
+    "https://i.ebayimg.com/images/g/nmoAAeSwnLRqp2aS/s-l1600.jpg"
    ],
-   "url": "https://www.ebay.com/itm/366653119866",
-   "description": "Light blue denim Vintage Blue Jean Jacket. Size Large. Slight discoloration on back of collar. No holes or tears. Made in India. Heavy duty. 100% Cotton. RN 15101",
+   "url": "https://www.ebay.com/itm/227520514554",
+   "description": "The Levi's 70506-0210 Blue Trucker Denim Jacket. Made from cotton denim, this short-length jacket features a button front closure, solid blue color, and a regular fit. It is machine washable and perfect for fall and spring seasons. The jacket also includes pockets, a point collar, and the iconic Levi's logo accent. Vintage 1980s classic.",
    "specs": [
     {
      "name": "Outer Shell Material",
@@ -7251,11 +7392,11 @@
     },
     {
      "name": "Size",
-     "value": "L"
+     "value": "42"
     },
     {
      "name": "MPN",
-     "value": "15101"
+     "value": "70506-0210"
     },
     {
      "name": "Fabric Type",
@@ -7268,10 +7409,6 @@
     {
      "name": "Department",
      "value": "Men"
-    },
-    {
-     "name": "Warmth Weight",
-     "value": "Uninsulated"
     },
     {
      "name": "Collar Style",
@@ -7290,102 +7427,71 @@
      "value": "Fall, Spring"
     },
     {
-     "name": "Pattern",
-     "value": "Solid"
-    },
-    {
      "name": "Jacket/Coat Length",
      "value": "Short"
     },
     {
+     "name": "Pattern",
+     "value": "Solid"
+    },
+    {
      "name": "Chest Size",
-     "value": "40 in"
+     "value": "22 in"
     },
     {
      "name": "Garment Care",
      "value": "Machine Washable"
     },
     {
+     "name": "Lining Material",
+     "value": "Cotton"
+    },
+    {
      "name": "Color",
      "value": "Blue"
     },
     {
-     "name": "Lining Material",
-     "value": "Unlined"
+     "name": "Brand",
+     "value": "Levi's"
     },
     {
-     "name": "Brand",
-     "value": "Wrangler"
+     "name": "Fit",
+     "value": "Regular"
     }
    ]
   },
   {
-   "id": "e-v1|820096914224|0",
-   "title": "Prive Cashmere Ivory 100% Cashmere Knit Cowl Neck Pullover Sweater Women S",
-   "brand": "prive cashmere",
+   "id": "e-v1|117408018522|0",
+   "title": "New Vince Boiled Cashmere Funnel Neck Pullover in Cacao",
+   "brand": "Vince",
    "platform": "eBay",
    "category": "fashion",
-   "price": 18,
+   "price": 175,
    "tags": [
     "cozy",
     "classic",
     "luxury"
    ],
    "emoji": "🧥",
-   "hue": 338,
-   "blurb": "Pre-owned - Excellent",
-   "image": "https://i.ebayimg.com/images/g/nLUAAeSwHiZqnjwc/s-l1600.jpg",
+   "hue": 28,
+   "blurb": "New with tags",
+   "image": "https://i.ebayimg.com/images/g/ndMAAeSwfEhqpIr~/s-l1600.jpg",
    "images": [
-    "https://i.ebayimg.com/images/g/nLUAAeSwHiZqnjwc/s-l1600.jpg",
-    "https://i.ebayimg.com/images/g/s10AAeSwoVxqnjwK/s-l1600.jpg",
-    "https://i.ebayimg.com/images/g/jDwAAeSwKtNqnjwK/s-l1600.jpg",
-    "https://i.ebayimg.com/images/g/AIsAAeSwM8FqnjwK/s-l1600.jpg",
-    "https://i.ebayimg.com/images/g/QbQAAeSwR-1qnjwK/s-l1600.jpg",
-    "https://i.ebayimg.com/images/g/K0UAAeSwZQNqnjwK/s-l1600.jpg",
-    "https://i.ebayimg.com/images/g/2QgAAeSwG9FqnjwK/s-l1600.jpg"
+    "https://i.ebayimg.com/images/g/ndMAAeSwfEhqpIr~/s-l1600.jpg",
+    "https://i.ebayimg.com/images/g/dHEAAeSwzkdqpIr-/s-l1600.jpg",
+    "https://i.ebayimg.com/images/g/zwwAAeSwAkhqpIr~/s-l1600.jpg",
+    "https://i.ebayimg.com/images/g/91EAAeSw5hJqpIr-/s-l1600.jpg",
+    "https://i.ebayimg.com/images/g/lcAAAeSw3HxqpIr~/s-l1600.jpg",
+    "https://i.ebayimg.com/images/g/RS8AAeSwsKFqpIr-/s-l1600.jpg",
+    "https://i.ebayimg.com/images/g/9pwAAeSwUZNqpIr~/s-l1600.jpg",
+    "https://i.ebayimg.com/images/g/ZwcAAeSwJVJqpIr~/s-l1600.jpg"
    ],
-   "url": "https://www.ebay.com/itm/820096914224",
-   "description": "Prive Cashmere Ivory 100% Cashmere Knit Cowl Neck Pullover Sweater Women S",
+   "url": "https://www.ebay.com/itm/117408018522?amdata=enc%3AAQALAAAAoCHNgUiiE%2FjQhlDTaMiAde8pibMAAraDcXoLJzg%2BatmLC7Lgr%2BD3rw%2BdBjTwH7mocrXPII1oqd9OO7w9fqYLCbHYRyChcLpIrZOiO1zQZKE2igzK7kmk9dm5kDtD6wu8gz0jbzIQ9h0JCX5kgPwWNjcmN7DM8U8gkrfSO9S%2Fj4w87nMwpjm7pW%2Bx%2FBOInBBglD5cmpBT8aTpyfkg%2Fr7B168%3D",
+   "description": "New with tag Size Medium Color Cacao 100% Cashmere Funnel neck Long sleeves, banded cuffs Banded hem Fits true to size, order your normal size",
    "specs": [
     {
-     "name": "Pattern",
-     "value": "Solid"
-    },
-    {
-     "name": "Sleeve Length",
-     "value": "Long Sleeve"
-    },
-    {
-     "name": "Neckline",
-     "value": "Cowl Neck"
-    },
-    {
-     "name": "Garment Care",
-     "value": "Hand Wash Only"
-    },
-    {
-     "name": "Size",
-     "value": "S"
-    },
-    {
-     "name": "Color",
-     "value": "Ivory"
-    },
-    {
-     "name": "Material",
-     "value": "100% Cashmere"
-    },
-    {
-     "name": "Fabric Type",
-     "value": "Knit"
-    },
-    {
-     "name": "Accents",
-     "value": "Ribbed Cuffs"
-    },
-    {
      "name": "Brand",
-     "value": "prive cashmere"
+     "value": "Vince"
     },
     {
      "name": "Size Type",
@@ -7396,629 +7502,166 @@
      "value": "Women"
     },
     {
-     "name": "Type",
-     "value": "Sweater"
+     "name": "Size",
+     "value": "M"
+    },
+    {
+     "name": "Color",
+     "value": "Brown"
     },
     {
      "name": "Style",
-     "value": "Pullover Sweater"
+     "value": "Pullover"
     },
     {
-     "name": "Features",
-     "value": "Pullover"
+     "name": "Material",
+     "value": "Cashmere"
     }
    ]
   },
   {
-   "id": "e-v1|164268896975|463888791005",
-   "title": "New 2026 Polarized Vertex Men AntiGlare Fishing Cycling Driving Sport Sunglasses",
-   "brand": "Vera Town Sunglasses",
+   "id": "e-v1|237063334490|0",
+   "title": "Oakley Splice Sunglasses Black Frame Orange Prizm Lens Y2K Wraparound Sport Mens",
+   "brand": "Oakley",
    "platform": "eBay",
    "category": "fashion",
-   "price": 13,
+   "price": 55,
    "tags": [
     "classic",
     "summer",
     "everyday"
    ],
    "emoji": "🧥",
-   "hue": 95,
+   "hue": 343,
    "blurb": "New with tags",
-   "image": "https://i.ebayimg.com/images/g/KMUAAOSwuMhi3exa/s-l1600.jpg",
+   "image": "https://i.ebayimg.com/images/g/SkIAAeSw-OhqpEo5/s-l1600.jpg",
    "images": [
-    "https://i.ebayimg.com/images/g/KMUAAOSwuMhi3exa/s-l1600.jpg",
-    "https://i.ebayimg.com/images/g/eusAAOSwU-di3e1f/s-l1600.jpg",
-    "https://i.ebayimg.com/images/g/6YUAAOSwTtFi3e1n/s-l1600.jpg"
+    "https://i.ebayimg.com/images/g/SkIAAeSw-OhqpEo5/s-l1600.jpg",
+    "https://i.ebayimg.com/images/g/E3IAAeSwdb9qpEo4/s-l1600.jpg",
+    "https://i.ebayimg.com/images/g/Dd4AAeSwXf5qpEo4/s-l1600.jpg",
+    "https://i.ebayimg.com/images/g/DkMAAeSwuvJqpEo5/s-l1600.jpg",
+    "https://i.ebayimg.com/images/g/TIYAAeSwQUpqpEo5/s-l1600.jpg",
+    "https://i.ebayimg.com/images/g/otwAAeSw7U5qpEo5/s-l1600.jpg",
+    "https://i.ebayimg.com/images/g/S7QAAeSwyahqpEo4/s-l1600.jpg",
+    "https://i.ebayimg.com/images/g/Sz0AAeSwWxpqpEo6/s-l1600.jpg"
    ],
-   "url": "https://www.ebay.com/itm/164268896975?var=463888791005&amdata=enc%3AAQALAAAAoCHNgUiiE%2FjQhlDTaMiAde8yg1PHi6gZKLjL8cSwWVK1R5iY6e3TuWmfQR8kEhZRDkrl54JScaCmygvEQenTVPL1QQQ%2BqZLlkRZ8T9X0gGi%2FzPrvu%2BFGxNYruiNbNSXYk8vU0RU9VWsBFVSzjw3oDWJOmF8IyyJLssk2j%2B%2FEsYvvmfnM167YVruVLXb4hjBo68XTYbV3Qff%2BZB7gaBbGx7o%3D",
-   "description": "%100 New Design POLARIZED! Block 100% of UVA,UVB and UVC Rays.",
+   "url": "https://www.ebay.com/itm/237063334490",
+   "description": "Includes box, zippered protective case, cleaning cloth, soft pouch, paperwork/cards, polarization test card, and the other pictured accessories.",
    "specs": [
     {
-     "name": "COLOR",
-     "value": "OCEAN BLUE LENS"
+     "name": "Pattern",
+     "value": "Solid"
     },
     {
      "name": "Lens Technology",
      "value": "Polarized"
     },
     {
-     "name": "Frame Width",
-     "value": "5.8 in"
+     "name": "MPN",
+     "value": "Oakley Splice"
     },
     {
-     "name": "Frame Height",
-     "value": "1.5 in"
+     "name": "Vintage",
+     "value": "Yes"
+    },
+    {
+     "name": "Brand",
+     "value": "Oakley"
     },
     {
      "name": "Frame Color",
      "value": "Black"
     },
     {
-     "name": "Brand",
-     "value": "Vera Town Sunglasses"
-    },
-    {
-     "name": "UV Protection",
-     "value": "100% UV400"
-    },
-    {
-     "name": "Department",
-     "value": "Men"
-    },
-    {
      "name": "Type",
      "value": "Sunglasses"
     },
     {
-     "name": "Lens Material",
-     "value": "Polycarbonate"
-    },
-    {
-     "name": "Eye Size",
-     "value": "2.5 in"
-    },
-    {
-     "name": "Model",
-     "value": "Wrap Sport Polarized"
-    },
-    {
-     "name": "Frame Material",
-     "value": "Plastic"
-    },
-    {
-     "name": "Style",
-     "value": "Wrap"
-    },
-    {
-     "name": "Theme",
-     "value": "Sports"
-    },
-    {
-     "name": "Features",
-     "value": "Lightweight, Reflective"
-    },
-    {
-     "name": "Lens Color",
-     "value": "See Options"
-    },
-    {
-     "name": "Country/Region of Manufacture",
-     "value": "China"
-    },
-    {
-     "name": "Bridge",
-     "value": "0.8 in"
-    },
-    {
-     "name": "Temple Length",
-     "value": "6.2 in"
-    }
-   ]
-  },
-  {
-   "id": "e-v1|800623345595|0",
-   "title": "Waxed Canvas Travel Tote Bag - Extra Large Carryall Shoulder Bag for Women",
-   "brand": "",
-   "platform": "eBay",
-   "category": "fashion",
-   "price": 36,
-   "tags": [
-    "casual",
-    "practical",
-    "sustainable"
-   ],
-   "emoji": "🧥",
-   "hue": 230,
-   "blurb": "New with tags",
-   "image": "https://i.ebayimg.com/images/g/aHYAAeSwM6Bqnfut/s-l1600.jpg",
-   "images": [
-    "https://i.ebayimg.com/images/g/aHYAAeSwM6Bqnfut/s-l1600.jpg",
-    "https://i.ebayimg.com/images/g/T7AAAeSwIR1qnfuu/s-l1600.jpg",
-    "https://i.ebayimg.com/images/g/-30AAeSwZERqnfuv/s-l1600.jpg",
-    "https://i.ebayimg.com/images/g/dGYAAeSwdy9qnfuv/s-l1600.jpg",
-    "https://i.ebayimg.com/images/g/j-MAAeSwpfhqnfuw/s-l1600.jpg",
-    "https://i.ebayimg.com/images/g/WzUAAeSwMk1qnfux/s-l1600.jpg",
-    "https://i.ebayimg.com/images/g/91QAAeSw2HNqnfux/s-l1600.jpg",
-    "https://i.ebayimg.com/images/g/8DwAAeSwRUZqnfuy/s-l1600.jpg"
-   ],
-   "url": "https://www.ebay.com/itm/800623345595",
-   "description": "From weekends at the market to blustery commutes through the city, the WUDON Tote makes it easy to bring along the necessities, and gather more along the way. -1 WUDON Large Canvas Bag Travel Tote. Style:Tote Bag.",
-   "specs": [
-    {
-     "name": "Product Dimensions",
-     "value": "17.3 x 14.8 x 6.8 inches; 1.44 pounds"
-    },
-    {
-     "name": "Item model number",
-     "value": "6119DKW"
-    },
-    {
-     "name": "Department",
-     "value": "womens"
-    },
-    {
-     "name": "UPC",
-     "value": "7445019621663"
-    }
-   ]
-  },
-  {
-   "id": "e-v1|298652694578|0",
-   "title": "Nike Backboard II Men's Size 14 White Leather Sneakers 487657-100 New w/ Box",
-   "brand": "",
-   "platform": "eBay",
-   "category": "footwear",
-   "price": 59,
-   "tags": [
-    "classic",
-    "minimalist",
-    "everyday"
-   ],
-   "emoji": "👟",
-   "hue": 154,
-   "blurb": "New with box",
-   "image": "https://i.ebayimg.com/images/g/DTIAAeSwz6xqNh0g/s-l1600.jpg",
-   "images": [
-    "https://i.ebayimg.com/images/g/DTIAAeSwz6xqNh0g/s-l1600.jpg",
-    "https://i.ebayimg.com/images/g/AtsAAeSwyadqNh0h/s-l1600.jpg",
-    "https://i.ebayimg.com/images/g/GJcAAeSwYN1qNh0g/s-l1600.jpg",
-    "https://i.ebayimg.com/images/g/CmgAAeSw3alqNh0g/s-l1600.jpg",
-    "https://i.ebayimg.com/images/g/FUAAAeSw0DRqNh0h/s-l1600.jpg",
-    "https://i.ebayimg.com/images/g/mxUAAeSwK8pqNh0g/s-l1600.jpg",
-    "https://i.ebayimg.com/images/g/QVoAAeSwQl1qNh0h/s-l1600.jpg",
-    "https://i.ebayimg.com/images/g/9QgAAeSwG11qNh0g/s-l1600.jpg"
-   ],
-   "url": "https://www.ebay.com/itm/298652694578",
-   "description": "Inspired by classic court footwear, these sneakers feature a leather upper, perforated toe box, traditional lace-up closure, padded tongue and collar, and durable rubber outsole with circular traction pattern.",
-   "specs": [
-    {
-     "name": "Toe Shape",
-     "value": "Round Toe"
-    },
-    {
-     "name": "Closure",
-     "value": "Lace Up"
-    },
-    {
-     "name": "US Shoe Size",
-     "value": "14"
-    },
-    {
-     "name": "Occasion",
-     "value": "Activewear, Casual"
-    },
-    {
-     "name": "Accents",
-     "value": "Logo, Nike Swoosh"
-    },
-    {
-     "name": "Vintage",
-     "value": "No"
-    },
-    {
      "name": "Department",
      "value": "Men"
     },
     {
-     "name": "Style",
-     "value": "Sneaker"
-    },
-    {
-     "name": "Outsole Material",
-     "value": "Rubber"
-    },
-    {
-     "name": "Features",
-     "value": "Comfort, Cushioned, Padded Collar"
-    },
-    {
-     "name": "Season",
-     "value": "Fall, Spring, Summer"
-    },
-    {
-     "name": "Unit Quantity",
-     "value": "1 Pair"
-    },
-    {
-     "name": "Shoe Shaft Style",
-     "value": "Low Top"
-    },
-    {
-     "name": "UK Shoe Size",
-     "value": "13"
-    },
-    {
-     "name": "Style Code",
-     "value": "487657-100"
-    },
-    {
-     "name": "Pattern",
-     "value": "Solid"
-    },
-    {
-     "name": "EU Shoe Size",
-     "value": "48.5"
-    },
-    {
-     "name": "Signed",
-     "value": "No"
-    },
-    {
-     "name": "Color",
-     "value": "White"
-    },
-    {
-     "name": "CM",
-     "value": "32"
-    }
-   ]
-  },
-  {
-   "id": "e-v1|318830657535|0",
-   "title": "Hoka One One Torrent 3 Men’s Low Top Trail Running Sneakers Gray Pink Black",
-   "brand": "Hoka One One",
-   "platform": "eBay",
-   "category": "footwear",
-   "price": 25,
-   "tags": [
-    "outdoorsy",
-    "durable",
-    "sporty"
-   ],
-   "emoji": "👟",
-   "hue": 242,
-   "blurb": "Pre-owned - Good",
-   "image": "https://i.ebayimg.com/images/g/klUAAeSwMfVqnGLS/s-l1600.jpg",
-   "images": [
-    "https://i.ebayimg.com/images/g/klUAAeSwMfVqnGLS/s-l1600.jpg",
-    "https://i.ebayimg.com/images/g/m9gAAeSw4QFqnGLF/s-l1600.jpg",
-    "https://i.ebayimg.com/images/g/ogAAAeSwEu1qnGLC/s-l1600.jpg",
-    "https://i.ebayimg.com/images/g/~7QAAeSwc59qnGLE/s-l1600.jpg"
-   ],
-   "url": "https://www.ebay.com/itm/318830657535",
-   "description": "Hoka One One Torrent 3 Men’s Low Top Trail Running Sneakers Gray Pink Black",
-   "specs": [
-    {
-     "name": "Shoe Shaft Style",
-     "value": "Low Top"
-    },
-    {
-     "name": "UK Shoe Size",
-     "value": "7.5"
-    },
-    {
-     "name": "Pattern",
-     "value": "Solid"
-    },
-    {
-     "name": "Style Code",
-     "value": "1123194-HMSP"
-    },
-    {
-     "name": "Closure",
-     "value": "Lace Up"
-    },
-    {
-     "name": "US Shoe Size",
-     "value": "9"
-    },
-    {
-     "name": "Occasion",
-     "value": "Activewear"
-    },
-    {
-     "name": "EU Shoe Size",
-     "value": "41 1/3"
-    },
-    {
-     "name": "Color",
-     "value": "Gray, Pink, Black"
-    },
-    {
-     "name": "Silhouette",
-     "value": "Hoka One One Torrent 3"
-    },
-    {
-     "name": "Brand",
-     "value": "Hoka One One"
-    },
-    {
-     "name": "Department",
-     "value": "Men"
-    },
-    {
-     "name": "Type",
-     "value": "Athletic"
-    },
-    {
-     "name": "Model",
-     "value": "Hoka One One Torrent 3"
-    },
-    {
-     "name": "Style",
-     "value": "Sneaker"
-    },
-    {
-     "name": "Theme",
-     "value": "Sports"
-    },
-    {
-     "name": "Shoe Width",
-     "value": "B"
-    },
-    {
-     "name": "Upper Material",
-     "value": "Mesh"
-    },
-    {
-     "name": "Performance/Activity",
-     "value": "Running & Jogging"
-    },
-    {
-     "name": "Product Line",
-     "value": "Hoka One One Torrent"
-    }
-   ]
-  },
-  {
-   "id": "e-v1|377470936474|645772090100",
-   "title": "Blundstone 550 Chelsea Boots Women's Full Grain Leather All Colors Free Ship",
-   "brand": "Blundstone",
-   "platform": "eBay",
-   "category": "footwear",
-   "price": 96,
-   "tags": [
-    "classic",
-    "sleek",
-    "autumn"
-   ],
-   "emoji": "👟",
-   "hue": 6,
-   "blurb": "New with box",
-   "image": "https://i.ebayimg.com/images/g/zBUAAeSwmKhqmv78/s-l1600.jpg",
-   "images": [
-    "https://i.ebayimg.com/images/g/zBUAAeSwmKhqmv78/s-l1600.jpg",
-    "https://i.ebayimg.com/images/g/6SMAAeSwzbZqmv76/s-l1600.jpg",
-    "https://i.ebayimg.com/images/g/kZYAAeSwKVxqmv76/s-l1600.jpg",
-    "https://i.ebayimg.com/images/g/FV4AAeSw0Bpqmv77/s-l1600.jpg",
-    "https://i.ebayimg.com/images/g/y6cAAeSwaGNqmv78/s-l1600.jpg"
-   ],
-   "url": "https://www.ebay.com/itm/377470936474?var=645772090100",
-   "description": "The Blundstone 550 combines the iconic Chelsea boot silhouette with durable materials and work-ready features. These Blundstone Chelsea boots are suitable for a wide range of activities, including The convenient pull-on Chelsea design makes them easy to wear, while the elastic side gores provide a secure, comfortable fit.",
-   "specs": [
-    {
-     "name": "Color",
-     "value": "Black"
-    },
-    {
-     "name": "Shoe Width",
-     "value": "M"
-    },
-    {
-     "name": "US Shoe Size",
-     "value": "9"
-    },
-    {
-     "name": "Brand",
-     "value": "Blundstone"
-    },
-    {
-     "name": "Department",
-     "value": "Women"
-    },
-    {
-     "name": "Closure",
-     "value": "Pull On"
-    },
-    {
-     "name": "Occasion",
-     "value": "Casual, Workwear"
-    },
-    {
-     "name": "Lining Material",
-     "value": "Leather & Textile"
-    },
-    {
-     "name": "Model",
-     "value": "550"
-    },
-    {
-     "name": "Style",
-     "value": "Chelsea"
-    },
-    {
-     "name": "Features",
-     "value": "ater Resistant, Slip Resistant, Removable Footbed, Shock Absorbin"
-    },
-    {
-     "name": "MPN",
-     "value": "40483"
-    },
-    {
-     "name": "Upper Material",
-     "value": "Full-Grain Leather"
-    },
-    {
-     "name": "Insole Material",
-     "value": "EVA"
-    },
-    {
-     "name": "Season",
-     "value": "Fall, Spring, Summer, Winter"
-    }
-   ]
-  },
-  {
-   "id": "e-v1|178475281296|0",
-   "title": "Hush Puppies Men’s Suede Loafers Shoes – Brown – Size 11 (US 11, UK 10, EUR 45)",
-   "brand": "Hush Puppies",
-   "platform": "eBay",
-   "category": "footwear",
-   "price": 35,
-   "tags": [
-    "classic",
-    "smart-casual"
-   ],
-   "emoji": "👟",
-   "hue": 2,
-   "blurb": "Pre-owned - Excellent",
-   "image": "https://i.ebayimg.com/images/g/xgQAAeSwfPFqnkYy/s-l1600.jpg",
-   "images": [
-    "https://i.ebayimg.com/images/g/xgQAAeSwfPFqnkYy/s-l1600.jpg",
-    "https://i.ebayimg.com/images/g/1T4AAeSwKVhqnkYk/s-l1600.jpg",
-    "https://i.ebayimg.com/images/g/p2sAAeSwuNFqnkYy/s-l1600.jpg",
-    "https://i.ebayimg.com/images/g/EzYAAeSwuQtqnkYy/s-l1600.jpg",
-    "https://i.ebayimg.com/images/g/4RgAAeSwVsxqnkYy/s-l1600.jpg"
-   ],
-   "url": "https://www.ebay.com/itm/178475281296",
-   "description": "Care Instructions: Suede care — brush gently, avoid soaking. Soft brown suede upper. Outer Material: Suede. Special Feature: Comfortable Wide FitClosure Type: Slip‑On / Pull‑OnWater Resistance Level: Lightly Water‑Resistant (Suede).",
-   "specs": [
-    {
-     "name": "Pattern",
-     "value": "Solid"
-    },
-    {
-     "name": "Closure",
-     "value": "Lace Up"
-    },
-    {
-     "name": "US Shoe Size",
-     "value": "11"
-    },
-    {
-     "name": "Occasion",
-     "value": "Casual"
-    },
-    {
-     "name": "Color",
-     "value": "Dark Brown"
-    },
-    {
-     "name": "Lining Material",
-     "value": "Fabric"
-    },
-    {
-     "name": "Vintage",
-     "value": "No"
-    },
-    {
-     "name": "Brand",
-     "value": "Hush Puppies"
-    },
-    {
-     "name": "Department",
-     "value": "Men"
-    },
-    {
-     "name": "Type",
-     "value": "Athletic"
+     "name": "UV Protection",
+     "value": "UV400"
     },
     {
      "name": "Unit Type",
      "value": "Unit"
     },
     {
-     "name": "Customized",
-     "value": "No"
-    },
-    {
      "name": "Model",
-     "value": "HM01509-210"
-    },
-    {
-     "name": "Style",
-     "value": "Loafer"
-    },
-    {
-     "name": "Outsole Material",
-     "value": "Rubber"
+     "value": "Oakley Splice"
     },
     {
      "name": "Theme",
      "value": "Sports"
     },
     {
-     "name": "Features",
-     "value": "Lightweight"
+     "name": "Frame Material",
+     "value": "Metal"
     },
     {
-     "name": "Shoe Width",
-     "value": "Wide"
+     "name": "Personalized",
+     "value": "No"
     },
     {
-     "name": "Insole Material",
-     "value": "Foam"
-    },
-    {
-     "name": "Season",
-     "value": "Spring, Fall"
+     "name": "Lens Color",
+     "value": "Orange"
     }
    ]
   },
   {
-   "id": "e-v1|336782695000|0",
-   "title": "black slide sandals Unisex Casual Slip on comfort Shoes New With Box",
+   "id": "e-v1|318850517561|0",
+   "title": "Canvas Tote Bag for Women, Large Tote Bag with Zipper & Compartments for Work C",
    "brand": "Unbranded",
    "platform": "eBay",
-   "category": "footwear",
-   "price": 30,
+   "category": "fashion",
+   "price": 25,
    "tags": [
-    "summer",
     "casual",
-    "everyday"
+    "practical",
+    "sustainable"
    ],
-   "emoji": "👟",
-   "hue": 341,
-   "blurb": "New with box",
-   "image": "https://i.ebayimg.com/images/g/s00AAeSwfPFqnbGa/s-l1600.jpg",
+   "emoji": "🧥",
+   "hue": 222,
+   "blurb": "New with tags",
+   "image": "https://i.ebayimg.com/images/g/MY0AAeSwhoBqoe0H/s-l1600.jpg",
    "images": [
-    "https://i.ebayimg.com/images/g/s00AAeSwfPFqnbGa/s-l1600.jpg",
-    "https://i.ebayimg.com/images/g/xccAAeSwTgpqnbGd/s-l1600.jpg",
-    "https://i.ebayimg.com/images/g/aAIAAeSwHUpqnbGb/s-l1600.jpg",
-    "https://i.ebayimg.com/images/g/JG8AAeSwxZRqnbGc/s-l1600.jpg",
-    "https://i.ebayimg.com/images/g/yx4AAeSw131qnbHN/s-l1600.jpg",
-    "https://i.ebayimg.com/images/g/lgcAAeSweY5qnbHK/s-l1600.jpg",
-    "https://i.ebayimg.com/images/g/31YAAeSw9KNqnbHK/s-l1600.jpg",
-    "https://i.ebayimg.com/images/g/8LoAAeSw7OFqnbHK/s-l1600.jpg"
+    "https://i.ebayimg.com/images/g/MY0AAeSwhoBqoe0H/s-l1600.jpg",
+    "https://i.ebayimg.com/images/g/7oAAAeSwezBqoe0H/s-l1600.jpg",
+    "https://i.ebayimg.com/images/g/QWoAAeSw73Zqoe0H/s-l1600.jpg",
+    "https://i.ebayimg.com/images/g/jgYAAeSwsVlqoe0H/s-l1600.jpg"
    ],
-   "url": "https://www.ebay.com/itm/336782695000",
-   "description": "New Unisex Black Slide Sandals - Comfortable & Stylish Sep into comfort and everyday style with these classic black slide sandals. Designed with a simple, versatile look, they are perfect for both men and women and can easily be paired with casual outfits. Features: Unisex design - suitable for men and women - Classic black color - Easy slip-on style - Open-toe design - Lightweight and comfortable for everyday wear - Durable textured sole for added traction - Great for casual wear, home, beach, ",
+   "url": "https://www.ebay.com/itm/318850517561",
+   "description": "This Canvas Tote Bag for Women is designed to be both practical and stylish for work or everyday use. The large rectangle shape with a solid pattern and zipper closure provides ample space for all your essentials. Made from durable canvas material with canvas lining, this tote bag is perfect for everyday carry. The accent zipper detail adds a touch of sophistication to this everyday work bag, making it a must-have accessory for women on the go. Made in China, this tote bag is a versatile and rel",
    "specs": [
     {
+     "name": "Pattern",
+     "value": "Solid"
+    },
+    {
+     "name": "Shape",
+     "value": "Rectangle"
+    },
+    {
      "name": "Closure",
-     "value": "Slip On"
+     "value": "Zip"
     },
     {
-     "name": "Occasion",
-     "value": "Casual"
+     "name": "Size",
+     "value": "Large"
     },
     {
-     "name": "US Shoe Size",
-     "value": "8"
+     "name": "Lining Material",
+     "value": "Canvas"
     },
     {
-     "name": "Heel Height",
-     "value": "Low (1-1.9 in)"
+     "name": "Exterior Material",
+     "value": "Canvas"
+    },
+    {
+     "name": "Accents",
+     "value": "Zipper"
     },
     {
      "name": "Vintage",
@@ -8029,16 +7672,237 @@
      "value": "No"
     },
     {
-     "name": "AU Shoe Size",
-     "value": "8"
-    },
-    {
      "name": "Department",
-     "value": "Unisex Adults"
+     "value": "Women"
     },
     {
      "name": "Style",
-     "value": "Slide"
+     "value": "Tote"
+    },
+    {
+     "name": "Handle/Strap Material",
+     "value": "Canvas"
+    },
+    {
+     "name": "Handmade",
+     "value": "No"
+    },
+    {
+     "name": "Brand",
+     "value": "Unbranded"
+    },
+    {
+     "name": "Country of Origin",
+     "value": "China"
+    },
+    {
+     "name": "Exterior Color",
+     "value": "Aged Black"
+    }
+   ]
+  },
+  {
+   "id": "e-v1|198640630809|0",
+   "title": "Nike Court Vision Next Nature Triple White Low Top Leather Sneakers DH3158-100",
+   "brand": "Nike",
+   "platform": "eBay",
+   "category": "footwear",
+   "price": 46,
+   "tags": [
+    "classic",
+    "minimalist",
+    "everyday"
+   ],
+   "emoji": "👟",
+   "hue": 76,
+   "blurb": "New with box",
+   "image": "https://i.ebayimg.com/images/g/XhIAAeSw25dqp73D/s-l1600.jpg",
+   "images": [
+    "https://i.ebayimg.com/images/g/XhIAAeSw25dqp73D/s-l1600.jpg",
+    "https://i.ebayimg.com/images/g/FoYAAeSwCJxqp720/s-l1600.jpg",
+    "https://i.ebayimg.com/images/g/UwsAAeSwLgNqp721/s-l1600.jpg",
+    "https://i.ebayimg.com/images/g/XjAAAeSwgQNqp721/s-l1600.jpg",
+    "https://i.ebayimg.com/images/g/RRMAAeSwvd5qp721/s-l1600.jpg",
+    "https://i.ebayimg.com/images/g/xGAAAeSw2MBqp721/s-l1600.jpg",
+    "https://i.ebayimg.com/images/g/4uwAAeSw4Zdqp721/s-l1600.jpg"
+   ],
+   "url": "https://www.ebay.com/itm/198640630809",
+   "description": "The Nike Court Vision Next Nature Triple White Low Top Leather Sneakers DH3158-100 are a stylish and versatile choice for women who love both activewear and casual footwear. With a solid white color and logo accents, these sneakers feature a lace-up closure and a rubber outsole for comfort and grip. The leather upper material adds a touch of luxury to these athletic shoes, making them perfect for both sports enthusiasts and fashion-forward individuals. Released in 2021 as part of the Nike Court ",
+   "specs": [
+    {
+     "name": "UK Shoe Size",
+     "value": "4.5"
+    },
+    {
+     "name": "Pattern",
+     "value": "Solid"
+    },
+    {
+     "name": "Closure",
+     "value": "Lace Up"
+    },
+    {
+     "name": "Occasion",
+     "value": "Activewear, Casual"
+    },
+    {
+     "name": "EU Shoe Size",
+     "value": "38"
+    },
+    {
+     "name": "Silhouette",
+     "value": "Nike Court Vision Next Nature 'Triple White'"
+    },
+    {
+     "name": "Accents",
+     "value": "Logo"
+    },
+    {
+     "name": "Theme",
+     "value": "Logo, Sports"
+    },
+    {
+     "name": "Outsole Material",
+     "value": "Rubber"
+    },
+    {
+     "name": "Shoe Shaft Style",
+     "value": "Low Top"
+    },
+    {
+     "name": "Brand",
+     "value": "Nike"
+    },
+    {
+     "name": "Style Code",
+     "value": "DH3158-100"
+    },
+    {
+     "name": "Type",
+     "value": "Athletic"
+    },
+    {
+     "name": "Department",
+     "value": "Women"
+    },
+    {
+     "name": "Release Year",
+     "value": "2021"
+    },
+    {
+     "name": "US Shoe Size",
+     "value": "7"
+    },
+    {
+     "name": "Color",
+     "value": "White"
+    },
+    {
+     "name": "Model",
+     "value": "Nike Court Vision"
+    },
+    {
+     "name": "Style",
+     "value": "Sneaker"
+    },
+    {
+     "name": "Upper Material",
+     "value": "Leather"
+    }
+   ]
+  },
+  {
+   "id": "e-v1|366667183307|0",
+   "title": "Altra Lone Peak 9 Size 12 Sneakers Men's Brown Red Lace Up Trail Running Shoes",
+   "brand": "Altra",
+   "platform": "eBay",
+   "category": "footwear",
+   "price": 70,
+   "tags": [
+    "outdoorsy",
+    "durable",
+    "sporty"
+   ],
+   "emoji": "👟",
+   "hue": 134,
+   "blurb": "Pre-owned - Good",
+   "image": "https://i.ebayimg.com/images/g/JwoAAeSwAwdqpygo/s-l1600.jpg",
+   "images": [
+    "https://i.ebayimg.com/images/g/JwoAAeSwAwdqpygo/s-l1600.jpg",
+    "https://i.ebayimg.com/images/g/DOQAAeSw52lqpygo/s-l1600.jpg",
+    "https://i.ebayimg.com/images/g/O5UAAeSwp-Zqpygo/s-l1600.jpg",
+    "https://i.ebayimg.com/images/g/NDIAAeSwHWVqpygo/s-l1600.jpg",
+    "https://i.ebayimg.com/images/g/vVIAAeSwSyBqpygo/s-l1600.jpg",
+    "https://i.ebayimg.com/images/g/dNEAAeSw~dlqpygo/s-l1600.jpg",
+    "https://i.ebayimg.com/images/g/cYMAAeSwM0Nqpygo/s-l1600.jpg",
+    "https://i.ebayimg.com/images/g/MRsAAeSwquFqpygo/s-l1600.jpg"
+   ],
+   "url": "https://www.ebay.com/itm/366667183307",
+   "description": "The Altra Lone Peak 9 Size 12 Sneakers in Brown and Red are designed for men who enjoy trail running and outdoor activities. These lace-up shoes feature a low top style with a solid pattern and a comfortable foam insole. The ripstop mesh upper material offers breathability, while the rubber outsole provides traction for various terrains. Ideal for all seasons, these sneakers combine classic and modern styles with a focus on comfort and performance. Perfect for walking, hiking, or running, the Al",
+   "specs": [
+    {
+     "name": "Shoe Shaft Style",
+     "value": "Low Top"
+    },
+    {
+     "name": "Style Code",
+     "value": "AL0A85PG922"
+    },
+    {
+     "name": "Pattern",
+     "value": "Solid"
+    },
+    {
+     "name": "Closure",
+     "value": "Lace Up"
+    },
+    {
+     "name": "Occasion",
+     "value": "Activewear"
+    },
+    {
+     "name": "US Shoe Size",
+     "value": "12"
+    },
+    {
+     "name": "Signed",
+     "value": "No"
+    },
+    {
+     "name": "Color",
+     "value": "Beige"
+    },
+    {
+     "name": "Vintage",
+     "value": "No"
+    },
+    {
+     "name": "Brand",
+     "value": "Altra"
+    },
+    {
+     "name": "Type",
+     "value": "Athletic"
+    },
+    {
+     "name": "Department",
+     "value": "Men"
+    },
+    {
+     "name": "Customized",
+     "value": "No"
+    },
+    {
+     "name": "Model",
+     "value": "Altra Lone Peak 9 AL0A85PG922"
+    },
+    {
+     "name": "Style",
+     "value": "Sneaker"
+    },
+    {
+     "name": "Theme",
+     "value": "Athleisure, Classic, Modern, Outdoor, Sports"
     },
     {
      "name": "Outsole Material",
@@ -8046,94 +7910,381 @@
     },
     {
      "name": "Features",
-     "value": "Comfort"
+     "value": "Breathable, Comfort"
     },
     {
-     "name": "Season",
-     "value": "Summer"
+     "name": "Shoe Width",
+     "value": "Medium (D)"
     },
     {
-     "name": "UK Shoe Size",
-     "value": "6"
+     "name": "Insole Material",
+     "value": "Foam"
+    }
+   ]
+  },
+  {
+   "id": "e-v1|206555546061|0",
+   "title": "Mens Brown Leather Chelsea Boots",
+   "brand": "Unknown",
+   "platform": "eBay",
+   "category": "footwear",
+   "price": 30,
+   "tags": [
+    "classic",
+    "sleek",
+    "autumn"
+   ],
+   "emoji": "👟",
+   "hue": 128,
+   "blurb": "Pre-owned - Good",
+   "image": "https://i.ebayimg.com/images/g/UtIAAeSwFXJqp2jJ/s-l1600.jpg",
+   "images": [
+    "https://i.ebayimg.com/images/g/UtIAAeSwFXJqp2jJ/s-l1600.jpg",
+    "https://i.ebayimg.com/images/g/W8MAAeSwTbZqp2jJ/s-l1600.jpg",
+    "https://i.ebayimg.com/images/g/vw0AAeSw4~Bqp2jK/s-l1600.jpg",
+    "https://i.ebayimg.com/images/g/jDgAAeSwR2Jqp2jK/s-l1600.jpg",
+    "https://i.ebayimg.com/images/g/7I8AAeSw4Z1qp2jL/s-l1600.jpg"
+   ],
+   "url": "https://www.ebay.com/itm/206555546061",
+   "description": "Brown leather upper with elastic side gussets and heel pull tabs. Contrast stitching along the welt. Textured dark rubber sole. Scuffs on both toes. Heavy creasing across the vamp. Loose thread on the heel pull tab. Otherwise solid shape, no sole separation or structural issues.",
+   "specs": [
+    {
+     "name": "Occasion",
+     "value": "Casual"
+    },
+    {
+     "name": "Color",
+     "value": "Brown"
     },
     {
      "name": "Pattern",
      "value": "Solid"
     },
     {
-     "name": "EU Shoe Size",
-     "value": "40"
-    },
-    {
-     "name": "Color",
-     "value": "Black"
-    },
-    {
-     "name": "Lining Material",
-     "value": "Synthetic"
-    },
-    {
-     "name": "Brand",
-     "value": "Unbranded"
+     "name": "Insole Material",
+     "value": "Leather"
     },
     {
      "name": "Type",
-     "value": "Sandal"
+     "value": "Boot"
     },
     {
-     "name": "Customized",
+     "name": "US Shoe Size",
+     "value": "6"
+    },
+    {
+     "name": "Features",
+     "value": "Stretch"
+    },
+    {
+     "name": "Toe Shape",
+     "value": "Round Toe"
+    },
+    {
+     "name": "Lining Material",
+     "value": "Leather"
+    },
+    {
+     "name": "Vintage",
      "value": "No"
+    },
+    {
+     "name": "Season",
+     "value": "Fall"
+    },
+    {
+     "name": "Style",
+     "value": "Chelsea"
+    },
+    {
+     "name": "Handmade",
+     "value": "No"
+    },
+    {
+     "name": "Outsole Material",
+     "value": "Rubber"
+    },
+    {
+     "name": "Department",
+     "value": "Men"
+    },
+    {
+     "name": "Brand",
+     "value": "Unknown"
+    },
+    {
+     "name": "Closure",
+     "value": "Pull On"
+    },
+    {
+     "name": "Shoe Shaft Style",
+     "value": "Ankle"
+    },
+    {
+     "name": "Upper Material",
+     "value": "Leather"
     }
    ]
   },
   {
-   "id": "e-v1|298464217176|0",
-   "title": "Ozark Trail 5-Quart Pre-Seasoned Nonstick Cast Iron Dutch Oven with Spiral Bail",
+   "id": "e-v1|147572339729|445843259086",
+   "title": "LORO PIANA Taupe Beige Suede Loafers Men’s Summer Walk Casual Slip On Shoes",
+   "brand": "LORO PIANA",
+   "platform": "eBay",
+   "category": "footwear",
+   "price": 279,
+   "tags": [
+    "classic",
+    "smart-casual"
+   ],
+   "emoji": "👟",
+   "hue": 50,
+   "blurb": "New with box",
+   "image": "https://i.ebayimg.com/images/g/ArkAAeSwMxpqp8nu/s-l1600.jpg",
+   "images": [
+    "https://i.ebayimg.com/images/g/ArkAAeSwMxpqp8nu/s-l1600.jpg",
+    "https://i.ebayimg.com/images/g/B~kAAeSwKjZqp8nu/s-l1600.jpg",
+    "https://i.ebayimg.com/images/g/G-0AAeSwmNtqp8nu/s-l1600.jpg",
+    "https://i.ebayimg.com/images/g/PrIAAeSwDW5qp8nw/s-l1600.jpg",
+    "https://i.ebayimg.com/images/g/9eEAAeSw3Hxqp8nu/s-l1600.jpg",
+    "https://i.ebayimg.com/images/g/fFcAAeSwj7pqp8nu/s-l1600.jpg",
+    "https://i.ebayimg.com/images/g/TEgAAeSwWX9qp8nw/s-l1600.jpg",
+    "https://i.ebayimg.com/images/g/41AAAeSwAwdqp8nu/s-l1600.jpg"
+   ],
+   "url": "https://www.ebay.com/itm/147572339729?var=445843259086&amdata=enc%3AAQALAAAAoCHNgUiiE%2FjQhlDTaMiAde%2BVrumP%2FOJqJi00%2B%2FcEhUfpp4qUmqPL3zh5PRBmJTbOrz9hGA4c8nIvbW%2Bi%2Bl--wUBvbl6rAdfoTYdQysxBXc6c53fgfm6RaJSB5wyfECzQ3bsnxNB1UOxYVD%2FBA12x9sZFmUg%2FluvGsU2VQx30FaFkYWISC0%2BYDYhMLK0l%2F9iPZhZA8eaLtiEp%2FyYqiW5JjPw%3D",
+   "description": "Made with high-quality leather lining and suede outsole material, these slip-on loafers feature a solid pattern and a comfortable design perfect for a casual occasion. We’ll be happy to assist you!",
+   "specs": [
+    {
+     "name": "US Shoe Size",
+     "value": "11"
+    },
+    {
+     "name": "Pattern",
+     "value": "Solid"
+    },
+    {
+     "name": "Closure",
+     "value": "Slip On"
+    },
+    {
+     "name": "Occasion",
+     "value": "Casual"
+    },
+    {
+     "name": "Lining Material",
+     "value": "Leather"
+    },
+    {
+     "name": "Color",
+     "value": "Taupe Beige"
+    },
+    {
+     "name": "Accents",
+     "value": "Comfort"
+    },
+    {
+     "name": "Vintage",
+     "value": "No"
+    },
+    {
+     "name": "Brand",
+     "value": "LORO PIANA"
+    },
+    {
+     "name": "Department",
+     "value": "Men"
+    },
+    {
+     "name": "Type",
+     "value": "Casual"
+    },
+    {
+     "name": "Customized",
+     "value": "No"
+    },
+    {
+     "name": "Style",
+     "value": "Loafer"
+    },
+    {
+     "name": "Outsole Material",
+     "value": "Suede"
+    },
+    {
+     "name": "Features",
+     "value": "Comfort"
+    },
+    {
+     "name": "Shoe Width",
+     "value": "Standard"
+    },
+    {
+     "name": "Season",
+     "value": "Summer"
+    },
+    {
+     "name": "Insole Material",
+     "value": "Leather"
+    },
+    {
+     "name": "Upper Material",
+     "value": "Suede"
+    },
+    {
+     "name": "Country of Origin",
+     "value": "Italy"
+    }
+   ]
+  },
+  {
+   "id": "e-v1|135053994198|434533978332",
+   "title": "Crocs Adult Bayaband Slide Sandals",
+   "brand": "Crocs",
+   "platform": "eBay",
+   "category": "footwear",
+   "price": 20,
+   "tags": [
+    "summer",
+    "casual",
+    "everyday"
+   ],
+   "emoji": "👟",
+   "hue": 63,
+   "blurb": "New with box",
+   "image": "https://i.ebayimg.com/images/g/lJwAAeSw2MxqmuoV/s-l1600.jpg",
+   "images": [
+    "https://i.ebayimg.com/images/g/lJwAAeSw2MxqmuoV/s-l1600.jpg",
+    "https://i.ebayimg.com/images/g/KpMAAeSwWoVqmuoV/s-l1600.jpg",
+    "https://i.ebayimg.com/images/g/zKYAAeSwicFqmuoV/s-l1600.jpg",
+    "https://i.ebayimg.com/images/g/mXAAAeSwmwZqmuoV/s-l1600.jpg",
+    "https://i.ebayimg.com/images/g/ZwMAAeSwmpZqmuoV/s-l1600.jpg",
+    "https://i.ebayimg.com/images/g/TOYAAeSwFHNqmuoV/s-l1600.jpg"
+   ],
+   "url": "https://www.ebay.com/itm/135053994198?var=434533978332&amdata=enc%3AAQALAAAAoCHNgUiiE%2FjQhlDTaMiAde8SHZHHR9q0jzDzv6zKEb9VESQ%2FqrP1HJJSou65Qbc%2BYy2npffZwz8fvM7JU6v1ltvb1GgbC5iwzWbCREnlSPNGMvpiLWC3%2B2QBrxnhy2Q%2BTPwx55o7e8l2lhoUc1KceXLFV2C%2FZsRZqeg%2FWxdVhC7yE3YmH6TRSpjA0p8n0R%2FIw86D5BNzCpswVyHDHQ0z7wE%3D",
+   "description": "Confidently ComfortableWhat happens when you combine two of Crocs’ most iconic silhouettes, the Baya and the Crocband™, into one special pair? You get the Bayaband Slide, a style that takes the fashion-athletic spirit of the originals to another level. The result is a go-anywhere style staple that lets you slide in and stay cool while throwing off an extra pop of Crocs spirit. And of course, molded Croslite™ construction means you’ll stay comfortable all day long.Bayaband Slide Details:Incredibl",
+   "specs": [
+    {
+     "name": "US Shoe Size",
+     "value": "W8/M6"
+    },
+    {
+     "name": "Color",
+     "value": "Black - Black/White"
+    },
+    {
+     "name": "Brand",
+     "value": "Crocs"
+    },
+    {
+     "name": "Department",
+     "value": "Unisex Adults"
+    },
+    {
+     "name": "Style",
+     "value": "Unisex Slide"
+    },
+    {
+     "name": "Upper Material",
+     "value": "EVA (Ethylene Vinyl Acetate)"
+    },
+    {
+     "name": "Pattern",
+     "value": "Solid"
+    },
+    {
+     "name": "Model",
+     "value": "Crocs Bayaband Slide"
+    },
+    {
+     "name": "Product Line",
+     "value": "Crocs Bayaband"
+    },
+    {
+     "name": "Insole Material",
+     "value": "EVA (Ethylene Vinyl Acetate)"
+    },
+    {
+     "name": "Outsole Material",
+     "value": "EVA (Ethylene Vinyl Acetate)"
+    },
+    {
+     "name": "Lining Material",
+     "value": "EVA (Ethylene Vinyl Acetate)"
+    },
+    {
+     "name": "Features",
+     "value": "Lightweight, Comfort, Waterproof, Breathable, Vegan"
+    },
+    {
+     "name": "Shoe Width",
+     "value": "Medium"
+    },
+    {
+     "name": "Closure",
+     "value": "Slip On"
+    },
+    {
+     "name": "Accents",
+     "value": "Logo"
+    },
+    {
+     "name": "Occasion",
+     "value": "Casual, Travel"
+    }
+   ]
+  },
+  {
+   "id": "e-v1|147569458214|0",
+   "title": "Pumpkin Cast Iron Dutch Oven, 4qt Enamel Cast Iron Cooking Pot with Lid - NEW",
    "brand": "",
    "platform": "eBay",
    "category": "kitchen",
-   "price": 25,
+   "price": 46,
    "tags": [
     "heirloom",
     "practical",
     "slow-cooking"
    ],
    "emoji": "🍳",
-   "hue": 91,
+   "hue": 218,
    "blurb": "New",
-   "image": "https://i.ebayimg.com/images/g/sSAAAeSwjKBqQqMJ/s-l1600.jpg",
+   "image": "https://i.ebayimg.com/images/g/lzIAAeSwYHRqpgia/s-l1600.jpg",
    "images": [
-    "https://i.ebayimg.com/images/g/sSAAAeSwjKBqQqMJ/s-l1600.jpg",
-    "https://i.ebayimg.com/images/g/vNcAAeSw~UhqQqMK/s-l1600.jpg",
-    "https://i.ebayimg.com/images/g/sIIAAeSw6BhqQqMK/s-l1600.jpg",
-    "https://i.ebayimg.com/images/g/ibYAAeSw6rdqQqMK/s-l1600.jpg",
-    "https://i.ebayimg.com/images/g/w90AAeSwKAVqQqMJ/s-l1600.jpg",
-    "https://i.ebayimg.com/images/g/qMwAAeSw509qQqMK/s-l1600.jpg",
-    "https://i.ebayimg.com/images/g/uEQAAeSwEFxqQqMK/s-l1600.jpg",
-    "https://i.ebayimg.com/images/g/2X0AAeSwNDJqQqMK/s-l1600.jpg"
+    "https://i.ebayimg.com/images/g/lzIAAeSwYHRqpgia/s-l1600.jpg",
+    "https://i.ebayimg.com/images/g/blQAAeSwOZRqpgia/s-l1600.jpg",
+    "https://i.ebayimg.com/images/g/iv0AAeSwwDVqpgic/s-l1600.jpg",
+    "https://i.ebayimg.com/images/g/6PsAAeSwnLRqpgie/s-l1600.jpg"
    ],
-   "url": "https://www.ebay.com/itm/298464217176?amdata=enc%3AAQALAAAAoCHNgUiiE%2FjQhlDTaMiAde8O%2BlwQ%2Fk7estduPiCmYRQHZ4WjU%2FhpDynNXcpUEKgjzVc64cZr8WjpmdyeiFGUslSS0OMXDlpqs1KwpTacrK2YCRgVOqc%2FctRcvKyfvCPtgi5Os7Il6MHUeKSjaKAw7Mu6biaaOiRqO9cMGtqluhLTKo3UKNu80aT6kkr80rMeftDmTw9dGrIX00R7HGIs4sk%3D",
-   "description": "A stainless steel spiral bail handle makes it easy to transport and handle, while its incredible versatility allows it to be used in the oven, on the stovetop, or right over an open fire. Whether you want to bake, fry, or stew, you can do it all with the Ozark Trail 5-Quart Pre-Seasoned Nonstick Cast Iron Dutch Oven with Spiral Bail Handle.",
+   "url": "https://www.ebay.com/itm/147569458214",
+   "description": "Summon the spirit of spookiness this Halloween season with this superior 4-quart pumpkin-shaped cast iron Dutch oven. Crafted for versatility, durability, and unmatched performance, this sleek, glossy ivory pumpkin-shaped Dutch oven adds a unique touch of style year-round.",
    "specs": [
     {
      "name": "Stove Type Compatibility",
-     "value": "Follow Description"
+     "value": "Electric"
+    },
+    {
+     "name": "Number of Items in Set",
+     "value": "Two-Piece"
     },
     {
      "name": "Antique",
      "value": "No"
     },
     {
+     "name": "Type",
+     "value": "Dutch Oven"
+    },
+    {
      "name": "Shape",
      "value": "Round"
     },
     {
-     "name": "Color",
-     "value": "Black"
+     "name": "Original/Licensed Reproduction",
+     "value": "Original"
     },
     {
-     "name": "Type of Oven",
-     "value": "Gas"
+     "name": "Color",
+     "value": "Orange"
     },
     {
      "name": "Material",
@@ -8144,66 +8295,99 @@
      "value": "Lid"
     },
     {
+     "name": "Features",
+     "value": "With Lid"
+    },
+    {
      "name": "Vintage",
      "value": "No"
-    },
-    {
-     "name": "California Prop 65 Warning",
-     "value": "This product contains a and birth defects or other reproductive harm. For mchemical knows to the State of california To cause cancel ore information go to www.P"
-    },
-    {
-     "name": "Type",
-     "value": "Dutch Oven"
-    },
-    {
-     "name": "Features",
-     "value": "Non-Stick"
-    },
-    {
-     "name": "Surface Coating",
-     "value": "Non-Stick"
     }
    ]
   },
   {
-   "id": "e-v1|227348766481|0",
-   "title": "Pour Over Coffee Maker Thickened Heat-Resistant Borosilicate Glass Stainless NEW",
-   "brand": "Unbranded",
+   "id": "e-v1|206555892352|0",
+   "title": "WILLOW Kitchen Pour Over Coffee Maker Green",
+   "brand": "Willow Kitchen",
    "platform": "eBay",
    "category": "kitchen",
-   "price": 19,
+   "price": 63,
    "tags": [
     "ritual",
     "minimalist",
     "artisan"
    ],
    "emoji": "🍳",
-   "hue": 139,
-   "blurb": "New",
-   "image": "https://i.ebayimg.com/images/g/LT4AAeSwAFFqCxfK/s-l1600.jpg",
+   "hue": 277,
+   "blurb": "Used",
+   "image": "https://i.ebayimg.com/images/g/htQAAeSwmuBqp5gl/s-l1600.jpg",
    "images": [
-    "https://i.ebayimg.com/images/g/LT4AAeSwAFFqCxfK/s-l1600.jpg",
-    "https://i.ebayimg.com/images/g/uREAAeSwnSNqCxfO/s-l1600.jpg",
-    "https://i.ebayimg.com/images/g/mR4AAeSwPmNqCxfT/s-l1600.jpg"
+    "https://i.ebayimg.com/images/g/htQAAeSwmuBqp5gl/s-l1600.jpg",
+    "https://i.ebayimg.com/images/g/JOQAAeSwR25qp5gl/s-l1600.jpg",
+    "https://i.ebayimg.com/images/g/ZGMAAeSwqR1qp5gl/s-l1600.jpg",
+    "https://i.ebayimg.com/images/g/G3sAAeSwINFqp5gl/s-l1600.jpg",
+    "https://i.ebayimg.com/images/g/MnMAAeSwYntqp5gl/s-l1600.jpg",
+    "https://i.ebayimg.com/images/g/WtsAAeSw0Bhqp5gl/s-l1600.jpg",
+    "https://i.ebayimg.com/images/g/K8cAAeSwZBRqp5gl/s-l1600.jpg",
+    "https://i.ebayimg.com/images/g/mKwAAeSw2lNqp5gl/s-l1600.jpg"
    ],
-   "url": "https://www.ebay.com/itm/227348766481?amdata=enc%3AAQALAAAAoCHNgUiiE%2FjQhlDTaMiAde89ZATubypNwYtYmKDu4KpYoB6iT4q7btUGLHU3TPnDQrbMN1lxfpnQYU3TvVgX2hMPTD%2Bt%2FjvJAjBQhaH2t%2F8sTN6aQaoRH4mn8D%2FjiHXSBmT08Moz%2B4tUn289%2FBmeBdYnYB8tkLIg4nsFtWS5ch073fo9oes6P1r5DFooBhb155w%2BGiZ8TyV9QafHfjl15a8%3D",
-   "description": "BODUM 17oz Pour Over Coffee Maker, High-Heat Borosilicate Glass 17oz, Cork. High-Heat borosilicate glass carafe that won't alter or impair flavors or aromas. The pour over promises excellent, rich taste and robust aroma while maintaining the natural oils of the ground Coffee.",
+   "url": "https://www.ebay.com/itm/206555892352",
+   "description": "•Approximate dimensions: 13.22\" x 6.93\" x 14.",
    "specs": [
     {
+     "name": "Model",
+     "value": "Willow Kitchen-94938595"
+    },
+    {
      "name": "Brand",
-     "value": "Unbranded"
+     "value": "Willow Kitchen"
+    },
+    {
+     "name": "Item Width",
+     "value": "13.000"
+    },
+    {
+     "name": "Item Height",
+     "value": "14.000"
     },
     {
      "name": "Type",
-     "value": "Coffee Maker Filter Kettle"
+     "value": "Pod & Capsule Coffee Machines"
     },
     {
-     "name": "Model",
-     "value": "400ML"
+     "name": "Color",
+     "value": "Green"
+    },
+    {
+     "name": "MPN",
+     "value": "94938595"
     },
     {
      "name": "Country of Origin",
-     "value": "China"
+     "value": "United States - US"
+    },
+    {
+     "name": "Material",
+     "value": "Plastic Glass Metal"
+    },
+    {
+     "name": "Form Factor",
+     "value": "Coffee Makers  14 Inches (H) x 12.44 Inches (W) x"
+    },
+    {
+     "name": "Pattern",
+     "value": "Solid"
+    },
+    {
+     "name": "Size Type",
+     "value": "Regular"
+    },
+    {
+     "name": "Style",
+     "value": "Coffee Makers"
+    },
+    {
+     "name": "UPC",
+     "value": "850053377099"
     }
    ]
   },
@@ -8233,7 +8417,7 @@
     "https://i.ebayimg.com/images/g/lH0AAeSwU8FpqiFE/s-l1600.jpg",
     "https://i.ebayimg.com/images/g/VsoAAeSwRbRpqiFE/s-l1600.jpg"
    ],
-   "url": "https://www.ebay.com/itm/317960116967?amdata=enc%3AAQALAAAAoCHNgUiiE%2FjQhlDTaMiAde9NdJPNBJgafWkxMh1hM3Ek--rQJPExzmg9flygfIFF7m8xdBWI9oMb%2FbHhRCzsbZq1zsJpoj%2FzzGdh%2FrsDiCVzLEQLFmeuU1CDXk4qUg09Teh5ns2JtLZHyR%2FXo56gvP4ZOx5JRdqO5gWikdEvwtFMgjgeMCCF4czLRAIsGx7MSoRgr18JEomJcKGdKBoUEXE%3D",
+   "url": "https://www.ebay.com/itm/317960116967?amdata=enc%3AAQALAAAAoCHNgUiiE%2FjQhlDTaMiAde9NdJPNBJgafWkxMh1hM3Ek--rQJPExzmg9flygfIFF7gGP2eBvMwJPpfiXRqW9sPOo%2BsRVN6j%2FvbrbjvtktVLNr4A77Q3MNGcr2wH8RvyKvyCQRbn%2BqzqRe6vG6EK5RyCRI8pc37g0rKYdyifuAsHCQibGui4GwW3lzoMCyFIqENijWh1UISoS2uAqQnCMzn4%3D",
    "description": "Premium Japanese VG10 Damascus Gyuto Chef Knife – 210mm (8.2\"). Masterfully forged with a premium VG10 steel core and beautiful Damascus cladding, this knife is not just a high-performance kitchen tool—it is a work of art.",
    "specs": [
     {
@@ -8307,191 +8491,157 @@
    ]
   },
   {
-   "id": "e-v1|128050752941|0",
-   "title": "NEW Ovente Home Espresso Machine w Milk Frother Steam Tube Foamer 4 Cup 3.5 Bar",
-   "brand": "OVENTE",
+   "id": "e-v1|377447198581|0",
+   "title": "STAINLESS - CALPHALON COMPACT ESPRESSO MACHINE, HOME ESPRESSO MACHINE WITH MILK",
+   "brand": "Calphalon",
    "platform": "eBay",
    "category": "kitchen",
-   "price": 40,
+   "price": 86,
    "tags": [
     "ritual",
     "techy",
     "entertaining"
    ],
    "emoji": "🍳",
-   "hue": 330,
-   "blurb": "New",
-   "image": "https://i.ebayimg.com/images/g/8YsAAeSwDqFqkv1m/s-l1600.jpg",
+   "hue": 264,
+   "blurb": "Open box",
+   "image": "https://i.ebayimg.com/images/g/Ra4AAeSwQfZqon8i/s-l1600.jpg",
    "images": [
-    "https://i.ebayimg.com/images/g/8YsAAeSwDqFqkv1m/s-l1600.jpg",
-    "https://i.ebayimg.com/images/g/b2AAAeSwFfJqkv1m/s-l1600.jpg",
-    "https://i.ebayimg.com/images/g/5cgAAeSw3B1qkv1l/s-l1600.jpg",
-    "https://i.ebayimg.com/images/g/yRAAAeSw2G9qkv1l/s-l1600.jpg"
+    "https://i.ebayimg.com/images/g/Ra4AAeSwQfZqon8i/s-l1600.jpg",
+    "https://i.ebayimg.com/images/g/9jYAAeSwYyRqon8j/s-l1600.jpg",
+    "https://i.ebayimg.com/images/g/QH0AAeSwxvdqon8i/s-l1600.jpg",
+    "https://i.ebayimg.com/images/g/7skAAeSwjzdqon8i/s-l1600.jpg",
+    "https://i.ebayimg.com/images/g/K-4AAeSwVDVqon8i/s-l1600.jpg"
    ],
-   "url": "https://www.ebay.com/itm/128050752941",
-   "description": "NEW Ovente Home Espresso Machine w Milk Frother Steam Tube Foamer 4 Cup 3.5 Bar. Condition is New. Shipped with Standard Shipping.",
+   "url": "https://www.ebay.com/itm/377447198581?amdata=enc%3AAQALAAAAoCHNgUiiE%2FjQhlDTaMiAde%2BbIeN3%2BdftGLc55JNsKOX5Jbm5axwMJ3zF49LP%2F0M9IFJ61U1ATypg2IW2ecdukFoAwMvqWIMZ%2Bmw0f8EWo2AVJv7TwkKupqV06DuO2JCOKi0El9XkRoPBlPrdxfhggs8BH7FGY%2FiUDR5RW9U8foOLkRGxk2Kw%2B0uHBDkGhQpGqY%2BFDpst4il7UftVooyGyg4%3D",
+   "description": "• Thermoblock Heating Technology and Low-Pressure Pre-Infusion: Evenly heats water for consistently great-tasting, flavorful espresso. • Space-Saving Design: Works like a professional coffeehouse machine, but with a sleek and slim design profile that takes up less space on the kitchen countertop.",
    "specs": [
     {
      "name": "Brand",
-     "value": "OVENTE"
+     "value": "Calphalon"
     },
     {
-     "name": "Type",
-     "value": "Espresso Machine"
+     "name": "EBAY_Color",
+     "value": "Silver"
     },
     {
-     "name": "Number of Cups",
-     "value": "4"
-    },
-    {
-     "name": "Color",
-     "value": "Black"
-    },
-    {
-     "name": "Model",
-     "value": "CM45B"
-    },
-    {
-     "name": "Features",
-     "value": "Frother"
-    },
-    {
-     "name": "Country of Origin",
-     "value": "Italy"
+     "name": "EBAY_Size",
+     "value": "Medium"
     },
     {
      "name": "UPC",
-     "value": "814667023575"
+     "value": "053891169189"
     }
    ]
   },
   {
-   "id": "e-v1|168553471453|0",
-   "title": "Gibson Home 32 Piece Stoneware Dinnerware Set Service for 8 Black Microwave Safe",
-   "brand": "Gibson",
+   "id": "e-v1|800650834904|0",
+   "title": "12 Piece Stoneware Dinnerware Set Blue Plates Bowls Service for 4",
+   "brand": "Unbranded",
    "platform": "eBay",
    "category": "kitchen",
-   "price": 200,
+   "price": 29,
    "tags": [
     "artisan",
     "entertaining",
     "earthy"
    ],
    "emoji": "🍳",
-   "hue": 172,
+   "hue": 286,
    "blurb": "New",
-   "image": "https://i.ebayimg.com/images/g/iG4AAeSw0XBqYAF~/s-l1600.jpg",
+   "image": "https://i.ebayimg.com/images/g/GlAAAeSwws5qZNcy/s-l1600.jpg",
    "images": [
-    "https://i.ebayimg.com/images/g/iG4AAeSw0XBqYAF~/s-l1600.jpg",
-    "https://i.ebayimg.com/images/g/1M4AAeSwstBqYADs/s-l1600.jpg",
-    "https://i.ebayimg.com/images/g/6DAAAeSw~oJqYADs/s-l1600.jpg",
-    "https://i.ebayimg.com/images/g/2uYAAeSwYG9qYADs/s-l1600.jpg",
-    "https://i.ebayimg.com/images/g/JrMAAeSwRT1qYADs/s-l1600.jpg",
-    "https://i.ebayimg.com/images/g/OWAAAeSwogFqYADs/s-l1600.jpg",
-    "https://i.ebayimg.com/images/g/-akAAeSwfE5qYADs/s-l1600.jpg",
-    "https://i.ebayimg.com/images/g/g3kAAeSwU7xqYADs/s-l1600.jpg"
+    "https://i.ebayimg.com/images/g/GlAAAeSwws5qZNcy/s-l1600.jpg",
+    "https://i.ebayimg.com/images/g/w2AAAeSwcGlqZNcy/s-l1600.jpg",
+    "https://i.ebayimg.com/images/g/A4IAAeSwzGVqZNcy/s-l1600.jpg",
+    "https://i.ebayimg.com/images/g/JnsAAeSwizZqZNcx/s-l1600.jpg",
+    "https://i.ebayimg.com/images/g/LbQAAeSwRTtqZNcy/s-l1600.jpg"
    ],
-   "url": "https://www.ebay.com/itm/168553471453?amdata=enc%3AAQALAAAAoCHNgUiiE%2FjQhlDTaMiAde8GoCq%2FQlYLnZXaTRMHz%2B4df68F66a2oQgzdvt32PfcXs2zFx503gvq9Hhy3E4uql6ZNIRa3%2BVVnHfn5zP3YsxIwj3czkSbfNyaXFKV0Z6zOJX630pg1w%2BCusrC5ddUs%2Bn%2F6DzR5c8cQIXG5lrEEsxha6p%2FVnvXVrSHQ6%2B%2BKCLu6BhK5sQaoxdpgzj398jNKOo%3D",
-   "description": "Premium Stoneware Construction. Material Stoneware. Type Dinnerware Set. Microwave Safe. Microwave Safe Yes. Care Instructions: Dishwasher and microwave safe. Modern Round Design. Total Pieces 32.",
+   "url": "https://www.ebay.com/itm/800650834904?amdata=enc%3AAQALAAAAoCHNgUiiE%2FjQhlDTaMiAde9%2FUt%2BQx%2B1mcr1Fd6wrzOqqjqjYV639IZSY7ND2RYK8BatNA7Cctedb42Z097V%2Fca0qpc9IHBOhde1wUQT9WRWRgBy4GIKMV1uRPU3Vf3wIXlq7qpu3MT%2BClIsjUscwCaSBvVuM3XFJ6UPACclFI18wcFDaZ521yR6xv%2BBR%2BOGiuT0sh7%2BJESZ0%2BOCWcWTVlq8%3D",
+   "description": "Includes matching dinner plates, salad plates, and bowls for complete table service. Durable stoneware construction. A stylish and durable dinnerware set that adds convenience and elegance to any dining table.",
    "specs": [
     {
      "name": "Number of Items in Set",
-     "value": "32 Piece"
+     "value": "Four-Piece"
     },
     {
-     "name": "Pattern",
-     "value": "Solid"
+     "name": "Brand",
+     "value": "Unbranded"
+    },
+    {
+     "name": "Type",
+     "value": "Bowl"
+    },
+    {
+     "name": "Number of Compartments",
+     "value": "4"
     },
     {
      "name": "Shape",
      "value": "Round"
     },
     {
-     "name": "Occasion",
-     "value": "All Occasions"
-    },
-    {
      "name": "Color",
-     "value": "Black"
+     "value": "Blue"
     },
     {
      "name": "Number of Place Settings",
-     "value": "8"
+     "value": "4"
+    },
+    {
+     "name": "Theme",
+     "value": "Food/Kitchen"
     },
     {
      "name": "Material",
      "value": "Stoneware"
     },
     {
-     "name": "Year Manufactured",
-     "value": "2023"
-    },
-    {
-     "name": "Brand",
-     "value": "Gibson"
-    },
-    {
-     "name": "Department",
-     "value": "Adults"
-    },
-    {
-     "name": "Type",
-     "value": "Dinner Set"
-    },
-    {
-     "name": "Original/Reproduction",
-     "value": "Original"
-    },
-    {
-     "name": "Style",
-     "value": "Modern"
+     "name": "Set Includes",
+     "value": "Bowl, Plate"
     },
     {
      "name": "Features",
-     "value": "Microwave Safe, Dishwasher Safe"
+     "value": "Dishwasher Safe"
     },
     {
-     "name": "Finish",
-     "value": "Matte"
-    },
-    {
-     "name": "UPC",
-     "value": "085081225849"
+     "name": "Country of Origin",
+     "value": "China"
     }
    ]
   },
   {
-   "id": "e-v1|178340837920|0",
-   "title": "SkinCeuticals C E Ferulic 15% L-Ascorbic Acid Vitamin C Serum 1 fl oz New in Box",
-   "brand": "SkinCeuticals",
+   "id": "e-v1|198636247861|0",
+   "title": "Timeless 20% Vitamin C + E Ferulic Acid Serum 30ml Antioxidant Face Serum",
+   "brand": "Timeless",
    "platform": "eBay",
    "category": "beauty",
-   "price": 19,
+   "price": 14,
    "tags": [
     "skincare",
     "glow",
     "self-care"
    ],
    "emoji": "🧴",
-   "hue": 148,
+   "hue": 143,
    "blurb": "New",
-   "image": "https://i.ebayimg.com/images/g/ZJIAAeSw7RNqY5dy/s-l1600.jpg",
+   "image": "https://i.ebayimg.com/images/g/CIMAAeSwNsFqpS1q/s-l1600.jpg",
    "images": [
-    "https://i.ebayimg.com/images/g/ZJIAAeSw7RNqY5dy/s-l1600.jpg",
-    "https://i.ebayimg.com/images/g/uiMAAeSw1uFqY5dy/s-l1600.jpg",
-    "https://i.ebayimg.com/images/g/CA8AAeSwdJpqY5dy/s-l1600.jpg",
-    "https://i.ebayimg.com/images/g/k3MAAeSwmaVqY5dy/s-l1600.jpg",
-    "https://i.ebayimg.com/images/g/~K0AAeSwpwZqY5dy/s-l1600.jpg",
-    "https://i.ebayimg.com/images/g/ZIwAAeSw7RNqY5dy/s-l1600.jpg",
-    "https://i.ebayimg.com/images/g/JWEAAeSwcQBqY5dy/s-l1600.jpg",
-    "https://i.ebayimg.com/images/g/bBgAAeSwNRxqY5dy/s-l1600.jpg"
+    "https://i.ebayimg.com/images/g/CIMAAeSwNsFqpS1q/s-l1600.jpg",
+    "https://i.ebayimg.com/images/g/bzUAAeSwCJxqpS1r/s-l1600.jpg",
+    "https://i.ebayimg.com/images/g/rTkAAeSwtMVqpS1r/s-l1600.jpg",
+    "https://i.ebayimg.com/images/g/~tkAAeSw6pdqpS1r/s-l1600.jpg",
+    "https://i.ebayimg.com/images/g/dlUAAeSwbUdqpS1r/s-l1600.jpg",
+    "https://i.ebayimg.com/images/g/iYkAAeSwNsRqpS1s/s-l1600.jpg",
+    "https://i.ebayimg.com/images/g/WeUAAeSwj6RqpS1t/s-l1600.jpg",
+    "https://i.ebayimg.com/images/g/aC8AAeSwkOJqpS1t/s-l1600.jpg"
    ],
-   "url": "https://www.ebay.com/itm/178340837920?amdata=enc%3AAQALAAAAoCHNgUiiE%2FjQhlDTaMiAde8NXpOxlzZ2PxIZj7BI4pV7LjyyaLFKayXMBiwhVome5KtMnUlJNp5kxfm67HQ2HFGNQoJyYx8HlVw%2BpBYN8cSKj09aKeBFUAHwCQPz%2F0ID1JXO%2BwFCyPlqX38pYIJJmWyo4KZOs%2BB%2B8cSJjwwimrOtCxAjLA4n0pfk5T5OgY0NtqZblK0yLg248k%2FxPnETKYw%3D",
-   "description": "SkinCeuticals C E Ferulic. Award-winning antioxidant serum with 15% pure L-Ascorbic Acid (Vitamin C), 1% Alpha Tocopherol (Vitamin E) and 0.5% Ferulic Acid. Why C E Ferulic Works. 1 x SkinCeuticals C E Ferulic Antioxidant Serum, 1 fl oz / 30 ml.",
+   "url": "https://www.ebay.com/itm/198636247861",
+   "description": "It is designed to absorb quickly and fit easily into a daily skincare routine. Vitamin C + E + Ferulic Acid • 1 oz / 30ml. A lightweight antioxidant-focused facial serum formulated with 20% L-Ascorbic Acid, Vitamin E and Ferulic Acid to support a brighter, more even-looking complexion.",
    "specs": [
     {
-     "name": "Main Purpose",
-     "value": "Dark Spots, Early Signs of Aging, Fine Lines"
+     "name": "Period After Opening (PAO)",
+     "value": "12M"
     },
     {
      "name": "Skin Type",
@@ -8499,19 +8649,23 @@
     },
     {
      "name": "Size",
-     "value": "1 fl oz / 30 ml"
+     "value": "Regular"
     },
     {
-     "name": "Ingredients",
-     "value": "L-Ascorbic Acid 15%, Alpha Tocopherol 1%, Ferulic Acid 0.5%"
+     "name": "Set Includes",
+     "value": "Antioxidant"
+    },
+    {
+     "name": "Sun Protection Factor (SPF)",
+     "value": "SPF 4"
     },
     {
      "name": "Brand",
-     "value": "SkinCeuticals"
+     "value": "Timeless"
     },
     {
      "name": "Active Ingredients",
-     "value": "Vitamin C (L-Ascorbic Acid), Vitamin E, Ferulic Acid"
+     "value": "Hyaluronic Acid"
     },
     {
      "name": "Type",
@@ -8526,10 +8680,6 @@
      "value": "fl oz"
     },
     {
-     "name": "Volume",
-     "value": "1 fl oz / 30 ml"
-    },
-    {
      "name": "Formulation",
      "value": "Serum"
     },
@@ -8538,262 +8688,83 @@
      "value": "Face"
     },
     {
-     "name": "Features",
-     "value": "Antioxidant, Anti-Aging, Brightening"
-    },
-    {
-     "name": "Unit Quantity",
-     "value": "1"
-    },
-    {
      "name": "Country of Origin",
      "value": "United States"
-    },
-    {
-     "name": "Product Line",
-     "value": "C E Ferulic – Prevent"
     }
    ]
   },
   {
-   "id": "e-v1|227505087933|0",
-   "title": "Jade Roller & Gua Sha Set 5 in 1 Facial Massager Tools - Jade Gua Sha Facial Mas",
+   "id": "e-v1|398393464916|0",
+   "title": "Essential Jade Roller & Gua Sha Duo: Enhance Your Skincare Routine Naturally",
    "brand": "",
    "platform": "eBay",
    "category": "beauty",
-   "price": 19,
+   "price": 13,
    "tags": [
     "skincare",
     "ritual",
     "self-care"
    ],
    "emoji": "🧴",
-   "hue": 215,
+   "hue": 146,
    "blurb": "New",
-   "image": "https://i.ebayimg.com/images/g/clkAAeSwK6Fqmj3J/s-l1600.jpg",
+   "image": "https://i.ebayimg.com/images/g/K9IAAeSwMXRqp8l0/s-l1600.jpg",
    "images": [
-    "https://i.ebayimg.com/images/g/clkAAeSwK6Fqmj3J/s-l1600.jpg",
-    "https://i.ebayimg.com/images/g/-TkAAeSwM2lqmj3K/s-l1600.jpg",
-    "https://i.ebayimg.com/images/g/FU0AAeSwUXpqmj3L/s-l1600.jpg",
-    "https://i.ebayimg.com/images/g/6w8AAeSwHO1qmj3M/s-l1600.jpg",
-    "https://i.ebayimg.com/images/g/QAsAAeSwT-hqmj3M/s-l1600.jpg",
-    "https://i.ebayimg.com/images/g/6MwAAeSwZERqmj3N/s-l1600.jpg",
-    "https://i.ebayimg.com/images/g/L50AAeSw-95qmj3N/s-l1600.jpg"
+    "https://i.ebayimg.com/images/g/K9IAAeSwMXRqp8l0/s-l1600.jpg",
+    "https://i.ebayimg.com/images/g/gNUAAeSwUatqp8l7/s-l1600.jpg",
+    "https://i.ebayimg.com/images/g/-5AAAeSwqR1qp8mA/s-l1600.jpg",
+    "https://i.ebayimg.com/images/g/iroAAeSw2WZqp8mF/s-l1600.jpg",
+    "https://i.ebayimg.com/images/g/AB4AAeSweQVqp8mK/s-l1600.jpg",
+    "https://i.ebayimg.com/images/g/MMYAAeSweP9qp8mP/s-l1600.jpg",
+    "https://i.ebayimg.com/images/g/ywgAAeSwfEhqp8mU/s-l1600.jpg",
+    "https://i.ebayimg.com/images/g/i9YAAeSw2WZqp8mZ/s-l1600.jpg"
    ],
-   "url": "https://www.ebay.com/itm/227505087933",
-   "description": "What are the benefits of the Jade Roller & Gua Sha?. Jade roller: Facial Rollers and gua sha board massage the eyes, arms, back and legs, etc., to help skin feel refreshed. They are traditional manual face massage tools.",
+   "url": "https://www.ebay.com/itm/398393464916",
+   "description": "Essential Jade Roller & Gua Sha Duo. Why choose our Essential Jade Roller & Gua Sha Duo?. Indulge in the ancient art of skincare with our Essential Jade Roller & Gua Sha Duo. Whether you’re gifting yourself or a loved one, this elegant skincare set is the perfect addition to any beauty routine.",
    "specs": [
     {
-     "name": "Product Dimensions",
-     "value": "7.29 x 4.1 x 1.9 inches; 9.6 ounces"
+     "name": "Massager Form",
+     "value": "Massage Roller"
     },
     {
-     "name": "Item model number",
-     "value": "roller1"
+     "name": "Set",
+     "value": "Guasha & Jade Roller"
     },
     {
-     "name": "UPC",
-     "value": "313033256215"
-    }
-   ]
-  },
-  {
-   "id": "e-v1|318827249499|0",
-   "title": "Blowout Hair Styler Volumizing Hot Air Brush For Salon Blowouts And Curls",
-   "brand": "Unbranded",
-   "platform": "eBay",
-   "category": "beauty",
-   "price": 35,
-   "tags": [
-    "glow",
-    "techy",
-    "everyday"
-   ],
-   "emoji": "🧴",
-   "hue": 219,
-   "blurb": "New",
-   "image": "https://i.ebayimg.com/images/g/erkAAeSw6NFqm15~/s-l1600.jpg",
-   "images": [
-    "https://i.ebayimg.com/images/g/erkAAeSw6NFqm15~/s-l1600.jpg",
-    "https://i.ebayimg.com/images/g/S8kAAeSweLVqm10M/s-l1600.jpg",
-    "https://i.ebayimg.com/images/g/ZJ4AAeSwSUNqm10M/s-l1600.jpg",
-    "https://i.ebayimg.com/images/g/11cAAeSwG9Fqm10M/s-l1600.jpg",
-    "https://i.ebayimg.com/images/g/P2AAAeSww99qm10L/s-l1600.jpg",
-    "https://i.ebayimg.com/images/g/RywAAeSwaONqm10M/s-l1600.jpg"
-   ],
-   "url": "https://www.ebay.com/itm/318827249499",
-   "description": "Upgrade your daily hair styling routine with this 4-in-1 Gold Hair Dryer and Styler Volumizer. Ceramic Oval Barrel: Designed to distribute heat evenly while helping to smooth and volumize hair. 4-in-1 Functionality: Combines a hair dryer, volumizer, straightener, and styling brush into a single unit.",
-   "specs": [
-    {
-     "name": "Brand",
-     "value": "Unbranded"
+     "name": "Unit Count",
+     "value": "1 Count"
     },
     {
-     "name": "Type",
-     "value": "Brush Dryer"
+     "name": "Item Dimensions L X W X H",
+     "value": "2.5\"l X 0.2\"w X 3.8\"h"
     },
     {
      "name": "Power Source",
-     "value": "Electric Corded"
+     "value": "Non-Powered"
     },
     {
-     "name": "Size",
-     "value": "Full Size"
+     "name": "Specific Uses For Product",
+     "value": "Myofascial"
     },
     {
-     "name": "Color",
-     "value": "Gold"
+     "name": "Material Type",
+     "value": "Jade"
     },
     {
-     "name": "Model",
-     "value": "4-in-1 Hot Air Brush Dryer"
+     "name": "Product Dimensions",
+     "value": "0.75 X 2 X 6 Inches; 5.6 Ounces"
     },
     {
-     "name": "Features",
-     "value": "Ionic Technology, Ceramic Coating, Multiple Speed Settings, Lightweight, Ergonomic Handle, Volumizing, Frizz Control"
+     "name": "Form Factor",
+     "value": "Dual-tool Set"
     },
     {
-     "name": "Number of Temperature Settings",
-     "value": "3"
+     "name": "Labels & Certifications",
+     "value": "Jade Roller and Gua Sha Tool"
     },
     {
-     "name": "Maximum Temperature",
-     "value": "250 °F"
-    },
-    {
-     "name": "Number of Speeds",
-     "value": "3"
-    },
-    {
-     "name": "Barrel Size",
-     "value": "4 in"
-    }
-   ]
-  },
-  {
-   "id": "e-v1|237054480580|0",
-   "title": "WHITE OUD | Perfume Body Oil | Uncut Premium Unisex Fragrance Attar | 1 fl oz",
-   "brand": "CSS",
-   "platform": "eBay",
-   "category": "beauty",
-   "price": 20,
-   "tags": [
-    "luxury",
-    "statement",
-    "self-care"
-   ],
-   "emoji": "🧴",
-   "hue": 312,
-   "blurb": "New with box",
-   "image": "https://i.ebayimg.com/images/g/1xEAAeSwcJ1qnhhL/s-l1600.jpg",
-   "images": [
-    "https://i.ebayimg.com/images/g/1xEAAeSwcJ1qnhhL/s-l1600.jpg",
-    "https://i.ebayimg.com/images/g/C1EAAeSwU~lqnhhM/s-l1600.jpg",
-    "https://i.ebayimg.com/images/g/5vMAAeSw0yNqnhhM/s-l1600.jpg",
-    "https://i.ebayimg.com/images/g/TVcAAeSwdy9qnhhM/s-l1600.jpg",
-    "https://i.ebayimg.com/images/g/nhQAAeSw1LlqkZ06/s-l1600.jpg",
-    "https://i.ebayimg.com/images/g/kawAAeSwcJ1qkZ06/s-l1600.jpg",
-    "https://i.ebayimg.com/images/g/WJgAAeSwRHNqnA31/s-l1600.jpg"
-   ],
-   "url": "https://www.ebay.com/itm/237054480580",
-   "description": "Base Notes: Musk, Oud. All trademarks belong to their respective owners. FRAGRANCE NOTES.",
-   "specs": [
-    {
-     "name": "Brand",
-     "value": "CSS"
-    },
-    {
-     "name": "Size Type",
-     "value": "Travel Size"
-    },
-    {
-     "name": "Type",
-     "value": "Perfume Body Oil"
-    },
-    {
-     "name": "Fragrance Name",
-     "value": "White Oud"
-    },
-    {
-     "name": "Volume",
-     "value": "1 fl oz"
-    },
-    {
-     "name": "Formulation",
-     "value": "Oil"
-    },
-    {
-     "name": "Features",
-     "value": "Alcohol-Free, All Natural Ingredients, Concentrated, Cruelty-Free/No Animal Testing, Long Lasting, Paraben-Free, Rollerball"
-    },
-    {
-     "name": "Scent",
-     "value": "Jasmine, Oud, Ylang Ylang"
-    },
-    {
-     "name": "Country of Origin",
-     "value": "United States"
-    }
-   ]
-  },
-  {
-   "id": "e-v1|318810489822|0",
-   "title": "12 Pack Korean Sheet Face Masks Hydrating Facial Spa Skincare Set",
-   "brand": "Nobrand",
-   "platform": "eBay",
-   "category": "beauty",
-   "price": 18,
-   "tags": [
-    "skincare",
-    "self-care",
-    "glow"
-   ],
-   "emoji": "🧴",
-   "hue": 41,
-   "blurb": "New",
-   "image": "https://i.ebayimg.com/images/g/OnYAAeSwiTNqlwEo/s-l1600.jpg",
-   "images": [
-    "https://i.ebayimg.com/images/g/OnYAAeSwiTNqlwEo/s-l1600.jpg",
-    "https://i.ebayimg.com/images/g/ONwAAeSwnsNqlwEo/s-l1600.jpg",
-    "https://i.ebayimg.com/images/g/F-YAAeSwh3NqlwEo/s-l1600.jpg",
-    "https://i.ebayimg.com/images/g/ItcAAeSw9fJqlwEo/s-l1600.jpg",
-    "https://i.ebayimg.com/images/g/FHgAAeSwWg9qlwEo/s-l1600.jpg",
-    "https://i.ebayimg.com/images/g/Dd8AAeSwhq5qlwEo/s-l1600.jpg"
-   ],
-   "url": "https://www.ebay.com/itm/318810489822?amdata=enc%3AAQALAAAAoCHNgUiiE%2FjQhlDTaMiAde%2BP4z064Op4kCS%2FsBcsEU%2FX6HNYw36LZeheaDOnwQ9cAhU1Yd2K6OsEnptou7UNmkQTi0MI3bDMXXUpvr%2F5fxAdtkUfqTR1XFv15P2eETm2%2BPSOkwZ0w8JJ0V5jLA7bHkxX3jSdTr4zEo3kGdKKRcdT9R2XwSZtZqLerIBGHZSL6rPyemZuWD0MZ5GpprGbjfU%3D",
-   "description": "Perfect for daily skincare, self-care, and gifting occasions. Includes 12 individual sheet face masks.",
-   "specs": [
-    {
-     "name": "Main Purpose",
-     "value": "Anti-Aging"
-    },
-    {
-     "name": "Period After Opening (PAO)",
-     "value": "12M"
-    },
-    {
-     "name": "Personalize",
-     "value": "No"
-    },
-    {
-     "name": "Brand",
-     "value": "Nobrand"
-    },
-    {
-     "name": "Skin Type",
-     "value": "All Skin Types"
-    },
-    {
-     "name": "Type",
-     "value": "Mask Sheet"
-    },
-    {
-     "name": "Department",
-     "value": "Unisex"
-    },
-    {
-     "name": "Formulation",
-     "value": "Mask"
+     "name": "Voltage",
+     "value": "Jade Roller and Gua Sha Tool"
     },
     {
      "name": "Body Area",
@@ -8801,105 +8772,367 @@
     },
     {
      "name": "Features",
-     "value": "Hydrating"
+     "value": "Lightweight, Reusable, Easy to Clean"
     },
     {
-     "name": "Set Includes",
-     "value": "Mask Set, Mask Sheet"
+     "name": "Unit Quantity",
+     "value": "1 count"
+    },
+    {
+     "name": "Massage Functions",
+     "value": "Gua Sha"
+    },
+    {
+     "name": "Color",
+     "value": "Green"
+    },
+    {
+     "name": "Massage Therapy Technique",
+     "value": "Rolling"
+    },
+    {
+     "name": "Product Grade",
+     "value": "Home"
+    },
+    {
+     "name": "Material",
+     "value": "Jade"
+    },
+    {
+     "name": "Number Of Packs",
+     "value": "1"
     }
    ]
   },
   {
-   "id": "e-v1|298258242927|0",
-   "title": "Hammock Tent With Mosquito Net And Rain Fly For 1/2 Preson Hiking Camping 330LBS",
+   "id": "e-v1|407210323865|0",
+   "title": "4-in-1 Hair Dryer Brush Hot Air Volumizer Ceramic Ionic Styler Gold",
    "brand": "Unbranded",
    "platform": "eBay",
-   "category": "outdoors",
-   "price": 30,
+   "category": "beauty",
+   "price": 39,
    "tags": [
-    "outdoorsy",
-    "adventure",
-    "compact"
+    "glow",
+    "techy",
+    "everyday"
    ],
-   "emoji": "🏕",
-   "hue": 149,
+   "emoji": "🧴",
+   "hue": 137,
    "blurb": "New",
-   "image": "https://i.ebayimg.com/images/g/82wAAeSwAxtp6xgu/s-l1600.jpg",
+   "image": "https://i.ebayimg.com/images/g/~HYAAeSwoFlqpIKA/s-l1600.jpg",
    "images": [
-    "https://i.ebayimg.com/images/g/82wAAeSwAxtp6xgu/s-l1600.jpg",
-    "https://i.ebayimg.com/images/g/4RsAAeSwf8Fp6xgv/s-l1600.jpg",
-    "https://i.ebayimg.com/images/g/JnoAAeSwQOlp6xgw/s-l1600.jpg",
-    "https://i.ebayimg.com/images/g/gnsAAeSwGYJp6xgw/s-l1600.jpg",
-    "https://i.ebayimg.com/images/g/8cwAAeSw-dNp6xgx/s-l1600.jpg",
-    "https://i.ebayimg.com/images/g/ZEAAAeSweDNp6xgy/s-l1600.jpg",
-    "https://i.ebayimg.com/images/g/xbYAAeSwE2Fp6xgy/s-l1600.jpg",
-    "https://i.ebayimg.com/images/g/6EUAAeSwXBNp6xgz/s-l1600.jpg"
+    "https://i.ebayimg.com/images/g/~HYAAeSwoFlqpIKA/s-l1600.jpg",
+    "https://i.ebayimg.com/images/g/krkAAeSwjsRqpIMG/s-l1600.jpg",
+    "https://i.ebayimg.com/images/g/j9QAAeSwmydqpIM4/s-l1600.jpg",
+    "https://i.ebayimg.com/images/g/lycAAeSw9RRqpINY/s-l1600.jpg",
+    "https://i.ebayimg.com/images/g/t0sAAeSwErFqpIN6/s-l1600.jpg",
+    "https://i.ebayimg.com/images/g/laAAAeSwiHtqpIOn/s-l1600.jpg",
+    "https://i.ebayimg.com/images/g/YREAAeSw4OBqpIPM/s-l1600.jpg"
    ],
-   "url": "https://www.ebay.com/itm/298258242927?amdata=enc%3AAQALAAAAoCHNgUiiE%2FjQhlDTaMiAde8Y1rehQN0exWdCwZverahtrjj9Eta8CnSoRoqfEXgoNHlzWzJB0NGhXyJOSy9f%2BnQ8L6jZqL%2F0oHK%2B9RPvWU1nsze4AHj4ClVb5DWFJWXGKn0Q0woTC1Hf0IVbRFQHJUM1F4YFoR10s%2FhE5qA5vNI%2F32CG%2Bx5J%2F05sifSZGx9e%2FGJFzoUjlby0F1XzAfnI0Dg%3D",
-   "description": "The rainfly can also be extended as a small porch area for extra shade and outdoor relaxation. Sleep peacefully in the wild without worrying about bites or uncomfortable interruptions. If you are not satisfied with our products.",
+   "url": "https://www.ebay.com/itm/407210323865",
+   "description": "Ionic technology to help reduce frizz and static. Upgrade your hair routine with this 4-in-1 Hot Air Hair Dryer Brush. Type: Brush Dryer. 1 x Hot Air Hair Dryer Brush. Ceramic construction for even heat distribution.",
    "specs": [
     {
      "name": "Brand",
      "value": "Unbranded"
     },
     {
-     "name": "Model",
-     "value": "Hammock Tent with Mosquito Net & Rainfly"
+     "name": "Department",
+     "value": "Women"
+    },
+    {
+     "name": "Type",
+     "value": "Brush Dryer"
+    },
+    {
+     "name": "Unit Type",
+     "value": "Unit"
+    },
+    {
+     "name": "Power Source",
+     "value": "Electric"
+    },
+    {
+     "name": "Color",
+     "value": "Black"
     },
     {
      "name": "Features",
-     "value": "Portable"
+     "value": "Ionic Technology"
+    },
+    {
+     "name": "Material",
+     "value": "Ceramic"
+    },
+    {
+     "name": "Unit Quantity",
+     "value": "1"
+    },
+    {
+     "name": "Power",
+     "value": "1000 W"
+    },
+    {
+     "name": "Country of Origin",
+     "value": "China"
     }
    ]
   },
   {
-   "id": "e-v1|407191370353|0",
-   "title": "Owala FreeSip 32oz Insulated Leak Proof Water Bottle Built-In Straw Snoopy",
-   "brand": "Owala",
+   "id": "e-v1|237066721412|0",
+   "title": "Lattafa Khamrah Qahwa Eau de Parfum 100ml 3.4 oz Unisex Perfume New Sealed",
+   "brand": "Lattafa",
+   "platform": "eBay",
+   "category": "beauty",
+   "price": 23,
+   "tags": [
+    "luxury",
+    "statement",
+    "self-care"
+   ],
+   "emoji": "🧴",
+   "hue": 38,
+   "blurb": "New with box",
+   "image": "https://i.ebayimg.com/images/g/sKcAAeSw3qdqpce9/s-l1600.jpg",
+   "images": [
+    "https://i.ebayimg.com/images/g/sKcAAeSw3qdqpce9/s-l1600.jpg",
+    "https://i.ebayimg.com/images/g/huwAAeSwjsRqpce1/s-l1600.jpg",
+    "https://i.ebayimg.com/images/g/LuQAAeSwfuZqpcpP/s-l1600.jpg",
+    "https://i.ebayimg.com/images/g/ng8AAeSwP-hqpcpP/s-l1600.jpg"
+   ],
+   "url": "https://www.ebay.com/itm/237066721412",
+   "description": "Lattafa Khamrah Qahwa Eau de Parfum 100ml / 3.4 fl oz – Unisex. 1 x Lattafa Khamrah Qahwa Eau de Parfum 100ml. Fragrance: Khamrah Qahwa. The fragrance notes above are based on Lattafa's official product information.",
+   "specs": [
+    {
+     "name": "Brand",
+     "value": "Lattafa"
+    },
+    {
+     "name": "Size Type",
+     "value": "Regular Size"
+    },
+    {
+     "name": "Type",
+     "value": "Eau de Parfum"
+    },
+    {
+     "name": "Unit Type",
+     "value": "fl oz"
+    },
+    {
+     "name": "Fragrance Name",
+     "value": "Khamrah Qahwa"
+    },
+    {
+     "name": "Volume",
+     "value": "3.4 fl oz"
+    },
+    {
+     "name": "Formulation",
+     "value": "Spray"
+    },
+    {
+     "name": "Features",
+     "value": "Long Lasting"
+    },
+    {
+     "name": "Scent",
+     "value": "Vanilla, Coffee, Cinnamon, Cardamom"
+    },
+    {
+     "name": "Country of Origin",
+     "value": "United Arab Emirates"
+    }
+   ]
+  },
+  {
+   "id": "e-v1|318868289192|0",
+   "title": "Arocell Hydrogel Sheet Mask Set Super Collagen 2.0 Mela TXA Prime Tox w/tote bag",
+   "brand": "Arocell",
+   "platform": "eBay",
+   "category": "beauty",
+   "price": 22,
+   "tags": [
+    "skincare",
+    "self-care",
+    "glow"
+   ],
+   "emoji": "🧴",
+   "hue": 265,
+   "blurb": "New",
+   "image": "https://i.ebayimg.com/images/g/eGkAAeSwIIxqp4Zt/s-l1600.jpg",
+   "images": [
+    "https://i.ebayimg.com/images/g/eGkAAeSwIIxqp4Zt/s-l1600.jpg",
+    "https://i.ebayimg.com/images/g/lIQAAeSwLB5qp4Zd/s-l1600.jpg",
+    "https://i.ebayimg.com/images/g/2J0AAeSwchBqp4Zd/s-l1600.jpg",
+    "https://i.ebayimg.com/images/g/ivcAAeSwf9tqp4Zd/s-l1600.jpg",
+    "https://i.ebayimg.com/images/g/dVUAAeSwvx5qp4Ze/s-l1600.jpg"
+   ],
+   "url": "https://www.ebay.com/itm/318868289192",
+   "description": "Arocell Hydrogel Sheet Mask Set Super Collagen 2.0 Mela TXA Prime Tox w/tote bag",
+   "specs": [
+    {
+     "name": "Main Purpose",
+     "value": "Anti-Aging, Elasticity, Firming, Hydrating, Brightening"
+    },
+    {
+     "name": "Brand",
+     "value": "Arocell"
+    },
+    {
+     "name": "Active Ingredients",
+     "value": "Collagen, Hyaluronic Acid, Elastin, Niacinamide, Alpha Arbutin"
+    },
+    {
+     "name": "Type",
+     "value": "Skin Care Set"
+    },
+    {
+     "name": "Volume",
+     "value": "43 g / 1.5 oz"
+    },
+    {
+     "name": "Formulation",
+     "value": "Mask"
+    },
+    {
+     "name": "Ingredients",
+     "value": "Collagen, Hyaluronic Acid, Elastin, Niacinamide, Alpha Arbutin"
+    },
+    {
+     "name": "Body Area",
+     "value": "Face"
+    },
+    {
+     "name": "Set Includes",
+     "value": "Super Collagen Mask 2.0, Mela TXA Mask, Botulcare Prime Tox Mask, forhz Forhertz Melaless Vita Icing Mask"
+    },
+    {
+     "name": "MPN",
+     "value": "ECM ACTIVE"
+    },
+    {
+     "name": "Features",
+     "value": "Hydrogel"
+    }
+   ]
+  },
+  {
+   "id": "e-v1|298465490719|0",
+   "title": "Lightweight Portable Nylon Camping Hammock With Tree Straps",
+   "brand": "AnorTrek",
    "platform": "eBay",
    "category": "outdoors",
-   "price": 32,
+   "price": 19,
+   "tags": [
+    "outdoorsy",
+    "adventure",
+    "compact"
+   ],
+   "emoji": "🏕",
+   "hue": 199,
+   "blurb": "New",
+   "image": "https://i.ebayimg.com/images/g/5PAAAeSw2hxqL10P/s-l1600.jpg",
+   "images": [
+    "https://i.ebayimg.com/images/g/5PAAAeSw2hxqL10P/s-l1600.jpg",
+    "https://i.ebayimg.com/images/g/HSAAAeSwLQ5qL10P/s-l1600.jpg",
+    "https://i.ebayimg.com/images/g/busAAeSwUGhqL10P/s-l1600.jpg",
+    "https://i.ebayimg.com/images/g/HI4AAeSwlhpqL10P/s-l1600.jpg",
+    "https://i.ebayimg.com/images/g/eQ0AAeSwmkpqL10P/s-l1600.jpg",
+    "https://i.ebayimg.com/images/g/Y3EAAeSw9tRqL10P/s-l1600.jpg",
+    "https://i.ebayimg.com/images/g/YFEAAeSwtOZqL10P/s-l1600.jpg"
+   ],
+   "url": "https://www.ebay.com/itm/298465490719?amdata=enc%3AAQALAAAAoCHNgUiiE%2FjQhlDTaMiAde8Slwy2mVwUEXtKmkLR33FzvoteeVTV6So4snDqN9TC5%2BchkESNvQ9G%2FPozdksMHly8CCBhuArMgvLjKyGoZ%2FlQvMKOjKDGKlPObHQAyKNx0U%2B96az8897ReEnXxLg8s1%2B%2Fo%2BnuLpAED6%2FhAL1Itjc90NQAdRYaviZhnmEHXAqf%2BAN2D61EyUL94ZS5tRSJiHo%3D",
+   "description": "Very easy to set up hammock within 90 seconds. The hammock weighs 1.3 lbs (Single) & 1.6 lbs (Double), can be used for camping, travel, yard perfectly. The hammock size is 118\"L x 78\"W (Double) & 110\"L x 55\"W (Single).",
+   "specs": [
+    {
+     "name": "Type",
+     "value": "Camping Hammock"
+    },
+    {
+     "name": "Brand",
+     "value": "AnorTrek"
+    },
+    {
+     "name": "Insect Repellent Treated",
+     "value": "No"
+    },
+    {
+     "name": "Color",
+     "value": "Blue&dark Blue"
+    },
+    {
+     "name": "Seating Capacity",
+     "value": "2"
+    },
+    {
+     "name": "Item Weight",
+     "value": "0.59"
+    },
+    {
+     "name": "Item Dimensions L x W",
+     "value": "118\"L x 78\"W"
+    },
+    {
+     "name": "Maximum Weight Recommendation",
+     "value": "500 Pounds"
+    },
+    {
+     "name": "Unit Count",
+     "value": "1.0 Count"
+    },
+    {
+     "name": "Manufacturer Part Number",
+     "value": "ON-AT-0063"
+    },
+    {
+     "name": "UPC",
+     "value": "682604538341"
+    },
+    {
+     "name": "Material Type",
+     "value": "Nylon"
+    },
+    {
+     "name": "item_weight_unit_of_measure",
+     "value": "KG"
+    },
+    {
+     "name": "itemDimensions weight value",
+     "value": "0.59"
+    },
+    {
+     "name": "itemDimensions weight unit",
+     "value": "Kilograms"
+    }
+   ]
+  },
+  {
+   "id": "e-v1|800499394484|0",
+   "title": "Corkcicle 16oz Insulated Canteen Stainless Steel Water Bottle Cotton Candy Pink",
+   "brand": "Corkcicle",
+   "platform": "eBay",
+   "category": "outdoors",
+   "price": 14,
    "tags": [
     "outdoorsy",
     "practical",
     "everyday"
    ],
    "emoji": "🏕",
-   "hue": 6,
+   "hue": 156,
    "blurb": "New",
-   "image": "https://i.ebayimg.com/images/g/DfwAAeSwRUZqmhTq/s-l1600.jpg",
+   "image": "https://i.ebayimg.com/images/g/UvMAAeSwUcpqfRyq/s-l1600.jpg",
    "images": [
-    "https://i.ebayimg.com/images/g/DfwAAeSwRUZqmhTq/s-l1600.jpg",
-    "https://i.ebayimg.com/images/g/Mo4AAeSwEphqmhTq/s-l1600.jpg",
-    "https://i.ebayimg.com/images/g/ljoAAeSw0KVqmhTr/s-l1600.jpg",
-    "https://i.ebayimg.com/images/g/9coAAeSwrj5qmhTr/s-l1600.jpg"
+    "https://i.ebayimg.com/images/g/UvMAAeSwUcpqfRyq/s-l1600.jpg",
+    "https://i.ebayimg.com/images/g/aaUAAeSw3DNqfRyq/s-l1600.jpg"
    ],
-   "url": "https://www.ebay.com/itm/407191370353?amdata=enc%3AAQALAAAAoCHNgUiiE%2FjQhlDTaMiAde%2F6DkN1OVJkZv91K4do9WE74GoEL6aCUOu0CNtiR%2F2nNqAVYgDujztOJhBtv27cTrbKjWcdm9WeqN0qTSNVhuWZVoZ6cEP9mknl4HW7kW%2B9ZfXmSPoprH%2BZeIPMsrca%2BZYKO9Qzobs%2BJ6Qw%2BrS%2Bc78rmR0MuHWFdpjYmGiVh4aVfDzlVZBCzgpZGnzCv%2FldQ3g%3D",
-   "description": "Internal straw system — no straw sticking out. Insulated stainless steel construction. Durable and reusable. Wide opening for easy filling and cleaning.",
+   "url": "https://www.ebay.com/itm/800499394484?amdata=enc%3AAQALAAAAoCHNgUiiE%2FjQhlDTaMiAde9N5v2QRz8mBM56nOu7EV8j9Q91KLm8lRfvhRvtbIyMw3QE%2FIdi9uUY0ZpBMvsC2xq60eo55bXllwKp7sW5XS%2FlIofhaApqAO2Uiq01QBuOeL791U%2FlMCQcQbWdBxP14KHCLPktAq%2B4KHrnPXlwJY58jtV9eQhb96FVUHYRR871niAfqtHS1AvOU5pMHSHga1w%3D",
+   "description": "Shatterproof stainless steel interior lining doesn't affect or retain taste and is easy to clean. Features a no-leak threaded screw top, Patented easy-grip sides, and a non-slip bottom.",
    "specs": [
     {
-     "name": "Top Type",
-     "value": "Push Button"
-    },
-    {
-     "name": "Color",
-     "value": "Pink"
-    },
-    {
-     "name": "Material",
-     "value": "Stainless Steel"
-    },
-    {
-     "name": "Set Includes",
-     "value": "Bottle"
-    },
-    {
-     "name": "Item Length",
-     "value": "3.2 in"
-    },
-    {
      "name": "Brand",
-     "value": "Owala"
+     "value": "Corkcicle"
     },
     {
      "name": "Personalize",
@@ -8910,36 +9143,28 @@
      "value": "Water Bottle"
     },
     {
+     "name": "Top Type",
+     "value": "Screw-on Lid"
+    },
+    {
      "name": "Volume",
-     "value": "32 oz (945 ml)"
+     "value": "16 fl oz"
     },
     {
-     "name": "Manufacturer Warranty",
-     "value": "Lifetime"
-    },
-    {
-     "name": "Item Height",
-     "value": "10.3 in"
-    },
-    {
-     "name": "Model",
-     "value": "FreeSip"
-    },
-    {
-     "name": "Theme",
-     "value": "Snoopy"
+     "name": "Color",
+     "value": "Cotton Candy Pink"
     },
     {
      "name": "Features",
-     "value": "BPA-Free, Insulated, Leak Proof, Built-In Straw"
+     "value": "Insulated"
     },
     {
-     "name": "Item Weight",
-     "value": "1.0 lb"
+     "name": "Material",
+     "value": "Stainless Steel"
     },
     {
-     "name": "Item Width",
-     "value": "3.2 in"
+     "name": "Set Includes",
+     "value": "Bottle"
     },
     {
      "name": "Country of Origin",
@@ -8948,69 +9173,58 @@
    ]
   },
   {
-   "id": "e-v1|327316641071|0",
-   "title": "The North Face FLYWEIGHT Smoke Gray Packable Daypack. Ultralight Hiking, 17L.",
-   "brand": "The North Face",
+   "id": "e-v1|198639625228|0",
+   "title": "Eddie Bauer Stowaway 20L Packable Backpack Light Blue Hiking Daypack Lightweight",
+   "brand": "Eddie Bauer",
    "platform": "eBay",
    "category": "outdoors",
-   "price": 50,
+   "price": 23,
    "tags": [
     "outdoorsy",
     "adventure",
     "durable"
    ],
    "emoji": "🏕",
-   "hue": 10,
+   "hue": 5,
    "blurb": "New without tags",
-   "image": "https://i.ebayimg.com/images/g/BDkAAeSwjh5qhMP5/s-l1600.jpg",
+   "image": "https://i.ebayimg.com/images/g/450AAeSwVyhqpyDl/s-l1600.jpg",
    "images": [
-    "https://i.ebayimg.com/images/g/BDkAAeSwjh5qhMP5/s-l1600.jpg",
-    "https://i.ebayimg.com/images/g/~yoAAeSwxKZqhMP7/s-l1600.jpg",
-    "https://i.ebayimg.com/images/g/4MgAAeSwcXFqhMP7/s-l1600.jpg",
-    "https://i.ebayimg.com/images/g/iMEAAeSwEQFqhMP5/s-l1600.jpg",
-    "https://i.ebayimg.com/images/g/20UAAeSwU~lqhMP7/s-l1600.jpg",
-    "https://i.ebayimg.com/images/g/blwAAeSw7DBqhMP4/s-l1600.jpg",
-    "https://i.ebayimg.com/images/g/-e8AAeSwQe1qhMP3/s-l1600.jpg",
-    "https://i.ebayimg.com/images/g/~T0AAeSw1INqhMQJ/s-l1600.jpg"
+    "https://i.ebayimg.com/images/g/450AAeSwVyhqpyDl/s-l1600.jpg",
+    "https://i.ebayimg.com/images/g/RVcAAeSwfEhqpyDl/s-l1600.jpg",
+    "https://i.ebayimg.com/images/g/G5oAAeSwHYBqpyDm/s-l1600.jpg",
+    "https://i.ebayimg.com/images/g/5pgAAeSwAwdqpyDn/s-l1600.jpg",
+    "https://i.ebayimg.com/images/g/9m0AAeSw3c5qpyDn/s-l1600.jpg"
    ],
-   "url": "https://www.ebay.com/itm/327316641071?amdata=enc%3AAQALAAAAoCHNgUiiE%2FjQhlDTaMiAde9yRgmU0Fk1Zv5VLobDPu4CtSQiYpmMPbf4%2FiyGN8iaGxgoqNO2buCCKX%2BmkvCtPj489pLsdRaVA%2FCO%2BvgH6ENS1pUhDt%2F8a0%2FIH0Hx8cdLycKrg4ddpO8ENfa2Ot6IXjSxTdGOqZrx6pT57fInSROv1yn7a4eHJHYlxtTIp%2F7rXX%2BNpp82PdZEis4R7zPbzh8%3D",
-   "description": "Packable Design: The entire backpack folds and stuffs into its own internal zippered pocket, transforming into a compact pouch for easy storage in your luggage. Ultra-Light & Durable: Constructed from 70D nylon ripstop fabric with a Durable Water-Repellent (DWR) finish to resist light rain and wear. Comfortable Carry: Features fully breathable air-mesh shoulder straps and a contoured back panel. Multiple Compartments:Secure-zip main compartment for your daily essentials.External front stretch-me",
+   "url": "https://www.ebay.com/itm/198639625228",
+   "description": "Condition: New without Tags (NWOT); No defects observed.",
    "specs": [
     {
      "name": "Closure",
      "value": "Zip"
     },
     {
-     "name": "Number of Dividers",
-     "value": "3"
+     "name": "Size",
+     "value": "One Size"
     },
     {
      "name": "Insect Repellent Treated",
      "value": "No"
     },
     {
-     "name": "Size",
-     "value": "17L"
-    },
-    {
      "name": "Color",
-     "value": "Gray"
+     "value": "Blue"
     },
     {
      "name": "Material",
-     "value": "Nylon"
+     "value": "Polyester"
     },
     {
      "name": "Number of Pockets",
-     "value": "5"
-    },
-    {
-     "name": "Vintage",
-     "value": "No"
+     "value": "3"
     },
     {
      "name": "Brand",
-     "value": "The North Face"
+     "value": "Eddie Bauer"
     },
     {
      "name": "Department",
@@ -9018,74 +9232,62 @@
     },
     {
      "name": "Type",
-     "value": "Backpack"
-    },
-    {
-     "name": "Pocket Type",
-     "value": "Foam Pad For Back"
-    },
-    {
-     "name": "Care Instructions",
-     "value": "Clean with Damp Cloth"
+     "value": "Daypack"
     },
     {
      "name": "Capacity",
-     "value": "17L"
+     "value": "20 L"
     },
     {
      "name": "Model",
-     "value": "THE NORTH FACE FLYWEIGHT"
-    },
-    {
-     "name": "Event",
-     "value": "Hiking"
+     "value": "Eddie Bauer Stowaway"
     },
     {
      "name": "Personalized",
      "value": "No"
     },
     {
-     "name": "Frame Material",
-     "value": "Nylon"
-    },
-    {
      "name": "Features",
-     "value": "Adjustable Size, Collapsible, Divider System, Elastic Pocket, External Pockets, Foldable, Laptop Compartment, Lightweight, Padded Straps, Ultralight, Waterproof"
+     "value": "External Pockets, Foldable, Lightweight, Padded Straps, Ventilated Back Panel"
     },
     {
      "name": "Sport/Activity",
      "value": "Hiking"
+    },
+    {
+     "name": "Handle/Strap Material",
+     "value": "Polyester"
     }
    ]
   },
   {
-   "id": "e-v1|225120438060|0",
-   "title": "Solar Portable Rechargeable LED Camping Lantern Flashlight Lamp USB Power Bank",
+   "id": "e-v1|326775339504|0",
+   "title": "2-Pack Solar Camping Lantern Flashlight Lamp Portable Rechargeable LED USB Power",
    "brand": "",
    "platform": "eBay",
    "category": "outdoors",
-   "price": 12,
+   "price": 20,
    "tags": [
     "outdoorsy",
     "techy",
     "compact"
    ],
    "emoji": "🏕",
-   "hue": 0,
+   "hue": 128,
    "blurb": "New",
-   "image": "https://i.ebayimg.com/images/g/I5MAAOSwcY5mJYhX/s-l1600.jpg",
+   "image": "https://i.ebayimg.com/images/g/x7sAAOSwwZdn2Jen/s-l1600.jpg",
    "images": [
-    "https://i.ebayimg.com/images/g/I5MAAOSwcY5mJYhX/s-l1600.jpg",
+    "https://i.ebayimg.com/images/g/x7sAAOSwwZdn2Jen/s-l1600.jpg",
     "https://i.ebayimg.com/images/g/7zQAAOSwBH5i-uiY/s-l1600.jpg",
     "https://i.ebayimg.com/images/g/JokAAOSwKhBkDNQ3/s-l1600.jpg",
     "https://i.ebayimg.com/images/g/tSkAAOSwu~Ni-uiX/s-l1600.jpg",
     "https://i.ebayimg.com/images/g/QV8AAOSwufJkDNQ8/s-l1600.jpg",
+    "https://i.ebayimg.com/images/g/I5MAAOSwcY5mJYhX/s-l1600.jpg",
     "https://i.ebayimg.com/images/g/T-UAAOSwpklkDNOy/s-l1600.jpg",
-    "https://i.ebayimg.com/images/g/pdUAAOSwJnJkDNO3/s-l1600.jpg",
-    "https://i.ebayimg.com/images/g/wkMAAOSwip9i-ujd/s-l1600.jpg"
+    "https://i.ebayimg.com/images/g/pdUAAOSwJnJkDNO3/s-l1600.jpg"
    ],
-   "url": "https://www.ebay.com/itm/225120438060?amdata=enc%3AAQALAAAAoCHNgUiiE%2FjQhlDTaMiAde%2BCbf1pp0HbkUCuKLPYmwUBNfoQ54T28uOSjdPIkgahT%2FSL57TRn9qwv5ps0DkQEaONz8gfexunHw16Lrhu2BbT1QwnikEFyJA7stwW9tbzxZV%2BocAq5oH9sKs%2FTxHJ0JRIgV0HcalQwnwUqetHmrTqc0q1bcFYQRJSbMzi1oMY7gkCGPMVocBJ78Ja2lxmDKg%3D",
-   "description": "Flashlight and Power Bank. Side power switch will turn ON the flashlight with a high brightness level. Foldaway handles for easy portability or hanging lantern for ambient light. Power Switch: Button Switch for Flashlight.",
+   "url": "https://www.ebay.com/itm/326775339504?amdata=enc%3AAQALAAAAoCHNgUiiE%2FjQhlDTaMiAde9A9ALP3xCv1vyYjAIlrvCFyutpahPjPY%2BNOImwrnoOXpNoUXjyNWhRV%2BLWXdonQUwDKs2BXscHAzoemzWvsofneoFGPNtOIF6%2FOaYFgZYSJLJB46qAbtGIWQIRASDozbafpVXGZtbsjwiiQYxDPqbf8kufB3n1MV%2BNbHSEaC7mDh9rxqZdb2j96z1HF%2BgtSjk%3D",
+   "description": "Side power switch will turn ON the flashlight with a high brightness level. Foldaway handles for easy portability or hanging lantern for ambient light. Power Switch: Button Switch for Flashlight. Flashlight irradiation distance：50m/160 feet.",
    "specs": [
     {
      "name": "Power Source",
@@ -9093,7 +9295,7 @@
     },
     {
      "name": "MPN",
-     "value": "AC-Solar-Rechargeable-LED-Portable-Lantern-Battery"
+     "value": "Solar-Camping-Lantern-Flashlight-Rechargeable-2X"
     },
     {
      "name": "Item Length",
@@ -9105,7 +9307,7 @@
     },
     {
      "name": "Number of Batteries",
-     "value": "1"
+     "value": "2"
     },
     {
      "name": "Unit Type",
@@ -9141,11 +9343,11 @@
     },
     {
      "name": "Number of LEDs",
-     "value": "7"
+     "value": "14"
     },
     {
      "name": "Unit Quantity",
-     "value": "1"
+     "value": "2"
     },
     {
      "name": "Cord Type",
@@ -9193,7 +9395,7 @@
     "https://i.ebayimg.com/images/g/3FkAAeSwVRppspZH/s-l1600.jpg",
     "https://i.ebayimg.com/images/g/KSgAAeSw3RlpspZJ/s-l1600.jpg"
    ],
-   "url": "https://www.ebay.com/itm/206130811380?amdata=enc%3AAQALAAAAoCHNgUiiE%2FjQhlDTaMiAde%2Foflg7%2FtBs9dvPsIRl%2FRfQhoUECRkNfI8CGPsGQPjbcw0rwU2kxbJ%2B6gDzW6f6ZLmz5iSB03uCSnUl8MV0TzUlpyr9VP4giEeOHvqo7KXjG4l834XuZ8iuQECgmJlLl29u9pP3vLgez4voPqezeNExYJk2vPRM1ziiG5Z7PzujdLW47EUR%2B3JVloa4gdGXH5E%3D",
+   "url": "https://www.ebay.com/itm/206130811380?amdata=enc%3AAQALAAAAoCHNgUiiE%2FjQhlDTaMiAde%2Foflg7%2FtBs9dvPsIRl%2FRfQhoUECRkNfI8CGPsGQPjbcwL6531a6ls%2F0pynJLG1ZqTpORE%2FQuM%2FHwuRPew7ky%2BK3BkqU9QPCmqy0i%2B%2BLgiVypCtRcqJ8kL6SYH02zLoahZhyUFQy08h9AhM5Tp%2BZODfFjJVrD2MUgGoJoEbOLfDKpPwfkzf3Va6Yo8XHQB9wN8%3D",
    "description": "Easily wiped away by simply shaking and slapping. It is your perfect partner to keep dry in a rainy camp site or wet grass for picnic or sandy beach. The Wind Tour picnic blanket made of Comfortable fabric, foldable design with handy strap, and light weight make it suitable for outdoor camping, barbecue, beach, grass, or indoor children playing and crawling.",
    "specs": [
     {
@@ -9248,7 +9450,7 @@
     "https://i.ebayimg.com/images/g/DdoAAeSwo3FpHXnb/s-l1600.jpg",
     "https://i.ebayimg.com/images/g/3VoAAOSw3D5oAgHO/s-l1600.jpg"
    ],
-   "url": "https://www.ebay.com/itm/133925011807?amdata=enc%3AAQALAAAAoCHNgUiiE%2FjQhlDTaMiAde8YQ4U3Dm7NTYlPDyMy%2FeR0ZnDaf2Xqvv90E94IieNPDJU43l7URleQlaUx62oTvD7tM%2FbUMMBXQfeBYnYBLaQARCWebaYZFNW2dE9nvn5L%2FPNFpOkMqUauxu3h%2F0Fn3wbVZBxqQHH%2Fwmt%2B8pfiKDnzv5AGH8qX9Rfk3UVOqytF7qRMsDp7AsgJrqv6EsI6YzQ%3D",
+   "url": "https://www.ebay.com/itm/133925011807?amdata=enc%3AAQALAAAAoCHNgUiiE%2FjQhlDTaMiAde8YQ4U3Dm7NTYlPDyMy%2FeR0ZnDaf2Xqvv90E94IieNPDEAL8oGrAshyRMNcoEiRakQC%2BCHaYY%2FrmYiiNqj8EhHkOVPoA9uua%2FMXOPMveTUAYTcPbTxh6oaqKk5Gvq%2B1JCfODKcJxznszgjBLt0YYkQiOVZVbNTcVgPEkgW%2FjyKaN0feIlwJ8SL%2FOUmzljnFrCY%3D",
    "description": "ELECWISH Gaming Chair Ergonomic Computer Office Chair Recliner Swivel Seat. It is an ideal seat of choice for working, studying, and gaming. - 1 x Footrest. ★ Ergonomic thicker foam padding, high-quality PU leather covering for easily cleaned and fade resistant.",
    "specs": [
     {
@@ -9331,7 +9533,7 @@
     "https://i.ebayimg.com/images/g/qsYAAeSwS3BqgwCQ/s-l1600.jpg",
     "https://i.ebayimg.com/images/g/IM4AAeSw9fJqgwCS/s-l1600.jpg"
    ],
-   "url": "https://www.ebay.com/itm/800545632527?amdata=enc%3AAQALAAAAoCHNgUiiE%2FjQhlDTaMiAde9Jmw08bdzSlVHIvfnpnS3T5%2BhyXF7jRxw9bQl0HbN744wraqCTJTc6pp%2FK2omrj5FCi8JMTtOHk%2FZ8mPYcEqW4rN7R1HxOKPmH8jUiXqf2KomYJdc%2FoQc6Yie%2FWIQpNGb2lctlEsgfbAYoBqGnJfswe1Uxms6RnVzHVcTuEbUAKZOAa2MoD9bCw%2FSltOhyZX0%3D",
+   "url": "https://www.ebay.com/itm/800545632527?amdata=enc%3AAQALAAAAoCHNgUiiE%2FjQhlDTaMiAde9Jmw08bdzSlVHIvfnpnS3T5%2BhyXF7jRxw9bQl0HbN748pDFPYxGLpommyb2%2FWPEnXgjGSEQ9zhYuS0oe50xAECNQo4k%2By0UsmwuguZWlHgJALfpEmJoNNbyGsd6QWrWagYQ9LljEPgTAyKuYmecZwOeXbBvxES8JZYsBiAo9IvJbc3Ea63IeNu4xQWeil1Jwk%3D",
    "description": "Technical Specifications Sensor: HERO 2 Resolution: 100 - 32,000 DPI Weight: 60 g Battery Life: Up to 95 hours. What's in the Box. Product Details.",
    "specs": [
     {
@@ -9389,152 +9591,159 @@
    ]
   },
   {
-   "id": "e-v1|385067941292|652946510460",
-   "title": "3.5mm Gaming Headset Mic Headphones Stereo Bass Surround For PS5 PS4 PC Xbox One",
-   "brand": "Unbranded",
+   "id": "e-v1|168443870536|0",
+   "title": "Logitech G321 Lightspeed Wireless Gaming Headset Microphone Black Over Ear",
+   "brand": "Logitech",
    "platform": "eBay",
    "category": "gaming",
-   "price": 14,
+   "price": 36,
    "tags": [
     "techy",
     "battle-station"
    ],
    "emoji": "🎮",
-   "hue": 314,
-   "blurb": "New",
-   "image": "https://i.ebayimg.com/images/g/jnUAAOSw~nxi~Pib/s-l1600.jpg",
+   "hue": 213,
+   "blurb": "Good - Refurbished",
+   "image": "https://i.ebayimg.com/images/g/GpcAAeSw~gJqmE1P/s-l1600.jpg",
    "images": [
-    "https://i.ebayimg.com/images/g/jnUAAOSw~nxi~Pib/s-l1600.jpg",
-    "https://i.ebayimg.com/images/g/AEEAAOSwLshi~PeD/s-l1600.jpg",
-    "https://i.ebayimg.com/images/g/6oUAAOSwdcxi~PeF/s-l1600.jpg",
-    "https://i.ebayimg.com/images/g/OPAAAOSw-cNi~PeG/s-l1600.jpg",
-    "https://i.ebayimg.com/images/g/enkAAOSwlFli~PeH/s-l1600.jpg",
-    "https://i.ebayimg.com/images/g/s6gAAOSws-9i~PeI/s-l1600.jpg",
-    "https://i.ebayimg.com/images/g/SygAAOSwJNdi~PeJ/s-l1600.jpg",
-    "https://i.ebayimg.com/images/g/uX4AAOSwITNi~PeK/s-l1600.jpg"
+    "https://i.ebayimg.com/images/g/GpcAAeSw~gJqmE1P/s-l1600.jpg",
+    "https://i.ebayimg.com/images/g/IjIAAeSwLI5qmE1P/s-l1600.jpg",
+    "https://i.ebayimg.com/images/g/D1UAAeSw3h9qmE1P/s-l1600.jpg",
+    "https://i.ebayimg.com/images/g/-3cAAeSwGGJqmE1P/s-l1600.jpg",
+    "https://i.ebayimg.com/images/g/Pt0AAeSwo5FqmE1P/s-l1600.jpg",
+    "https://i.ebayimg.com/images/g/HR0AAeSwU~lqmE1P/s-l1600.jpg",
+    "https://i.ebayimg.com/images/g/K80AAeSwGatqmE1P/s-l1600.jpg",
+    "https://i.ebayimg.com/images/g/H7kAAeSw0yNqmE1P/s-l1600.jpg"
    ],
-   "url": "https://www.ebay.com/itm/385067941292?var=652946510460",
-   "description": "Ideal for Console, Desktop and Laptop Gaming. Premium sound quality and strong noise isolation. Headphone jack: 3.5mm, USB. The adjustable flexible microphone can pick up sounds with great sensitivity, your partner can hear your words.",
+   "url": "https://www.ebay.com/itm/168443870536",
+   "description": "HEADSET PC-G321 LIGHTSPEED-BLACK-2.4GHZ/BT-N/A-AMR-403.",
    "specs": [
     {
-     "name": "Color",
-     "value": "Blue"
-    },
-    {
-     "name": "Number of Earpieces",
-     "value": "Double"
+     "name": "Brand",
+     "value": "Logitech"
     },
     {
      "name": "Model",
-     "value": "SOYTO"
+     "value": "G321"
     },
     {
-     "name": "Microphone Type",
-     "value": "Built-In"
+     "name": "Color",
+     "value": "Black"
     },
     {
      "name": "Connectivity",
-     "value": "3.5mm Jack, USB"
+     "value": "Wireless"
     },
     {
      "name": "Type",
-     "value": "Ear-Cup (Over the Ear)"
+     "value": "Video Game Headsets"
     },
     {
      "name": "Features",
-     "value": "Active Noise Cancellation, Adjustable Headband, Ambient Sound Mode, Built-in Microphone, Stereo, Volume Control, Extra Bass, Surround Sound"
+     "value": "LIGHTSPEED Wireless, Flip-to-Mute Mic, Bluetooth Connectivity, Dynamic Comfort and fit, 16 kHz Boom mic, 20+ hrs Battery, for PC"
     },
     {
-     "name": "Brand",
-     "value": "Unbranded"
+     "name": "MPN",
+     "value": "981-001562"
     },
     {
-     "name": "Form Factor",
-     "value": "Headband"
+     "name": "Charger Included",
+     "value": "Yes"
+    },
+    {
+     "name": "Manufacturer Warranty",
+     "value": "No Warranty"
+    },
+    {
+     "name": "Compatible Devices",
+     "value": "PC, PS4, PS5, Nintendo Switch, Mobile"
+    },
+    {
+     "name": "Gpsr Safety Attestation",
+     "value": "No"
+    },
+    {
+     "name": "Included Components",
+     "value": "G321 LIGHTSPEED Wireless Gaming Headset, USB-A LIGHTSPEED Wireles"
+    },
+    {
+     "name": "Includes Rechargable Battery",
+     "value": "Yes"
+    },
+    {
+     "name": "Number Of Lithium Ion Cells",
+     "value": "1"
+    },
+    {
+     "name": "Size",
+     "value": "One Size"
+    },
+    {
+     "name": "UPC",
+     "value": "097855207449"
     }
    ]
   },
   {
-   "id": "e-v1|366604867693|0",
-   "title": "R36S Retro Handheld Game Console Video Games 128GB Consoles 20000+Games",
+   "id": "e-v1|176686074933|0",
+   "title": "R36S Retro Handheld Video Game Console Linux System 3.5 Inch IPS Screen 128GB",
    "brand": "Unbranded",
    "platform": "eBay",
    "category": "gaming",
-   "price": 32,
+   "price": 33,
    "tags": [
     "retro",
     "techy",
     "cozy"
    ],
    "emoji": "🎮",
-   "hue": 117,
+   "hue": 55,
    "blurb": "New",
-   "image": "https://i.ebayimg.com/images/g/xscAAeSwKTRqftVt/s-l1600.jpg",
+   "image": "https://i.ebayimg.com/images/g/HxMAAOSw5jRnOK-e/s-l1600.jpg",
    "images": [
-    "https://i.ebayimg.com/images/g/xscAAeSwKTRqftVt/s-l1600.jpg",
-    "https://i.ebayimg.com/images/g/tRoAAeSwszBpSkTV/s-l1600.jpg",
-    "https://i.ebayimg.com/images/g/4L8AAeSwycRpSkTb/s-l1600.jpg",
-    "https://i.ebayimg.com/images/g/ru0AAeSwztNpSkTo/s-l1600.jpg",
-    "https://i.ebayimg.com/images/g/A~8AAeSwmE9qftVt/s-l1600.jpg"
+    "https://i.ebayimg.com/images/g/HxMAAOSw5jRnOK-e/s-l1600.jpg",
+    "https://i.ebayimg.com/images/g/BzMAAOSwyA5nOK-h/s-l1600.jpg",
+    "https://i.ebayimg.com/images/g/pO0AAOSw~WVnOK-g/s-l1600.jpg",
+    "https://i.ebayimg.com/images/g/1CgAAOSwYphnOK-f/s-l1600.jpg",
+    "https://i.ebayimg.com/images/g/660AAOSwSgdnOK-e/s-l1600.jpg",
+    "https://i.ebayimg.com/images/g/J~0AAOSwwVdnOK-g/s-l1600.jpg",
+    "https://i.ebayimg.com/images/g/LbQAAOSwxn1nOK-e/s-l1600.jpg",
+    "https://i.ebayimg.com/images/g/wVMAAOSw0XdnOK-g/s-l1600.jpg"
    ],
-   "url": "https://www.ebay.com/itm/366604867693?amdata=enc%3AAQALAAAAoCHNgUiiE%2FjQhlDTaMiAde9ENFfxO7zzR0RP4W7CinHxuYI9vq%2Fe63qIsVZfPdLygjmd75eoYktq%2BfDMxqnQFh5zOOFNLHpSa7TZhG7SHWF2HcANNJIIv5vu6fNINTqAY5ruLcH%2FJE0wdYE23r6U3srj0CD8BFr1L3ou9fxQSpl22LtwZS5WKqCXvKB%2FKCcC54urNiNsz1s0c9PIuJ7%2Fa0g%3D",
-   "description": "Toolingexperts · R36S Retro Handheld. 🎮 R36S Handheld Console. Open Source R36S Retro System: Experience a nostalgic gaming experience with customization options. Model: R36S. 1 × R36S Handheld Console.",
+   "url": "https://www.ebay.com/itm/176686074933?amdata=enc%3AAQALAAAAoCHNgUiiE%2FjQhlDTaMiAde%2B0rqO5zb6nB17WZIT0Hu9IaU%2BXagT6Hl2VfwB04Xie3yFwEiWRr481PmDq6anpRoWlGf%2Bntb0ZhQ2H2ewZrtZoebbdkjERLcvAIDvUPcOPHvWLFWCgS96fhiGhiBcvmEWUmHSnmUYYVOT%2Fa05ymoQD5QRzzPaS92OzeJmWoVMeboKFc5LvtKFUH04O1lq9qzM%3D",
+   "description": "Lightweight and compact, this handheld console is perfect for gaming on the go. Enjoy vibrant, crisp graphics on the high-resolution 640x480 screen.",
    "specs": [
     {
      "name": "Brand",
      "value": "Unbranded"
     },
     {
-     "name": "Model",
-     "value": "R36S"
-    },
-    {
-     "name": "Platform",
-     "value": "Super Console"
-    },
-    {
-     "name": "Region Code",
-     "value": "Region Free"
-    },
-    {
-     "name": "Color",
-     "value": "Black+Purple"
-    },
-    {
      "name": "Type",
      "value": "Handheld System"
     },
     {
-     "name": "Storage Capacity",
-     "value": "128 GB"
+     "name": "EAN",
+     "value": "dose not apply"
+    },
+    {
+     "name": "Model",
+     "value": "R36S"
     },
     {
      "name": "Connectivity",
-     "value": "USB, USB-C"
+     "value": "USB-C"
+    },
+    {
+     "name": "UPC",
+     "value": "dose not apply"
     },
     {
      "name": "Features",
-     "value": "Portable, Best quality"
+     "value": "20,000+ GAMES"
     },
     {
-     "name": "Country of Origin",
-     "value": "China"
-    },
-    {
-     "name": "Item Depth",
-     "value": "3.5 in"
-    },
-    {
-     "name": "Item Weight",
-     "value": ".75"
-    },
-    {
-     "name": "Unit Quantity",
-     "value": "1"
-    },
-    {
-     "name": "Unit Type",
-     "value": "Unit"
+     "name": "Storage Capacity",
+     "value": "128 GB"
     }
    ]
   },
@@ -9559,7 +9768,7 @@
     "https://i.ebayimg.com/images/g/4YMAAeSwgGdqelTC/s-l1600.jpg",
     "https://i.ebayimg.com/images/g/kogAAeSwjWhqelTB/s-l1600.jpg"
    ],
-   "url": "https://www.ebay.com/itm/267753216602?amdata=enc%3AAQALAAAAoCHNgUiiE%2FjQhlDTaMiAde9VkqRKqvNDufjltR38wQivXI7fPdqJFZK6taRMtRHAH9K%2Bupd63ajvFKg4yMkcvEft98ouSI9RO5K3OZEK9vTny0K5VvxWsyk1FF2dZNRBo4PzfVXrw3udR6vXP7WZmN0hrwNJ4ESu0aklEZKzrhiMz9ixbSgN5AA6UKnSYY7LFk0ufFV9dML28Vpn4IbuMwQ%3D",
+   "url": "https://www.ebay.com/itm/267753216602?amdata=enc%3AAQALAAAAoCHNgUiiE%2FjQhlDTaMiAde9VkqRKqvNDufjltR38wQivXI7fPdqJFZK6taRMtRHAH%2BA62b%2Bf9jioYBd7B6aj2bruzS14l9ndzu%2F1yilbfXWFYtYhURqCAgkrx1ibPfl1ocMwO1%2B9HoarK02OhhvLJpUe46cjJ0m7M1g6hbDrQ7CDk0Mx4ffvVPmpEIXOBwHOi71AcDsTSaEI%2FCdtbUGLCG0%3D",
    "description": "PowerA Joy-Con Charging Dock for Nintendo Switch – 1501406-01 – New. Product Type: Joy-Con Charging Dock. Easy slide-in charging design.",
    "specs": [
     {
@@ -9617,59 +9826,59 @@
    ]
   },
   {
-   "id": "e-v1|168632049067|467999085628",
-   "title": "Extra Large XXXL Dog Bed Orthopedic Memory Foam Waterproof Washable Cover",
-   "brand": "Unbranded",
+   "id": "e-v1|820068654505|626906245043",
+   "title": "Dog Bed for Extra Large Dogs - Dog Cat Couch Sofa with Washable Removable Cover",
+   "brand": "SASTTIE",
    "platform": "eBay",
    "category": "pets",
-   "price": 37,
+   "price": 26,
    "tags": [
     "cozy",
     "practical",
     "pet-parent"
    ],
    "emoji": "🐕",
-   "hue": 250,
+   "hue": 209,
    "blurb": "New",
-   "image": "https://i.ebayimg.com/images/g/o9EAAeSw~gJqiVY5/s-l1600.jpg",
+   "image": "https://i.ebayimg.com/images/g/FkgAAeSwFuJqZxF8/s-l1600.jpg",
    "images": [
-    "https://i.ebayimg.com/images/g/o9EAAeSw~gJqiVY5/s-l1600.jpg",
-    "https://i.ebayimg.com/images/g/nUEAAeSwGatqiVY5/s-l1600.jpg",
-    "https://i.ebayimg.com/images/g/2mkAAeSwFHNqiVY5/s-l1600.jpg",
-    "https://i.ebayimg.com/images/g/nI4AAeSwTclqiVY5/s-l1600.jpg",
-    "https://i.ebayimg.com/images/g/vEwAAeSwNRJqiVY5/s-l1600.jpg",
-    "https://i.ebayimg.com/images/g/qWcAAeSwau1qiVY5/s-l1600.jpg"
+    "https://i.ebayimg.com/images/g/FkgAAeSwFuJqZxF8/s-l1600.jpg",
+    "https://i.ebayimg.com/images/g/clUAAeSwTy5qZxF7/s-l1600.jpg",
+    "https://i.ebayimg.com/images/g/eiYAAeSw92lqlOWn/s-l1600.jpg",
+    "https://i.ebayimg.com/images/g/QdMAAeSwHYhqZxF7/s-l1600.jpg",
+    "https://i.ebayimg.com/images/g/AmEAAeSw02JqlOWo/s-l1600.jpg",
+    "https://i.ebayimg.com/images/g/djsAAeSwxUxqZxF7/s-l1600.jpg"
    ],
-   "url": "https://www.ebay.com/itm/168632049067?var=467999085628&amdata=enc%3AAQALAAAAoCHNgUiiE%2FjQhlDTaMiAde%2BTPljyfO1fpD56vNrqlhPKe%2BbaRvdJI1FvDebPRC6wsQZygnQSu5UfEYScYkVDzOZMsCk6lS%2BTNboOKKBSmypnY4HZZbAJ%2FMyebhbryG%2BMAbS7wrIMeyncRRv0yznjNIEPXHOEHZPD6xYF%2BCEDwTjgh4UYGbMOGADMAY65XrnERYTB7X%2FyY3Udy%2F4nmkUoD2I%3D",
-   "description": "Perfect for large dogs, senior dogs, and pets with arthritis. 📏 XL / XXL / XXXL. XXXL : 47\" × 35\" × 10\" – up to 132 lb. XXXL Jumbo Size Available. Extra large space allows dogs to stretch, curl, and relax comfortably.",
+   "url": "https://www.ebay.com/itm/820068654505?var=626906245043",
+   "description": "Do not machine wash or dry the foam core.",
    "specs": [
     {
-     "name": "Size",
-     "value": "2XL"
+     "name": "Dog Size",
+     "value": "L"
     },
     {
      "name": "Brand",
-     "value": "Unbranded"
-    },
-    {
-     "name": "Type",
-     "value": "Dog Bed"
-    },
-    {
-     "name": "Dog Size",
-     "value": "Medium Large Extra Large"
-    },
-    {
-     "name": "Features",
-     "value": "Orthopedic, Removable Cover, Waterproof"
+     "value": "SASTTIE"
     },
     {
      "name": "Material",
      "value": "Memory Foam"
     },
     {
+     "name": "Model",
+     "value": "rectangle"
+    },
+    {
      "name": "Country of Origin",
      "value": "China"
+    },
+    {
+     "name": "Type",
+     "value": "Sofa"
+    },
+    {
+     "name": "Features",
+     "value": "Orthopedic"
     }
    ]
   },
@@ -9698,7 +9907,7 @@
     "https://i.ebayimg.com/images/g/IKsAAOSwb0ZjCBxA/s-l1600.jpg",
     "https://i.ebayimg.com/images/g/cgYAAOSwmCZjCBxC/s-l1600.jpg"
    ],
-   "url": "https://www.ebay.com/itm/394215072379?var=662729943256&amdata=enc%3AAQALAAAAoCHNgUiiE%2FjQhlDTaMiAde98xejIZ29%2FuCasTXvrxAdWTsLhe%2F%2BpoWF4UZk%2Fg%2BvnLmUEuqHRy5Nc4sYZRBtZU%2FZLWf5gHxkCLzGbedvzNj%2FnBwbpto0Yt0%2BHVK%2B9nA%2BaeMTJoEQF%2BzdKQzOnaaB9sPvTUq796Eu7eaBi9xuGK68rOtiIXQhEmwLd27HjySc0uAftieZKyID7uCB2tXpho84%3D",
+   "url": "https://www.ebay.com/itm/394215072379?var=662729943256&amdata=enc%3AAQALAAAAoCHNgUiiE%2FjQhlDTaMiAde98xejIZ29%2FuCasTXvrxAdWtolOTWPBktkbsKUy7bIZvQ0CeJlT7BquU0JFu5V--tbdl5SQeRRx7vPg8d3dh6bk3nkHk07Qc1EWfopGc6YVDYMLlmnbisWwnpZjhIsxQ0EFRRJD40ofLSENqmhy0nRNtfVAvXeN8m0BolEw8uXk9hl240JGdkwBybMQAo1Bitw%3D",
    "description": "The cat activity tree has a wall anchor strap which provides a good double security protection. You don't have to worry that the cat tree will overturn or shake accidentally.Give your cat the best protection！ideal for average kittens and cats.",
    "specs": [
     {
@@ -9761,7 +9970,7 @@
     "https://i.ebayimg.com/images/g/EloAAeSwEe1ppMcs/s-l1600.jpg",
     "https://i.ebayimg.com/images/g/HbMAAeSww4BppMct/s-l1600.jpg"
    ],
-   "url": "https://www.ebay.com/itm/406881951025?amdata=enc%3AAQALAAAAoCHNgUiiE%2FjQhlDTaMiAde9ex9k9nBBM3bnn1Ti3cvGZ8kjT%2FlLw4KCc7sy6lvcvMYSIc%2B2%2BtBU0fglApPmRUCQ3c3putvtH7hcftFdgGmBEeh8mRUM79cppyjJX33waGIviiYNxGAdDhA%2BDHRY%2BiYlwG--xLLwQ8FFxJ08jAVhki9cytvmalNVFkPb77mce%2BLmcYtXrg3WjWTqUUCnVMJY%3D",
+   "url": "https://www.ebay.com/itm/406881951025?amdata=enc%3AAQALAAAAoCHNgUiiE%2FjQhlDTaMiAde9ex9k9nBBM3bnn1Ti3cvGZ8kjT%2FlLw4KCc7sy6lvcvMVGz2uheXMG%2BkBXkCmV%2BBi56Z0Dh5SDLA1MmkUyjZJgJS09DKDF%2FpnSU0FJ1I5mYZjav1k2NV4F7IS866VHajDm0KD%2F15DYjwAUBmeAQm6MhZjhHMaTq9LayQgSeRYzaBw2P9YURKiLpik%2FDMrud2X8%3D",
    "description": "Feed your pet from anywhere with the Papifeed Smart Feeder! Papifeed Automatic Feeder (Main Unit). • Connectivity: 2.4GHz WiFi (Not compatible with 5GHz). • Hygienic Design: Includes a food-grade stainless steel bowl, easy to clean and dishwasher safe.",
    "specs": [
     {
@@ -9811,29 +10020,33 @@
    ]
   },
   {
-   "id": "e-v1|326259501720|515380391660",
-   "title": "No Pull Dog Pet Harness Adjustable Control Vest Dogs Reflective XS S M Large XXL",
-   "brand": "The Perfect Part",
+   "id": "e-v1|165643191609|465156322734",
+   "title": "Dog Harness & Training Leash No Pull Control Adjustable Large Handle Heavy Duty",
+   "brand": "Unbranded",
    "platform": "eBay",
    "category": "pets",
-   "price": 13,
+   "price": 24,
    "tags": [
     "pet-parent",
     "outdoorsy",
     "durable"
    ],
    "emoji": "🐕",
-   "hue": 229,
+   "hue": 29,
    "blurb": "New",
-   "image": "https://i.ebayimg.com/images/g/jhYAAOSww3VjTezR/s-l1600.jpg",
+   "image": "https://i.ebayimg.com/images/g/P8sAAOSwIodjBvW-/s-l1600.jpg",
    "images": [
-    "https://i.ebayimg.com/images/g/jhYAAOSww3VjTezR/s-l1600.jpg",
-    "https://i.ebayimg.com/images/g/2yQAAOSwllpjTezU/s-l1600.jpg",
-    "https://i.ebayimg.com/images/g/1IsAAOSwcjxjTezW/s-l1600.jpg",
-    "https://i.ebayimg.com/images/g/T4cAAOSw6GVjTezY/s-l1600.jpg"
+    "https://i.ebayimg.com/images/g/P8sAAOSwIodjBvW-/s-l1600.jpg",
+    "https://i.ebayimg.com/images/g/nXkAAOSwRYpjBvbZ/s-l1600.jpg",
+    "https://i.ebayimg.com/images/g/UtoAAOSwoJNjBvbh/s-l1600.jpg",
+    "https://i.ebayimg.com/images/g/fQwAAOSwiuNjBvbO/s-l1600.jpg",
+    "https://i.ebayimg.com/images/g/GLsAAOSwSxdjBvbR/s-l1600.jpg",
+    "https://i.ebayimg.com/images/g/rAcAAOSwvZBjBvbr/s-l1600.jpg",
+    "https://i.ebayimg.com/images/g/OO4AAOSwjepjBvX1/s-l1600.jpg",
+    "https://i.ebayimg.com/images/g/OfgAAOSwpx1jBvW5/s-l1600.jpg"
    ],
-   "url": "https://www.ebay.com/itm/326259501720?var=515380391660&amdata=enc%3AAQALAAAAoCHNgUiiE%2FjQhlDTaMiAde%2Ba1FhHx85oc0vOA2W2cHsyCcYL%2FRZnVjYkKXzXZ%2FgkSl%2FPBumqh4qKyB8PzBkAo82MZsR6GEjsYLT%2Fgp2pELXSk2q0zzkqAJyx1hlqLYoZVji8VXHnMhG15c9IY67SpX3hNgtJ0RJxjlvHoHNkOLhGZH2dQ%2FIjxF03lF5KpEF79bpP%2BS%2FEAinP0VHfvw%2Bcmvw%3D",
-   "description": "Make your puppy stand out with this Classic Black Harness! Perfect for dog training or dogs who tend to pull. The back loop one is great for casual walks, jogging, hiking, etc. 🐶Safe and Comfortable - Your dog will enjoy the daily walk in this comfort dog harness!",
+   "url": "https://www.ebay.com/itm/165643191609?var=465156322734&amdata=enc%3AAQALAAAAoCHNgUiiE%2FjQhlDTaMiAde%2BbTOVjY4wdnFzobBbsVrtp7s8TzNe1mt8fpRavMV3N82vUJvOsxEUNhINaO6KBqFmsBlqmgC20PqgL4tZoyD%2BlntY9Qh%2F7J2Dge4NwIX4mAfcNzGArwD6oSzC%2BFSQgEYIPwA4EBvTY1Tq1ShKb96ncsnQ4YhUHphhjPLAzqtbuTqpa%2BJpxlL14cE%2FmB8PXoFI%3D",
+   "description": "Custom Luxury Reversible Strong Reflective No Pull Dog Leash And Harness Set OEM Christmas Dog Harness. No pull system: Connect leash to front leash clip to correct pulling. The back one is great for casual walks, jogging, hiking, etc.",
    "specs": [
     {
      "name": "Color",
@@ -9841,35 +10054,27 @@
     },
     {
      "name": "Size",
-     "value": "L"
+     "value": "XLarge"
     },
     {
-     "name": "Non-Domestic Product",
-     "value": "No"
-    },
-    {
-     "name": "COLORS",
-     "value": "Black, Blue, Red, Camo, Pink, Pink Camo, Leopard"
+     "name": "Bundle Description",
+     "value": "Dos Not Apply"
     },
     {
      "name": "Custom Bundle",
-     "value": "No"
-    },
-    {
-     "name": "Lining Material",
-     "value": "Mesh, Nylon"
+     "value": "Yes"
     },
     {
      "name": "Material",
-     "value": "Nylon, Mesh, Fabric"
+     "value": "Oxford"
+    },
+    {
+     "name": "MPN",
+     "value": "Dos Not Apply"
     },
     {
      "name": "Gender",
      "value": "Unisex"
-    },
-    {
-     "name": "Bundle Listing",
-     "value": "No"
     },
     {
      "name": "Modified Item",
@@ -9877,35 +10082,27 @@
     },
     {
      "name": "Brand",
-     "value": "The Perfect Part"
+     "value": "Unbranded"
     },
     {
      "name": "Type",
-     "value": "Soft/Vest Harness, Strap Harness"
+     "value": "Training Harness"
     },
     {
      "name": "Dog Size",
-     "value": "XS, S, M, L, XL, XXL"
+     "value": "S,M,L,XL"
     },
     {
      "name": "Dog Breed",
-     "value": "Various"
-    },
-    {
-     "name": "Product Type",
-     "value": "Pets & Animals"
+     "value": "Any"
     },
     {
      "name": "Model",
-     "value": "HD5000"
-    },
-    {
-     "name": "Style",
-     "value": "Animals & Nature"
+     "value": "Tactical/Training Harness"
     },
     {
      "name": "Features",
-     "value": "Outdoors, Buckle, D-Ring, Durable, Top Handle, Soft/Vest Harness or Leash, Strap Harness, Adjustable, Non-Pull, Padded, Reflective/Lighted, With Handle"
+     "value": "Adjustable, Front Clip, Leash Included, Non-Pull, With Handle"
     },
     {
      "name": "Country/Region of Manufacture",
@@ -9914,12 +10111,12 @@
    ]
   },
   {
-   "id": "e-v1|165938060188|0",
+   "id": "e-v1|227312626962|0",
    "title": "Automatic Cat Toys Interactive Pet Toys for Indoor Cats,USB Cat Interactive Toys",
    "brand": "moebypet",
    "platform": "eBay",
    "category": "pets",
-   "price": 17,
+   "price": 12,
    "tags": [
     "pet-parent",
     "playful"
@@ -9927,19 +10124,19 @@
    "emoji": "🐕",
    "hue": 346,
    "blurb": "New",
-   "image": "https://i.ebayimg.com/images/g/OdIAAOSwMDtoC1tm/s-l1600.jpg",
+   "image": "https://i.ebayimg.com/images/g/lxQAAeSwMc9p6TSC/s-l1600.jpg",
    "images": [
-    "https://i.ebayimg.com/images/g/OdIAAOSwMDtoC1tm/s-l1600.jpg",
-    "https://i.ebayimg.com/images/g/VjMAAOSw8h5oC1to/s-l1600.jpg",
-    "https://i.ebayimg.com/images/g/wYcAAOSwLUxoC1tq/s-l1600.jpg",
-    "https://i.ebayimg.com/images/g/VjgAAOSw8h5oC1tr/s-l1600.jpg",
-    "https://i.ebayimg.com/images/g/LhQAAOSwKyJoC1tt/s-l1600.jpg",
-    "https://i.ebayimg.com/images/g/v-kAAOSw0xBoC1tu/s-l1600.jpg",
-    "https://i.ebayimg.com/images/g/M10AAOSwoM9oC1tv/s-l1600.jpg",
-    "https://i.ebayimg.com/images/g/Jl4AAOSwERdoC1tw/s-l1600.jpg"
+    "https://i.ebayimg.com/images/g/lxQAAeSwMc9p6TSC/s-l1600.jpg",
+    "https://i.ebayimg.com/images/g/P0MAAeSwur5p6TSD/s-l1600.jpg",
+    "https://i.ebayimg.com/images/g/NsAAAeSwv5dp6TSE/s-l1600.jpg",
+    "https://i.ebayimg.com/images/g/hDUAAeSwHQBp6TSF/s-l1600.jpg",
+    "https://i.ebayimg.com/images/g/THkAAeSwRohp6TSH/s-l1600.jpg",
+    "https://i.ebayimg.com/images/g/KeAAAeSwFCdp6TSK/s-l1600.jpg",
+    "https://i.ebayimg.com/images/g/jKUAAeSwHPhp6TSV/s-l1600.jpg",
+    "https://i.ebayimg.com/images/g/Wo4AAeSw0Ulp6TSW/s-l1600.jpg"
    ],
-   "url": "https://www.ebay.com/itm/165938060188?amdata=enc%3AAQALAAAAoCHNgUiiE%2FjQhlDTaMiAde%2Bp6dfrWKmDl88i%2FmxlrgTx7Rw4npJM5vzLB1vK2dtLRG87payS5EWmIJojTQRNuowdhrlsuHnm6AAq3IhuWxqWahC5D7QorqGBywYK7pZ605xISpSTKPUjzMQyegDPcDVfiw8YvFvnwawV94htV4V0HCmcBgVNuc4cbjqSpbqKagi1p6kesPyELGFXUQiXBf8%3D",
-   "description": "Free your hands! The electronic cat toy combines a cat feather toy and an automatic cat light toy, Cat Ball Toy. Giving cats treble happiness and it can train their natural hunting, biting, and scratching instincts while playing.",
+   "url": "https://www.ebay.com/itm/227312626962?amdata=enc%3AAQALAAAAoCHNgUiiE%2FjQhlDTaMiAde%2BvUC0HqpJio7SfeSvyGlzPYatc8E073w%2B5fPMe0IwiYnX6z58vnP26UaofDa9fdLgralZffYdy0Manv9NxcOfC5RRh9ck%2FiGkp%2F%2BmQooWlGETHp1Br2ToGwgSKtopmCQxyaXmWPR2HMXgrbrU2bds%2F9jj0TsJ0mpWqi9HAnQqIYM6h75eZ4yvp6F1Rz9YU2%2Fo%3D",
+   "description": "Built with super power inside, make balls running, shaking, slipping easily on floor, or carpet. Chirping cat toys, bird singing default on when power on, but quickly press twice will turn the sounds off.",
    "specs": [
     {
      "name": "Brand",
@@ -9992,69 +10189,57 @@
    ]
   },
   {
-   "id": "e-v1|358056356396|0",
-   "title": "48 Pack A6 Dot Grid Paper Notebook, Small Dot Grid Journal Notebook, Pocket Dot",
-   "brand": "",
+   "id": "e-v1|168677635598|0",
+   "title": "Archer & Olive journal A5 dot grid",
+   "brand": "Archer & Olive",
    "platform": "eBay",
    "category": "stationery",
-   "price": 34,
+   "price": 22,
    "tags": [
     "ritual",
     "minimalist",
     "creative"
    ],
    "emoji": "📓",
-   "hue": 307,
-   "blurb": "New with tags",
-   "image": "https://i.ebayimg.com/images/g/t1gAAeSwRJZpTycC/s-l1600.jpg",
+   "hue": 140,
+   "blurb": "New",
+   "image": "https://i.ebayimg.com/images/g/9qgAAeSwPlhqoj8C/s-l1600.jpg",
    "images": [
-    "https://i.ebayimg.com/images/g/t1gAAeSwRJZpTycC/s-l1600.jpg",
-    "https://i.ebayimg.com/images/g/ARUAAeSwO3NpTycD/s-l1600.jpg",
-    "https://i.ebayimg.com/images/g/lbcAAeSwpAVpTycE/s-l1600.jpg",
-    "https://i.ebayimg.com/images/g/kDsAAeSwEo9pTycF/s-l1600.jpg",
-    "https://i.ebayimg.com/images/g/lXUAAeSwbktpTycG/s-l1600.jpg",
-    "https://i.ebayimg.com/images/g/5FsAAeSwEDFpTycH/s-l1600.jpg",
-    "https://i.ebayimg.com/images/g/vNwAAeSwActpTycI/s-l1600.jpg",
-    "https://i.ebayimg.com/images/g/sA8AAeSwnXtpTycK/s-l1600.jpg"
+    "https://i.ebayimg.com/images/g/9qgAAeSwPlhqoj8C/s-l1600.jpg",
+    "https://i.ebayimg.com/images/g/3OQAAeSwkdpqoj8D/s-l1600.jpg",
+    "https://i.ebayimg.com/images/g/4RgAAeSws~Rqoj8C/s-l1600.jpg",
+    "https://i.ebayimg.com/images/g/BMQAAeSwjT9qoj8C/s-l1600.jpg",
+    "https://i.ebayimg.com/images/g/DGMAAeSwksBqoj8C/s-l1600.jpg",
+    "https://i.ebayimg.com/images/g/kP4AAeSw7v5qoj8C/s-l1600.jpg",
+    "https://i.ebayimg.com/images/g/YUoAAeSwehJqoj8D/s-l1600.jpg",
+    "https://i.ebayimg.com/images/g/~98AAeSw-Rxqoj8D/s-l1600.jpg"
    ],
-   "url": "https://www.ebay.com/itm/358056356396?amdata=enc%3AAQALAAAAoCHNgUiiE%2FjQhlDTaMiAde9BsGFatN4O7Ti5YQ1EEb31n5yQeSuQhH1Rf2tzfdaYaeT0477jNbfKDiQsQ17V8FuykVrriwvJZi5QCtHinHIHQyenxzsrhKs%2FXSOurynoC5bNtQ3fsSnEQlqnMBKYyPo5es4vN2WhyqUTPyAiCT3u9BXaDMqw%2FwF4iKH547wqGUm%2Fd%2FCM69Wl0h82zdxe5VQ%3D",
-   "description": "Ideal choices as travel notebook, composition notebook, daliy planner and subject notebook. 30 sheets/ 60 light yellow dot grid pages for each notebook. 1、Our dot grid notebook inner page is smooth and easy to write on.",
+   "url": "https://www.ebay.com/itm/168677635598",
+   "description": "This is a new Archer & Olive A5 dot grid journal. This comes from the limited edition Fall 2026 box. The cover is fabric with a tapestry of florals in olive, ivory and ochre printed on soft cotton. It has 192 pages of 160gsm white dot grid paper. It comes with 2 fabric bookmarks. One has a metal & on it. There is a pocket in the back.",
    "specs": [
     {
-     "name": "Item model number",
-     "value": "A6 DotNotebook 48pack"
+     "name": "Brand",
+     "value": "Archer & Olive"
     },
     {
-     "name": "Unit Count",
-     "value": "48.0 Count"
+     "name": "Unit Type",
+     "value": "Unit"
     },
     {
-     "name": "Color",
-     "value": "kraft"
+     "name": "Signed",
+     "value": "No"
     },
     {
-     "name": "Binding",
-     "value": "Unknown Binding"
+     "name": "Special Attributes",
+     "value": "Limited Edition"
     },
     {
-     "name": "Manufacturer Part Number",
-     "value": "A6 DotNotebook 48pack"
+     "name": "Cover Material",
+     "value": "Fabric"
     },
     {
-     "name": "Item Weight",
-     "value": "4.4 pounds"
-    },
-    {
-     "name": "Package Dimensions",
-     "value": "8.23 x 5.67 x 4.09 inches"
-    },
-    {
-     "name": "Size",
-     "value": "A6(Dotted 48pack)"
-    },
-    {
-     "name": "UPC",
-     "value": "7445057623650"
+     "name": "Personalized",
+     "value": "No"
     }
    ]
   },
@@ -10084,7 +10269,7 @@
     "https://i.ebayimg.com/images/g/XHIAAOSw93hlJdXR/s-l1600.jpg",
     "https://i.ebayimg.com/images/g/ooUAAOSwrTZlJdXa/s-l1600.jpg"
    ],
-   "url": "https://www.ebay.com/itm/225812298800?amdata=enc%3AAQALAAAAoCHNgUiiE%2FjQhlDTaMiAde9FEjopbfW53Pz5Nq%2BEkfSI22Jbux1o%2FVbixDiWvK%2BOlaX4hHTCaDFzPXPmCz45EEx00u2w7TNR2OiyoCWDcFsKOxyMwKeH3orbdeuTvruTkXBnUoTlHH2BB07H1NpSzyzvgIfCGRErPINNheRUxLYFHCg%2FO2wwicVJ9soLKGHrt6Uwm9l1EeSOfpinUDsi1f8%3D",
+   "url": "https://www.ebay.com/itm/225812298800?amdata=enc%3AAQALAAAAoCHNgUiiE%2FjQhlDTaMiAde9FEjopbfW53Pz5Nq%2BEkfSI22Jbux1o%2FVbixDiWvK%2BOlQqWXTbfvasnie3yCU73uZY%2BCFxdCzE6v1S9uiSd0OBMjcgfJhNfbG3pq%2BkoZS1ctD8Cmmb89CRsJ3VDR%2BZrxTqgcPpj9bGYRFD8l9IV4Whdvwu9w9Z0PmM%2FjtKgTKBv5neK0y3OVzL59ZBnJ3srdXI%3D",
    "description": "This fountain pen has perfect weight and balance, it can provide us with high precision and excellent writing comfort. Whether as a casual or executive pen, for work, office or personal use, your fountain pen will be appreciated by those around you.",
    "specs": [
     {
@@ -10134,111 +10319,41 @@
    ]
   },
   {
-   "id": "e-v1|317928176364|0",
-   "title": "Washi Tape Set 20 Rolls Gold Foil Floral Decorative Tape Vintage Aesthetic Maski",
+   "id": "e-v1|206556186040|0",
+   "title": "60 Rolls Washi Tape Set Aesthetic Decorative Masking Tape",
    "brand": "",
    "platform": "eBay",
    "category": "stationery",
-   "price": 11,
+   "price": 15,
    "tags": [
     "creative",
     "playful",
     "cozy"
    ],
    "emoji": "📓",
-   "hue": 351,
+   "hue": 106,
    "blurb": "New",
-   "image": "https://i.ebayimg.com/images/g/EYAAAeSw3uJpoLJw/s-l1600.jpg",
+   "image": "https://i.ebayimg.com/images/g/Pj0AAeSwXfFqp7zd/s-l1600.jpg",
    "images": [
-    "https://i.ebayimg.com/images/g/EYAAAeSw3uJpoLJw/s-l1600.jpg",
-    "https://i.ebayimg.com/images/g/xBcAAeSw7YVpoLJx/s-l1600.jpg",
-    "https://i.ebayimg.com/images/g/R0cAAeSwfQhpoLJx/s-l1600.jpg",
-    "https://i.ebayimg.com/images/g/sNQAAeSw8eJpoLJy/s-l1600.jpg",
-    "https://i.ebayimg.com/images/g/qxoAAeSw7qxpoLJz/s-l1600.jpg",
-    "https://i.ebayimg.com/images/g/MNIAAeSwrclpoLJz/s-l1600.jpg",
-    "https://i.ebayimg.com/images/g/xKoAAeSwumBpoLJ0/s-l1600.jpg",
-    "https://i.ebayimg.com/images/g/yCYAAeSwjIRpoLJ1/s-l1600.jpg"
+    "https://i.ebayimg.com/images/g/Pj0AAeSwXfFqp7zd/s-l1600.jpg",
+    "https://i.ebayimg.com/images/g/L-oAAeSw9TBqp7zd/s-l1600.jpg",
+    "https://i.ebayimg.com/images/g/Ok8AAeSwcBxqp7zd/s-l1600.jpg",
+    "https://i.ebayimg.com/images/g/PkUAAeSwXfFqp7zd/s-l1600.jpg",
+    "https://i.ebayimg.com/images/g/Z6cAAeSwf8pqp7zd/s-l1600.jpg",
+    "https://i.ebayimg.com/images/g/hHYAAeSwCvBqp7zd/s-l1600.jpg",
+    "https://i.ebayimg.com/images/g/1PYAAeSw4Zdqp7zd/s-l1600.jpg",
+    "https://i.ebayimg.com/images/g/gYIAAeSwQUpqp7zd/s-l1600.jpg"
    ],
-   "url": "https://www.ebay.com/itm/317928176364",
-   "description": "Use decorative tape to categorize notebooks, files and binders, or create bookmark labels for your planner. The washi tape aesthetic can also be used to cover your laptop to create your lovely personalized labels.",
-   "specs": [
-    {
-     "name": "Unit Count",
-     "value": "20.0 Count"
-    },
-    {
-     "name": "Style",
-     "value": "Gold Foil Floral"
-    },
-    {
-     "name": "Number of Items",
-     "value": "19"
-    },
-    {
-     "name": "Compatible Material",
-     "value": "Limitless"
-    },
-    {
-     "name": "Color",
-     "value": "gold"
-    },
-    {
-     "name": "Special Feature",
-     "value": "Gold Foil Floral Design"
-    },
-    {
-     "name": "Material",
-     "value": "Washi Paper"
-    },
-    {
-     "name": "Water Resistance Level",
-     "value": "Not Water Resistant"
-    },
-    {
-     "name": "Adhesive Location",
-     "value": "surface"
-    },
-    {
-     "name": "Item Weight",
-     "value": "5 ounces"
-    },
-    {
-     "name": "Adhesive Format",
-     "value": "roll"
-    },
-    {
-     "name": "Recommended Uses For Product",
-     "value": "Arts And Craft"
-    },
-    {
-     "name": "Surface Recommendation",
-     "value": "limitless"
-    },
-    {
-     "name": "Size",
-     "value": "0.6 inch * 16.4 feet"
-    },
-    {
-     "name": "Adhesive Side Count",
-     "value": "1"
-    },
-    {
-     "name": "Package Dimensions",
-     "value": "6.22 x 3.31 x 1.61 inches"
-    },
-    {
-     "name": "UPC",
-     "value": "313047711748"
-    }
-   ]
+   "url": "https://www.ebay.com/itm/206556186040?amdata=enc%3AAQALAAAAoCHNgUiiE%2FjQhlDTaMiAde%2FxTai4rqghXGd5W5R5qyWZT%2BADNYrZUJ6rljwRQ0WHF8Gh7Hg3NMZQxPECoRrZgyhvJC6Ddd2hr5ek0wUXSa%2BaYNbfXLQP9KVPigwB2uBDEl%2F7PBE847v1QLDaFE2%2Fs3A7hqyiEbR2hhjcfdkPTfY1dL8kNUxPo6%2BqrMW5EAobPNymYvhtALEgaQTKrKTC%2BcA%3D",
+   "description": "Removable & Residue-Adhesive: Engineered with a specialized,pet-safe adhesive that sticks securely to smooth surfaces like paper,walls,glass,and plastic. Premium Japanese Washi Material: Authentically crafted from high-quality semi-transparent traditional Japanese paper."
   },
   {
-   "id": "e-v1|398368308552|0",
+   "id": "e-v1|147546332604|0",
    "title": "Wooden Desk Organizer with Drawers Office Supplies Computer Desktop Tabletop",
-   "brand": "CNCEST",
+   "brand": "Unbranded",
    "platform": "eBay",
    "category": "stationery",
-   "price": 20,
+   "price": 23,
    "tags": [
     "desk-setup",
     "minimalist",
@@ -10250,72 +10365,40 @@
    "image": "https://i.ebayimg.com/images/g/Ka4AAOSw0FFg2YIG/s-l1600.jpg",
    "images": [
     "https://i.ebayimg.com/images/g/Ka4AAOSw0FFg2YIG/s-l1600.jpg",
-    "https://i.ebayimg.com/images/g/Kf4AAOSwvpVkNPOe/s-l1600.jpg",
-    "https://i.ebayimg.com/images/g/t9wAAOSwFtVkNPOf/s-l1600.jpg",
-    "https://i.ebayimg.com/images/g/XC0AAOSwDndkNPOd/s-l1600.jpg",
-    "https://i.ebayimg.com/images/g/JzoAAOSwWVpksPvl/s-l1600.jpg",
     "https://i.ebayimg.com/images/g/978AAOSwhuRkNPOW/s-l1600.jpg",
-    "https://i.ebayimg.com/images/g/XIsAAOSwXhxksOza/s-l1600.jpg",
-    "https://i.ebayimg.com/images/g/-q8AAOSwexpksPv9/s-l1600.jpg"
+    "https://i.ebayimg.com/images/g/FWsAAOSw1htm0CC7/s-l1600.jpg",
+    "https://i.ebayimg.com/images/g/xUkAAOSwPU9m0CDL/s-l1600.jpg",
+    "https://i.ebayimg.com/images/g/YlUAAOSwj75m0CDJ/s-l1600.jpg",
+    "https://i.ebayimg.com/images/g/JzoAAOSwWVpksPvl/s-l1600.jpg",
+    "https://i.ebayimg.com/images/g/GD0AAOSwddRksOzS/s-l1600.jpg",
+    "https://i.ebayimg.com/images/g/XIsAAOSwXhxksOza/s-l1600.jpg"
    ],
-   "url": "https://www.ebay.com/itm/398368308552?amdata=enc%3AAQALAAAAoCHNgUiiE%2FjQhlDTaMiAde%2Fyo4oDAHa1XwgFuNfbBkIVy7JES1G%2BQyuKIh2aBO8JqAsaYZm0EjTFcyvFt%2BOL%2F09VlcPliG2Vj1KzWvxOca8pAe4YvXG1xpMa48jUobqyfwnoBGQZMeEc5d6cnuj4WC1v%2BefN8M3QobAHWtar%2FAwpVoFpv0V%2BfwGyBXQ6Y8hz0kuJSZcSsBt81ZAikTpHUko%3D",
-   "description": "Description This computer monitor stand is not only durable but is also extremely space-efficient. It can stabilize your monitor and organize your office supplies efficiently, taking the clutter out of your desktop, and providing a cost-effective solution to your needs. We encourage you to adopt this storage option for a tidy, high-value office environment. Key Features Selected Material: High-quality MDF makes this product wear-resistant, corrosion-resistant, anti-rust, strong, durable, and not",
+   "url": "https://www.ebay.com/itm/147546332604?amdata=enc%3AAQALAAAAoCHNgUiiE%2FjQhlDTaMiAde%2F0M7b9vSP26Tw%2FaX1ZLHSg%2FR8Wh9xr%2BPafWAfapCXXxWILmApP8qZwgB6BZSuKlTH7%2BLaF%2B3oFhTd69wgbQZBIu2kugNf3NEaEG4T3E4B%2FJkXgjYKdNtoE02pQjSGya7HTVCk%2FruFXuH2a8RvGBX%2BZr9aISK0lTUdNWysRV8WUKzpp7d%2FwEsMJszKB3mseYqE%3D",
+   "description": "Space-Saving : The product can be placed on a tabletop, making the most of vertical space, saving countertop space, and keeping your office cleaner and tidier. Computer Monitor Stand, Computer Rack with Drawers, Monitor Stand.",
    "specs": [
     {
      "name": "Brand",
-     "value": "CNCEST"
+     "value": "Unbranded"
+    },
+    {
+     "name": "Size",
+     "value": "65.5 * 20 * 13.5cm"
+    },
+    {
+     "name": "Type",
+     "value": "Office Desk Organizer with lock"
     },
     {
      "name": "Color",
-     "value": "Wood"
+     "value": "Burlywood"
     },
     {
      "name": "Material",
-     "value": "MDF"
+     "value": "Wood"
     },
     {
-     "name": "Shape",
-     "value": "Rectangle"
-    },
-    {
-     "name": "Style",
-     "value": "Modern"
-    },
-    {
-     "name": "Assembly Required",
-     "value": "Yes"
-    },
-    {
-     "name": "Mounting Type",
-     "value": "Tabletop"
-    },
-    {
-     "name": "Stand Total Load-bearing Capacity",
-     "value": "5kg/11.02lbs"
-    },
-    {
-     "name": "Side Cabinet Size(L*H)",
-     "value": "17.5*16.5cm/6.9*6.5in"
-    },
-    {
-     "name": "Computer Monitor Stand Szie",
-     "value": "48*20*13.5cm/18.9*7.9*5.3in"
-    },
-    {
-     "name": "Overall Product Length(Stand+Cabinet)",
-     "value": "65.5cm/25.8in"
-    },
-    {
-     "name": "Package Size",
-     "value": "52.5*21*6cm/20.67*8.27*2.36in"
-    },
-    {
-     "name": "Gross Weight",
-     "value": "2.87kg/6.33lbs"
-    },
-    {
-     "name": "Net Weight",
-     "value": "2.7kg/5.95lbs"
+     "name": "Weight",
+     "value": "2.7kg"
     }
    ]
   },
@@ -10340,7 +10423,7 @@
     "https://i.ebayimg.com/images/g/XWwAAeSw0DhosnOa/s-l1600.jpg",
     "https://i.ebayimg.com/images/g/ZZMAAeSwveJosnOa/s-l1600.jpg"
    ],
-   "url": "https://www.ebay.com/itm/327235923457?amdata=enc%3AAQALAAAAoCHNgUiiE%2FjQhlDTaMiAde8Q%2FaOIPGKhVu2bhpTXNmaDAwwdgpdEQZTZB%2FgfUZGLoAc3vvCLVC2oA5567wwioLiPBDmcHvqhqDNrXBmSeBQ0hMGxcBKd7qBHUT6C1%2Fvz%2B295PTV0Pg2zU7xFGqLiMu%2FYfnxJ3Xt5HzDreoZMSOrvLgU5XmI%2FoFCdszAksgaEdO7KxezXBip93vRdm0LLl1E%3D",
+   "url": "https://www.ebay.com/itm/327235923457?amdata=enc%3AAQALAAAAoCHNgUiiE%2FjQhlDTaMiAde8Q%2FaOIPGKhVu2bhpTXNmaDAwwdgpdEQZTZB%2FgfUZGLoMIG9dAVemH9EVTyksb1lCXNuOQSYUCxGhvMhZ1m3Q2TgTpz2O8HYc%2BRYqIjjPRBgSNqRP0nS27eCRkXh%2FoVHFcEaM5Vy2Qd1Y9HxayKBMMUS0Y0c85RhlqF4RKD7LyK6ci3CraO8aPJ%2BGgP9NuD3XE%3D",
    "description": "Brand Logo Stickers 200 Pack Sticker Decal Set Fashion Aesthetic Brands Meme Fun You will receive a pack of 200 logo stickers as shown in the photos. Orders typically ship within a few business days. Check out my other listings for more variety stickers! Thank you. =)",
    "specs": [
     {
@@ -10374,72 +10457,109 @@
    ]
   },
   {
-   "id": "e-v1|127633882073|428781233888",
-   "title": "2 In 1 Carry On Travel Backpack 20\" Rolling Backpack With Wheel & Handle",
-   "brand": "NEW YORK XPRESS",
+   "id": "e-v1|188928236602|0",
+   "title": "Bagsmart 29L Faro Carry On Travel Backpack - Rust",
+   "brand": "Bagsmart",
    "platform": "eBay",
    "category": "travel",
-   "price": 40,
+   "price": 38,
    "tags": [
     "adventure",
     "practical",
     "organized"
    ],
    "emoji": "🎒",
-   "hue": 314,
-   "blurb": "New with tags",
-   "image": "https://i.ebayimg.com/images/g/oIIAAeSwaO9pbvJi/s-l1600.jpg",
+   "hue": 175,
+   "blurb": "New without tags",
+   "image": "https://i.ebayimg.com/images/g/I-IAAeSw-1xqp5g7/s-l1600.jpg",
    "images": [
-    "https://i.ebayimg.com/images/g/oIIAAeSwaO9pbvJi/s-l1600.jpg",
-    "https://i.ebayimg.com/images/g/FioAAeSwFo5pbvJi/s-l1600.jpg",
-    "https://i.ebayimg.com/images/g/ua8AAeSwAjNpbvJk/s-l1600.jpg"
+    "https://i.ebayimg.com/images/g/I-IAAeSw-1xqp5g7/s-l1600.jpg",
+    "https://i.ebayimg.com/images/g/jmwAAeSwTctqp5g7/s-l1600.jpg",
+    "https://i.ebayimg.com/images/g/ZNwAAeSwPKNqp5g7/s-l1600.jpg",
+    "https://i.ebayimg.com/images/g/YOcAAeSweQVqp5g7/s-l1600.jpg",
+    "https://i.ebayimg.com/images/g/Z6MAAeSwguFqp5g7/s-l1600.jpg",
+    "https://i.ebayimg.com/images/g/IFIAAeSw6N9qp5g7/s-l1600.jpg",
+    "https://i.ebayimg.com/images/g/V8cAAeSw3Txqp5g7/s-l1600.jpg",
+    "https://i.ebayimg.com/images/g/XRYAAeSwYHhqp5g7/s-l1600.jpg"
    ],
-   "url": "https://www.ebay.com/itm/127633882073?var=428781233888&amdata=enc%3AAQALAAAAoCHNgUiiE%2FjQhlDTaMiAde%2By2KSTQd%2FYoDXaKlOTRfxlsm03w%2FZFM6qTLr7QEOWGOMANk71tChJReIg7O4mtNM2qvrZXYK%2Fz88ih86kJMZ8Pb5tqNJMB0IuB7VxXAV1ChJg5FHb8wdGr7ha7HVb8x1w5CLoUMawOfHMpqLH9LAS88e2ygqc%2Fd9RX0VkdCdFBwUeKNq7zpUxp5VykQlTvISQ%3D",
-   "description": "The 20\" Stylish large rolling backpack is a versatile and practical bag that makes it the perfect companion for travel or school.Roller backpack with spacious main compartment for laptop,clothes and personal items,and multiple front and side pockets to increase storage capacity.The wheeled backpack has a retractable handle for easy rolling when needed.Rolling travel backpack has 2*wheels on the bottom for easy movement on the ground.The shoulder straps can be stored inside the backpack's back pa",
+   "url": "https://www.ebay.com/itm/188928236602?amdata=enc%3AAQALAAAAoCHNgUiiE%2FjQhlDTaMiAde8Oht3fBaT20m0YzAph%2FDSRBdSETZLLoITsLTRrefXyD0AzPO7DSjaZdE8GkiVW1XPT6p5AFAvZ8Eygq2T%2FsBvG5piYp9pZNbd0WCM3RFa5FF4LuKggvntkhV7E6egTnKpp3UYDlRHo5CjGkqR1Xga5U5qr4XtoG0GaZIVOMVw0At3TxO3yFxfaHOENHk54WaA%3D",
+   "description": "•180° opening for easy packing •1 crossbody bag & up to 9 pockets •15.6'' laptop compartment •Detachable crossbody bag with 3 pockets DescriptionFrom daily commutes to weekend escapes this backpack is built to keep up with every part of your routine. Designed for versatility and convenience it features multiple compartments and a removable crossbody bag giving you flexible carrying options for work travel and life on the go. The 180° opening design makes packing and unpacking simple while up to ",
    "specs": [
     {
-     "name": "color,",
-     "value": "Black"
-    },
-    {
      "name": "Brand",
-     "value": "NEW YORK XPRESS"
+     "value": "Bagsmart"
     },
     {
-     "name": "Pattern",
-     "value": "Solid"
+     "name": "Insect Repellent Treated",
+     "value": "No"
     },
     {
      "name": "Department",
      "value": "Unisex Adults"
     },
     {
-     "name": "Closure",
-     "value": "Zip"
-    },
-    {
-     "name": "Occasion",
-     "value": "Business, Casual, Travel"
-    },
-    {
      "name": "Size",
-     "value": "20inch"
-    },
-    {
-     "name": "Color",
-     "value": "black,blue,grey,BLUE-LILIES,PAPS-FLORAL,PINK-BUTTERFLY"
-    },
-    {
-     "name": "Style",
-     "value": "Backpack"
+     "value": "One Size"
     },
     {
      "name": "Material",
      "value": "Polyester"
     },
     {
-     "name": "Features",
-     "value": "Adjustable Strap, Lightweight, Pockets"
+     "name": "Type",
+     "value": "Backpacks"
+    },
+    {
+     "name": "Model",
+     "value": "Bagsmart-94500582"
+    },
+    {
+     "name": "Vintage",
+     "value": "No"
+    },
+    {
+     "name": "Country of Origin",
+     "value": "United States - US"
+    },
+    {
+     "name": "Item Height",
+     "value": "18.000"
+    },
+    {
+     "name": "Item Length",
+     "value": "3.000"
+    },
+    {
+     "name": "Item Width",
+     "value": "12.000"
+    },
+    {
+     "name": "MPN",
+     "value": "94500582"
+    },
+    {
+     "name": "Form Factor",
+     "value": "Backpacks  17.4 Inches (H) x 11.4 Inches (W) x 7.5"
+    },
+    {
+     "name": "Pattern",
+     "value": "Solid"
+    },
+    {
+     "name": "Size Type",
+     "value": "Regular"
+    },
+    {
+     "name": "Style",
+     "value": "Backpacks"
+    },
+    {
+     "name": "Waist Size",
+     "value": "One Size"
+    },
+    {
+     "name": "UPC",
+     "value": "850066014882"
     }
    ]
   },
@@ -10468,7 +10588,7 @@
     "https://i.ebayimg.com/images/g/TPsAAeSwww5qY8Q9/s-l1600.jpg",
     "https://i.ebayimg.com/images/g/wj4AAeSwUIlqY8Q9/s-l1600.jpg"
    ],
-   "url": "https://www.ebay.com/itm/127992588424?amdata=enc%3AAQALAAAAoCHNgUiiE%2FjQhlDTaMiAde8FJInpBBNq9c55Xwhn83%2FR7j2SHfQyjkRQu9WLezH%2BSdEF6dB32sf6LUuZI1GV7IHBmG3%2FMj6LpQQuF%2FJx52szK32G2rmFwlBjqVs0Q1tMq5aOoTD1eC7%2FatS34yMnsTawJE47y68FC2mD0gDTVwnpBro9MRXyAljRdabFKryYOABiOf12FzGDZlo0LAQpkJI%3D",
+   "url": "https://www.ebay.com/itm/127992588424?amdata=enc%3AAQALAAAAoCHNgUiiE%2FjQhlDTaMiAde8FJInpBBNq9c55Xwhn83%2FR7j2SHfQyjkRQu9WLezH%2BSSP637fHgAMbeEhQnLP%2BS7C3VkHzCEoH7BlrPY0ReN8e4ia02NhiIXaRiEPBdniYHSCxktBmYVH091XVaFVn1E9p8WqiwFbd0KcP6zflebPUvfRna3mLtHHz%2BBIf4UbrZFuxy6oPnkmcT8N2mbcX54A%3D",
    "description": "These travel organizer bags function as luggage organizer bags and a full travel bags organizer for luggage setup. We're happy to help you.24/7 live chat available.",
    "specs": [
     {
@@ -10546,44 +10666,87 @@
    ]
   },
   {
-   "id": "e-v1|298649508870|0",
-   "title": "SARISUN Travel Pillows for Airplanes, Stable Head Support, Travel Essential",
-   "brand": "SARISUN",
+   "id": "e-v1|168664576596|0",
+   "title": "U-Shaped Memory Foam Rebound Travel Pillow Neck Support Head Rest Airplane Sleep",
+   "brand": "Fosmon",
    "platform": "eBay",
    "category": "travel",
-   "price": 16,
+   "price": 17,
    "tags": [
     "comfort",
     "commute",
     "compact"
    ],
    "emoji": "🎒",
-   "hue": 197,
+   "hue": 256,
    "blurb": "New",
-   "image": "https://i.ebayimg.com/images/g/DOUAAeSwJFFqhUSd/s-l1600.jpg",
+   "image": "https://i.ebayimg.com/images/g/cXoAAeSw1~xqPaLR/s-l1600.jpg",
    "images": [
-    "https://i.ebayimg.com/images/g/DOUAAeSwJFFqhUSd/s-l1600.jpg",
-    "https://i.ebayimg.com/images/g/6QgAAeSwrhNqaY3z/s-l1600.jpg",
-    "https://i.ebayimg.com/images/g/02EAAeSwOzFqaY3z/s-l1600.jpg",
-    "https://i.ebayimg.com/images/g/KQkAAeSwDF1qaY3z/s-l1600.jpg",
-    "https://i.ebayimg.com/images/g/nUsAAeSwHjVqaY3z/s-l1600.jpg",
-    "https://i.ebayimg.com/images/g/BxAAAeSw3CxqaY3z/s-l1600.jpg",
-    "https://i.ebayimg.com/images/g/EvUAAeSwN-lqaY3z/s-l1600.jpg"
+    "https://i.ebayimg.com/images/g/cXoAAeSw1~xqPaLR/s-l1600.jpg",
+    "https://i.ebayimg.com/images/g/mRkAAeSwsJZqPaLR/s-l1600.jpg",
+    "https://i.ebayimg.com/images/g/ShwAAeSw3ZNqPaLR/s-l1600.jpg",
+    "https://i.ebayimg.com/images/g/-jUAAeSwkcBqPaLR/s-l1600.jpg",
+    "https://i.ebayimg.com/images/g/maUAAeSwURVqPaLR/s-l1600.jpg",
+    "https://i.ebayimg.com/images/g/lOEAAeSw7vNqPaLR/s-l1600.jpg"
    ],
-   "url": "https://www.ebay.com/itm/298649508870?amdata=enc%3AAQALAAAAoCHNgUiiE%2FjQhlDTaMiAde%2Fw0yrBmgBbfXcReG1nn4yGIpehH5G2URyx%2BFiDxEXMIIQ%2B8xEshwHzArgukzsSd3WLYeKyzCe7qch4TsKqT6pOKspzXZE0eAlkT6EFrNOYHzopV81GXA47NowESEuyZwYKqGMEqkVfjXecUBg5z0dLXearR7nK4z%2B4GGjYHtNQNaDshsqRQv1YLtg3iW3zVi0%3D",
-   "description": "SARISUN Travel Pillows for Airplanes, Stable Head Support, Travel Essential | Airplane Pillow with Seat Strap, 3D Eye Mask, Attach to Seat Headrest, Long Flight Essentials, Stop Bobblehead, Stripe Black.",
+   "url": "https://www.ebay.com/itm/168664576596?amdata=enc%3AAQALAAAAoCHNgUiiE%2FjQhlDTaMiAde9%2Fi2S0EaTgUJ4DWR5fjwtlFMowP5D4msljFB3LSRswLFs5%2FW%2FgH1untJ%2BXzrMg6jO34m8JqxqBiaOnzk2HmWxZxzi33qYDUtbwPaz8SjEU%2Fjwj7NK8gSqvGSxePCMV28RivlsfGq1qme3BvKq%2Br7ThHytweAOg4jiAuv9ndDNieJRqXQ0u605TBm%2BZqb3hy5Q%3D",
+   "description": "• Train or bus commuting. • Airplane travel and long-haul flights. • Frequent travelers and daily commuters. • Storage: Includes compact travel bag. Ergonomic Travel Comfort Design. • Lightweight and compact design for easy portability.",
    "specs": [
     {
-     "name": "Brand",
-     "value": "SARISUN"
+     "name": "Keywords",
+     "value": "Travel Pillow Memory Foam Neck Pillow – 360° Ergonomic Support"
+    },
+    {
+     "name": "Feature 1",
+     "value": "High-density slow-rebound memory foam for adaptive comfort"
     },
     {
      "name": "Color",
-     "value": "Black"
+     "value": "Gray"
     },
     {
-     "name": "MPN",
-     "value": "SSNH001"
+     "name": "Feature 3",
+     "value": "Soft, breathable, skin-friendly fabric for all-day comfort"
+    },
+    {
+     "name": "Feature 2",
+     "value": "Contoured design helps reduce neck fatigue during travel"
+    },
+    {
+     "name": "California Prop 65 Warning",
+     "value": "WARNING: This product can expose you to some chemicals, which is known to the State of California to cause For more information, go to www.P65Warnings.ca.gov."
+    },
+    {
+     "name": "Brand",
+     "value": "Fosmon"
+    },
+    {
+     "name": "Returns",
+     "value": "60-day no questions asked, return shipping is free to buyer"
+    },
+    {
+     "name": "Unit Type",
+     "value": "Unit"
+    },
+    {
+     "name": "Padding",
+     "value": "Memory Foam"
+    },
+    {
+     "name": "Features",
+     "value": "360° ergonomic neck and chin support for improved sleep posture"
+    },
+    {
+     "name": "Shipping",
+     "value": "Same-Day Handling, Fast & Free USPS Shipping!"
+    },
+    {
+     "name": "Unit Quantity",
+     "value": "x1 memory foam travel neck pillow airplane support"
+    },
+    {
+     "name": "Pillow Type",
+     "value": "Neck"
     },
     {
      "name": "Country of Origin",
@@ -10592,36 +10755,30 @@
    ]
   },
   {
-   "id": "e-v1|137707138733|0",
-   "title": "L.L.Bean Yellow Hanging Toiletry Bag Travel Organizer Multiple Pockets",
-   "brand": "L.L.Bean",
+   "id": "e-v1|198639976740|0",
+   "title": "StrongMom Hanging Toiletry Bag Travel Organizer with Hook, Black",
+   "brand": "StrongMom",
    "platform": "eBay",
    "category": "travel",
-   "price": 23,
+   "price": 15,
    "tags": [
     "organized",
     "practical"
    ],
    "emoji": "🎒",
-   "hue": 8,
+   "hue": 13,
    "blurb": "Used",
-   "image": "https://i.ebayimg.com/images/g/kEoAAeSwLKFqndIz/s-l1600.jpg",
+   "image": "https://i.ebayimg.com/images/g/D-YAAeSwfEZqp15t/s-l1600.jpg",
    "images": [
-    "https://i.ebayimg.com/images/g/kEoAAeSwLKFqndIz/s-l1600.jpg",
-    "https://i.ebayimg.com/images/g/y7oAAeSwFh9qndIz/s-l1600.jpg",
-    "https://i.ebayimg.com/images/g/MFEAAeSwzadqndIz/s-l1600.jpg",
-    "https://i.ebayimg.com/images/g/0WYAAeSwj2JqndIz/s-l1600.jpg",
-    "https://i.ebayimg.com/images/g/NMMAAeSwM6BqndIz/s-l1600.jpg",
-    "https://i.ebayimg.com/images/g/6WIAAeSw1fxqndIz/s-l1600.jpg",
-    "https://i.ebayimg.com/images/g/ziQAAeSwuQtqndIz/s-l1600.jpg",
-    "https://i.ebayimg.com/images/g/6pIAAeSwSUlqndI0/s-l1600.jpg"
+    "https://i.ebayimg.com/images/g/D-YAAeSwfEZqp15t/s-l1600.jpg",
+    "https://i.ebayimg.com/images/g/UD0AAeSwnLRqp15V/s-l1600.jpg"
    ],
-   "url": "https://www.ebay.com/itm/137707138733?amdata=enc%3AAQALAAAAoCHNgUiiE%2FjQhlDTaMiAde8beUz%2BMGuHxj5ua--MCzM6lp3H809dTiQHlKu9Z%2F00A%2BJ5HG0CLHnKxrCDDE%2B4crmK7dZZADaNubmRbymIEMC%2B0betLnFva2PsrukYsk4M6FEcgXX7%2FukHLHcf3b0gDEvZJoHXimZOyD9iQSJXxDkdeqIYofmjQvqjbbrFGJsCw9PIHtQ%2BsZEgiHp94kKIZgQ%3D",
-   "description": "L.L.Bean hanging toiletry bag in bright yellow, designed to keep toiletries and travel essentials organized and easy to access. Style: Hanging toiletry bag / travel organizer. The built-in hanging hook makes it convenient to hang on a bathroom door, towel rack, or hook while traveling.",
+   "url": "https://www.ebay.com/itm/198639976740",
+   "description": "StrongMom Hanging Toiletry Bag Travel Organizer with Hook, Black",
    "specs": [
     {
      "name": "Brand",
-     "value": "L.L.Bean"
+     "value": "StrongMom"
     },
     {
      "name": "Type",
@@ -10630,63 +10787,57 @@
    ]
   },
   {
-   "id": "e-v1|307154332891|0",
-   "title": "21\" Lightweight Expandable Carry-On Luggage, Hard Shell Suitcase with Spinner Wh",
+   "id": "e-v1|406920690250|0",
+   "title": "20\" Expandable Hard Shell Carry On Luggage Hardside Suitcase with Spinner Wheels",
    "brand": "Unbranded",
    "platform": "eBay",
    "category": "travel",
-   "price": 68,
+   "price": 40,
    "tags": [
     "adventure",
     "sleek",
     "durable"
    ],
    "emoji": "🎒",
-   "hue": 100,
+   "hue": 107,
    "blurb": "New with tags",
-   "image": "https://i.ebayimg.com/images/g/838AAeSwiTNqlLfp/s-l1600.jpg",
+   "image": "https://i.ebayimg.com/images/g/VYEAAeSwWi9qAp4A/s-l1600.jpg",
    "images": [
-    "https://i.ebayimg.com/images/g/838AAeSwiTNqlLfp/s-l1600.jpg",
-    "https://i.ebayimg.com/images/g/5pAAAeSwmOBqlLfp/s-l1600.jpg",
-    "https://i.ebayimg.com/images/g/xysAAeSwGatqlLfp/s-l1600.jpg",
-    "https://i.ebayimg.com/images/g/wmUAAeSwzbZqlLfp/s-l1600.jpg",
-    "https://i.ebayimg.com/images/g/-sEAAeSwj8NqlLfp/s-l1600.jpg",
-    "https://i.ebayimg.com/images/g/0ekAAeSwRjVqlLfp/s-l1600.jpg"
+    "https://i.ebayimg.com/images/g/VYEAAeSwWi9qAp4A/s-l1600.jpg",
+    "https://i.ebayimg.com/images/g/k6QAAeSwYfpo07z-/s-l1600.jpg",
+    "https://i.ebayimg.com/images/g/OL8AAeSwOqpp3GTQ/s-l1600.jpg",
+    "https://i.ebayimg.com/images/g/vNoAAeSwsL5p3GTR/s-l1600.jpg",
+    "https://i.ebayimg.com/images/g/Z04AAeSw7kpp3GTS/s-l1600.jpg",
+    "https://i.ebayimg.com/images/g/EaAAAeSwAU9p3GTS/s-l1600.jpg",
+    "https://i.ebayimg.com/images/g/3rUAAeSwzy5p3GTT/s-l1600.jpg",
+    "https://i.ebayimg.com/images/g/3fgAAeSwfqVp3GTT/s-l1600.jpg"
    ],
-   "url": "https://www.ebay.com/itm/307154332891?amdata=enc%3AAQALAAAAoCHNgUiiE%2FjQhlDTaMiAde%2BcDJYCniXvjj7huyzeBI4FBoZo14MwHkRofrJwUWr6G%2Bue29u2%2FOOKkvUbOHQbzMZwbeqk2Zzw2s1%2BfXMfTxbPkq1NyKvwOBjEPtojlL8Zhq3R5HOsoibYk6doFDSYycoR0%2BTdkqT6M5gv7B7dFcjHwwjRUkg9MVwOTKmvpSWKD5bfXZwLsmnzeJCdazSQFhU%3D",
-   "description": "Experience the perfect blend of functionality and elegance with this expertly designed carry-on luggage. Lightweight Construction: Easy to lift and maneuver without sacrificing strength. This suitcase is crafted from premium ABS material, ensuring.",
+   "url": "https://www.ebay.com/itm/406920690250?amdata=enc%3AAQALAAAAoCHNgUiiE%2FjQhlDTaMiAde%2B7JfD9c%2FbVZ6aH7PQqqqDInOJrHv3uuazrDke%2FUU%2B3LEH%2BgI7romqj6qCuq23EkCjkzcUX%2FOJ3k1dLgRe4T5lL5BdVdC5vdYV4RKAH3k4SbLWqfp05zPeMNTLf9p9mhpcoomzeqMtwDqcQi%2F7Eax5RAfaSWK9bQ6fuK5OaTAakQKN5IjHdiryoEGnP3zcC6%2FQ%3D",
+   "description": "Description: 【Smooth & Easy Mobility】 【Spacious Storage Space】 【Lightweight & Durable】 【Enhanced Security with TSA Lock】 【Flexible and Resilient Telescopic Handle】. Specification: Item Name: Suitcase Material: ABS Material Applicable Gender: Neutral Opening Method: Zipper Roller Style: Universal Wheel Features: Waterproof, Anti-theft, Earthquake-resistant Size Details: 20\": 33cm x 23cm x 55cm/13.0\" x 9.1\" x 21.7\" (Approx.) Package Includes: 1 x 20-inch Suitcase Notes: Due to the light and screen",
    "specs": [
     {
-     "name": "Brand",
-     "value": "Unbranded"
-    },
-    {
-     "name": "Pattern",
-     "value": "Solid"
-    },
-    {
-     "name": "Type",
-     "value": "Carry-Ons"
-    },
-    {
      "name": "Size",
-     "value": "21 Inch"
+     "value": "20\""
+    },
+    {
+     "name": "Features",
+     "value": "Waterproof, Spinner, Wheels/Rolling, Expandable, Locking"
     },
     {
      "name": "Color",
      "value": "Black"
     },
     {
-     "name": "Features",
-     "value": "Expandable, Wheels/Rolling, Expandable, Lightweight, TSA Lock, Telescopic Hand"
-    },
-    {
-     "name": "MPN",
-     "value": "2LG-20BKN"
-    },
-    {
      "name": "Material",
-     "value": "Acrylonitrile Butadiene Styrene (ABS)"
+     "value": "ABS Plastic"
+    },
+    {
+     "name": "Brand",
+     "value": "Unbranded"
+    },
+    {
+     "name": "Type",
+     "value": "Suitcases"
     }
    ]
   }
