@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-09-28T11:34:51.929Z",
- "count": 337,
+ "generatedAt": "2026-10-02T11:42:18.607Z",
+ "count": 342,
  "products": [
   {
    "id": "g-15200654076443362081",
@@ -5658,37 +5658,6 @@
    "url": "https://www.google.com/search?ibp=oshop&q=carry+on+travel+backpack&prds=catalogid:12439917389703680097,gpcid:13445958051820454237,headlineOfferDocid:13637875062372994903,imageDocid:11783772848973310224,pvo:25,pvt:hg&gl=us&hl=en&udm=28"
   },
   {
-   "id": "s-3072765360",
-   "title": "Luxe Plush Organic Turkish Cotton White Bath Towels, Set of 6",
-   "brand": "Crate & Barrel",
-   "platform": "Crate & Barrel",
-   "category": "kitchen",
-   "price": 160,
-   "tags": [
-    "heirloom",
-    "practical",
-    "artisan"
-   ],
-   "emoji": "🍳",
-   "hue": 157,
-   "blurb": "",
-   "image": "https://cb.scene7.com/is/image/Crate/OrgncLxTrkshCttnWhtBthTw2SOSSF26",
-   "images": [
-    "https://cb.scene7.com/is/image/Crate/OrgncLxTrkshCttnWhtBthTw2SOSSF26",
-    "https://cb.scene7.com/is/image/Crate/CB_F26_CBS_17_104_Vert_001_X_PDP",
-    "https://cb.scene7.com/is/image/Crate/OrgncLxTrkshCttnTwlMgfmly1FHF26",
-    "https://cb.scene7.com/is/image/Crate/cb_PDP_20260805_BathTowels"
-   ],
-   "url": "https://www.crateandbarrel.com/luxe-plush-organic-turkish-cotton-white-bath-towels-set-of-6/s148057",
-   "description": "Take your bathing ritual to another level with the spa-like extravagance of our premium Luxe towel. The organic cotton towels are woven with yarn made of twisted long-staple fibers that make the fabric smoother, stronger, less prone to pilling and oh, so silky and soft. Super-absorbent with a plush, dense structure, Luxe towels may take a little longer to dry.100% organic cotton, grown without chemicals or pesticides. Yarn from twisted long-staple fiber. 800 GSM for ultra plushness and absorbency. Machine wash cold, tumble dry low; warm iron as needed. Use non-chlorine bleach only. Made in Turkey.",
-   "specs": [
-    {
-     "name": "Pattern",
-     "value": "Solid"
-    }
-   ]
-  },
-  {
    "id": "s-1182847247",
    "title": "Isla Brass Triangle Table Lamp, Set of 2",
    "brand": "Crate & Barrel",
@@ -5848,41 +5817,6 @@
    ],
    "url": "https://www.etsy.com/listing/4530682287",
    "description": "This Table Lamps item by GulfsidePottery has 11 favorites from Etsy shoppers. Ships from Holiday, FL. Listed on Jul 1, 2026"
-  },
-  {
-   "id": "s-1945714628",
-   "title": "Gaiam Yoga Mat - Premium 5mm Solid Thick Non Slip Exercise & Fitness Mat for All Types of ",
-   "brand": "",
-   "platform": "Amazon",
-   "category": "fitness",
-   "price": 29,
-   "tags": [
-    "home-gym",
-    "wellness",
-    "practical"
-   ],
-   "emoji": "🏋",
-   "hue": 109,
-   "blurb": "4.4★ (70328 ratings)",
-   "image": "https://m.media-amazon.com/images/I/71CQpLDuCcL._AC_SL1500_.jpg",
-   "images": [
-    "https://m.media-amazon.com/images/I/71CQpLDuCcL._AC_SL1500_.jpg",
-    "https://m.media-amazon.com/images/I/81DuFX9S-XL._AC_SL1500_.jpg",
-    "https://m.media-amazon.com/images/I/8113QRANkFL._AC_SL1500_.jpg",
-    "https://m.media-amazon.com/images/I/81hYnzzyRWL._AC_SL1500_.jpg",
-    "https://m.media-amazon.com/images/I/816kVZlOdxL._AC_SL1500_.jpg",
-    "https://m.media-amazon.com/images/I/91oPQXMZwbL._AC_SL1500_.jpg",
-    "https://m.media-amazon.com/images/I/81DHj+0D79L._AC_SL1500_.jpg",
-    "https://m.media-amazon.com/images/I/613mtLJ2GxL._AC_SL1176_.jpg"
-   ],
-   "url": "https://www.amazon.com/Gaiam-Exercise-Sustainable-Non-Slip-Prevents/dp/B079W4FX8B",
-   "features": [
-    "CORK YOGA MAT: Crafted with natural cork top and eco-friendly TPE bottom for a premium, sustainable yoga and exercise experience, ensuring stability and comfort in your workouts.",
-    "SWEAT and ODOR-RESISTANT CORK: Moisture-proof and odor-free, our natural cork material ensures a clean, fresh Yoga Workout surface, blocking dirt and unpleasant odors for a hygienic yoga experience.",
-    "HOT YOGA MAT: A must-have for all types of yoga, but especially heated and hot yoga classes, as temperatures rise and the cork begins to loosen it will become softer and easier to grip when slightly damp",
-    "CORK COMFORT: Experience the plush cushioning of our cork yoga mats, offering gentle support and resilience for joints and pressure points, ensuring a comfortable practice that nurtures your body and enhances your yoga journey.",
-    "VERSATILE PERFORMANCE: From dynamic yoga flows to intense workouts, our cork mat adapts to your fitness routines, providing stability and support for yoga, Pilates, stretching, and more, allowing you to explore new movements with confidence."
-   ]
   },
   {
    "id": "e-v1|188714817167|0",
@@ -10674,6 +10608,232 @@
      "name": "Country of Origin",
      "value": "China"
     }
+   ]
+  },
+  {
+   "id": "s-3072765360",
+   "title": "Luxe Plush Organic Turkish Cotton White Bath Towels, Set of 6",
+   "brand": "Crate & Barrel",
+   "platform": "Crate & Barrel",
+   "category": "kitchen",
+   "price": 160,
+   "tags": [
+    "heirloom",
+    "practical",
+    "artisan"
+   ],
+   "emoji": "🍳",
+   "hue": 157,
+   "blurb": "",
+   "image": "https://cb.scene7.com/is/image/Crate/OrgncLxTrkshCttnWhtBthTw2SOSSF26",
+   "images": [
+    "https://cb.scene7.com/is/image/Crate/OrgncLxTrkshCttnWhtBthTw2SOSSF26",
+    "https://cb.scene7.com/is/image/Crate/CB_F26_CBS_17_104_Vert_001_X_PDP",
+    "https://cb.scene7.com/is/image/Crate/OrgncLxTrkshCttnTwlMgfmly1FHF26",
+    "https://cb.scene7.com/is/image/Crate/cb_PDP_20260805_BathTowels"
+   ],
+   "url": "https://www.crateandbarrel.com/luxe-plush-organic-turkish-cotton-white-bath-towels-set-of-6/s148057",
+   "description": "Take your bathing ritual to another level with the spa-like extravagance of our premium Luxe towel. The organic cotton towels are woven with yarn made of twisted long-staple fibers that make the fabric smoother, stronger, less prone to pilling and oh, so silky and soft. Super-absorbent with a plush, dense structure, Luxe towels may take a little longer to dry.100% organic cotton, grown without chemicals or pesticides. Yarn from twisted long-staple fiber. 800 GSM for ultra plushness and absorbency. Machine wash cold, tumble dry low; warm iron as needed. Use non-chlorine bleach only. Made in Turkey.",
+   "specs": [
+    {
+     "name": "Pattern",
+     "value": "Solid"
+    }
+   ]
+  },
+  {
+   "id": "s-3072765360",
+   "title": "Luxe Plush Organic Turkish Cotton White Bath Towels, Set of 6",
+   "brand": "Crate & Barrel",
+   "platform": "Crate & Barrel",
+   "category": "home",
+   "price": 160,
+   "tags": [
+    "modern",
+    "minimalist",
+    "warm-light"
+   ],
+   "emoji": "🛋",
+   "hue": 157,
+   "blurb": "",
+   "image": "https://cb.scene7.com/is/image/Crate/OrgncLxTrkshCttnWhtBthTw2SOSSF26",
+   "images": [
+    "https://cb.scene7.com/is/image/Crate/OrgncLxTrkshCttnWhtBthTw2SOSSF26",
+    "https://cb.scene7.com/is/image/Crate/CB_F26_CBS_17_104_Vert_001_X_PDP",
+    "https://cb.scene7.com/is/image/Crate/OrgncLxTrkshCttnTwlMgfmly1FHF26",
+    "https://cb.scene7.com/is/image/Crate/cb_PDP_20260805_BathTowels"
+   ],
+   "url": "https://www.crateandbarrel.com/luxe-plush-organic-turkish-cotton-white-bath-towels-set-of-6/s148057",
+   "description": "Take your bathing ritual to another level with the spa-like extravagance of our premium Luxe towel. The organic cotton towels are woven with yarn made of twisted long-staple fibers that make the fabric smoother, stronger, less prone to pilling and oh, so silky and soft. Super-absorbent with a plush, dense structure, Luxe towels may take a little longer to dry.100% organic cotton, grown without chemicals or pesticides. Yarn from twisted long-staple fiber. 800 GSM for ultra plushness and absorbency. Machine wash cold, tumble dry low; warm iron as needed. Use non-chlorine bleach only. Made in Turkey.",
+   "specs": [
+    {
+     "name": "Pattern",
+     "value": "Solid"
+    }
+   ]
+  },
+  {
+   "id": "s-3518954485",
+   "title": "Bianca Red Marble Table Lamp",
+   "brand": "CB2",
+   "platform": "CB2",
+   "category": "home",
+   "price": 199,
+   "tags": [
+    "modern",
+    "statement",
+    "designer"
+   ],
+   "emoji": "🛋",
+   "hue": 344,
+   "blurb": "3.8★ (26 reviews)",
+   "image": "https://cb2.scene7.com/is/image/CB2/BiancaMrblTableLampSHS25",
+   "images": [
+    "https://cb2.scene7.com/is/image/CB2/BiancaMrblTableLampSHS25",
+    "https://cb2.scene7.com/is/image/CB2/437002_BncBlckMrblTblLmpwth_Dim",
+    "https://cb2.scene7.com/is/image/CB2/CB2_S25_508_Lamps_ON_004",
+    "https://cb2.scene7.com/is/image/CB2/BiancaMrblTableLampAV2SHS25",
+    "https://cb2.scene7.com/is/image/CB2/BiancaMrblTableLampAV3SHS25",
+    "https://cb2.scene7.com/is/image/CB2/BiancaMrblTableLampAVSHS25",
+    "https://cb2.scene7.com/is/image/CB2/CB2FA22_38A_075",
+    "https://cb2.scene7.com/is/image/CB2/CB2FA22_38A_V2"
+   ],
+   "url": "https://www.cb2.com/bianca-red-marble-table-lamp/s619682",
+   "description": "Simple in form and daring in adornment, table lamp incorporates luxurious materials throughout. Croatian red marble sourced from Turkey features red tones and neatly carved edges. On top, ivory linen shade looks graceful with well-placed pleats, making this a lamp that deserves prominent display. Each piece will vary due to the inherent activity of marble. CB2 exclusive. Croatian red marble. Variation in veining and activity of marble is to be expected; each will be unique. Ivory linen shade. Clear cord with inline switch. Dimmer Switch on Cord. Accommodates one dimmable type A, E26 base bulb: 9W max LED or 60W max incandescent. Bulb not included. UL listed Learn more.. Imported.",
+   "specs": [
+    {
+     "name": "Size",
+     "value": "15.2-inch"
+    },
+    {
+     "name": "Dimensions",
+     "value": "20.3INH"
+    }
+   ]
+  },
+  {
+   "id": "s-1522402158",
+   "title": "Zetes Tan and Red Marble Salt Cellars, Set of 3",
+   "brand": "CB2",
+   "platform": "CB2",
+   "category": "kitchen",
+   "price": 50,
+   "tags": [
+    "modern",
+    "entertaining",
+    "designer"
+   ],
+   "emoji": "🍳",
+   "hue": 93,
+   "blurb": "3.5★ (11 reviews)",
+   "image": "https://cb2.scene7.com/is/image/CB2/ZetesTnNRdMrblSltCllrsS3SHF24",
+   "images": [
+    "https://cb2.scene7.com/is/image/CB2/ZetesTnNRdMrblSltCllrsS3SHF24",
+    "https://cb2.scene7.com/is/image/CB2/ZetesTnNRdMrblSltCllrsS3ROF24",
+    "https://cb2.scene7.com/is/image/CB2/ZetesTnNRdMrblSltCllrsS3AVSHF24",
+    "https://cb2.scene7.com/is/image/CB2/ZetesTnNRdMrblSltCllrsS3AV2SHF24",
+    "https://cb2.scene7.com/is/image/CB2/ZetesGroupFHF24"
+   ],
+   "url": "https://www.cb2.com/zetes-tan-and-red-marble-salt-cellars-set-of-3/s183447",
+   "description": "Paired together for their inverse coloring, highly active forest brown marble and Italian Levanto red marble play off of each other in this bold design for the kitchen. Keeping salt and pepper at hand for cooking or seasoning at the table, polished forest brown marble cellars rest on an Italian Levanto red marble base for contrast. Clean curves show off the marble's range of rich tan hues marked with natural reddish-brown veining. No two cellars are exactly alike. CB2 exclusive.Polished forest brown marble salt cellars. Polished Italian Levanto red marble base. Variation in veining and activity of marble is to be expected; each will be unique. Set of two cellars and a base. Foodsafe. Hand-wa",
+   "specs": [
+    {
+     "name": "Dimensions",
+     "value": "9INH × 2.75INH × 4INH"
+    }
+   ]
+  },
+  {
+   "id": "s-2175962808",
+   "title": "Premade Bullet Style Journal | Vegan Leather, Hand-drawn Themes | Undated A5 Dot Grid | 22",
+   "brand": "",
+   "platform": "Etsy",
+   "category": "stationery",
+   "price": 49,
+   "tags": [
+    "handmade",
+    "creative",
+    "ritual"
+   ],
+   "emoji": "📓",
+   "hue": 44,
+   "blurb": "",
+   "image": "https://i.etsystatic.com/32879271/r/il/6a5283/8049168932/il_1080xN.8049168932_9pfh.jpg",
+   "images": [
+    "https://i.etsystatic.com/32879271/r/il/6a5283/8049168932/il_1080xN.8049168932_9pfh.jpg",
+    "https://i.etsystatic.com/32879271/r/il/6a5283/8049168932/il_794xN.8049168932_9pfh.jpg",
+    "https://i.etsystatic.com/32879271/r/il/8802b0/7327464419/il_794xN.7327464419_shnx.jpg",
+    "https://i.etsystatic.com/32879271/r/il/80d77d/7284835180/il_794xN.7284835180_rt8e.jpg",
+    "https://i.etsystatic.com/32879271/r/il/2ea136/8023164768/il_794xN.8023164768_gi1n.jpg",
+    "https://i.etsystatic.com/32879271/r/il/053665/7327464341/il_794xN.7327464341_7vbn.jpg",
+    "https://i.etsystatic.com/32879271/r/il/de6a0d/7357780760/il_794xN.7357780760_bcns.jpg",
+    "https://i.etsystatic.com/32879271/r/il/859117/7327464407/il_794xN.7327464407_4b6m.jpg"
+   ],
+   "url": "https://www.etsy.com/listing/1803332620",
+   "description": "This Calendars & Planners item by MyJournalAddiction has 2106 favorites from Etsy shoppers. Ships from Czech Republic. Listed on Oct 1, 2026"
+  },
+  {
+   "id": "s-3251515951",
+   "title": "Handmade Ocher Fabric Table Lamp With Dark Green Trim-62# - Etsy",
+   "brand": "",
+   "platform": "Etsy",
+   "category": "home",
+   "price": 192,
+   "tags": [
+    "handmade",
+    "artisan",
+    "cozy"
+   ],
+   "emoji": "🛋",
+   "hue": 185,
+   "blurb": "",
+   "image": "https://i.etsystatic.com/17498104/r/il/d5434e/6192486339/il_1080xN.6192486339_qlhq.jpg",
+   "images": [
+    "https://i.etsystatic.com/17498104/r/il/d5434e/6192486339/il_1080xN.6192486339_qlhq.jpg",
+    "https://i.etsystatic.com/17498104/r/il/d5434e/6192486339/il_794xN.6192486339_qlhq.jpg",
+    "https://i.etsystatic.com/17498104/r/il/73e94b/6192486319/il_794xN.6192486319_228g.jpg",
+    "https://i.etsystatic.com/17498104/r/il/965bc7/6144390280/il_794xN.6144390280_7ntn.jpg",
+    "https://i.etsystatic.com/17498104/r/il/19cd1f/6144390284/il_794xN.6144390284_nmjp.jpg",
+    "https://i.etsystatic.com/17498104/r/il/b8e81e/6144390274/il_794xN.6144390274_ba59.jpg",
+    "https://i.etsystatic.com/17498104/r/il/e30f7a/6144397306/il_794xN.6144397306_64fo.jpg",
+    "https://i.etsystatic.com/17498104/r/il/46af72/3464301218/il_794xN.3464301218_n37a.jpg"
+   ],
+   "url": "https://www.etsy.com/listing/1752465234",
+   "description": "This Table Lamps item by DuzyDesigns has 11143 favorites from Etsy shoppers. Ships from China. Listed on Sep 30, 2026"
+  },
+  {
+   "id": "s-1945714628",
+   "title": "Gaiam Yoga Mat - Premium 5mm Solid Thick Non Slip Exercise & Fitness Mat for All Types of ",
+   "brand": "",
+   "platform": "Amazon",
+   "category": "fitness",
+   "price": 32,
+   "tags": [
+    "home-gym",
+    "wellness",
+    "practical"
+   ],
+   "emoji": "🏋",
+   "hue": 109,
+   "blurb": "4.4★ (1,584 ratings)",
+   "image": "https://m.media-amazon.com/images/I/71wCZQRjOUL._AC_SL1500_.jpg",
+   "images": [
+    "https://m.media-amazon.com/images/I/71wCZQRjOUL._AC_SL1500_.jpg",
+    "https://m.media-amazon.com/images/I/81DuFX9S-XL._AC_SL1500_.jpg",
+    "https://m.media-amazon.com/images/I/8113QRANkFL._AC_SL1500_.jpg",
+    "https://m.media-amazon.com/images/I/81hYnzzyRWL._AC_SL1500_.jpg",
+    "https://m.media-amazon.com/images/I/816kVZlOdxL._AC_SL1500_.jpg",
+    "https://m.media-amazon.com/images/I/91oPQXMZwbL._AC_SL1500_.jpg",
+    "https://m.media-amazon.com/images/I/81DHj+0D79L._AC_SL1500_.jpg",
+    "https://m.media-amazon.com/images/I/81W8QCa8rGL._AC_SL1500_.jpg"
+   ],
+   "url": "https://www.amazon.com/Gaiam-Exercise-Sustainable-Non-Slip-Prevents/dp/B079W4FX8B",
+   "features": [
+    "CORK YOGA MAT: Crafted with natural cork top and eco-friendly TPE bottom for a premium, sustainable yoga and exercise experience, ensuring stability and comfort in your workouts.",
+    "SWEAT and ODOR-RESISTANT CORK: Moisture-proof and odor-free, our natural cork material ensures a clean, fresh Yoga Workout surface, blocking dirt and unpleasant odors for a hygienic yoga experience.",
+    "HOT YOGA MAT: A must-have for all types of yoga, but especially heated and hot yoga classes, as temperatures rise and the cork begins to loosen it will become softer and easier to grip when slightly damp",
+    "CORK COMFORT: Experience the plush cushioning of our cork yoga mats, offering gentle support and resilience for joints and pressure points, ensuring a comfortable practice that nurtures your body and enhances your yoga journey.",
+    "VERSATILE PERFORMANCE: From dynamic yoga flows to intense workouts, our cork mat adapts to your fitness routines, providing stability and support for yoga, Pilates, stretching, and more, allowing you to explore new movements with confidence."
    ]
   }
  ]
